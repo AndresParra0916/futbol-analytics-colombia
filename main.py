@@ -1,3 +1,4 @@
-print("Hola, el workflow de GitHub Actions funciona correctamente")
-print("Próximo paso: añadir scraping real")﻿
-main.py mínimo para probar workflow
+import sys
+print("Python version:", sys.version)
+print("Workflow funcionando correctamente")
+print("El siguiente paso será añadir scraping real")
