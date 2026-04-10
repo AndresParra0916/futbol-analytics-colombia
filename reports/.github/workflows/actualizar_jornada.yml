@@ -1,0 +1,38 @@
+name: Actualizar datos Liga BetPlay
+
+on:
+  schedule:
+    - cron: '0 15 * * 1,4'
+  workflow_dispatch:
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar pipeline
+        run: python main.py
+
+      - name: Guardar cambios automáticos
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Actualización automática post-jornada"
+          branch: main
+          Commit changes
+[ ] Commit directly to the main branch.
+[ ] Create a new branch for this commit and start a pull request.
+
+Commit message:
+Agrega workflow de automatización   <--- ¡ESCRIBE AQUÍ!
+
+Extended description (optional)
