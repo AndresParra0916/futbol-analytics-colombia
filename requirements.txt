@@ -1,6 +1,7 @@
-﻿pandas
+pandas
 numpy
 matplotlib
+seaborn
 scikit-learn
 requests
 beautifulsoup4
