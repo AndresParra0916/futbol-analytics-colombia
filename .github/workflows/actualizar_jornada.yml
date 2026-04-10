@@ -15,3 +15,8 @@ jobs:
         run: pip install -r requirements.txt
       - name: Ejecutar script
         run: python main.py
+      - name: Guardar cambios automáticamente
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Actualización automática: datos y reportes"
+          branch: main
