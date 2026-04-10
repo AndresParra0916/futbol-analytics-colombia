@@ -1,0 +1,18 @@
+REPORTE: BÚSQUEDA DE JUGADORES SIMILARES
+==================================================
+Referencia: Daniel Torres
+Perfil: Volante recuperador
+
+Top 3 jugadores similares:
+1. Pas_8 - Pasto
+   Recuperaciones/90': 9.0
+   Duelos/90': 8.2
+
+2. Buc_9 - Bucaramanga
+   Recuperaciones/90': 8.2
+   Duelos/90': 6.7
+
+3. Med_25 - Medellín
+   Recuperaciones/90': 11.3
+   Duelos/90': 9.5
+

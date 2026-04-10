@@ -1,0 +1,28 @@
+INFORME: JUGADORES SIMILARES A DANIEL TORRES
+==================================================
+
+1. Jugador_451 - Santa Fe
+   Similitud: 100.0%
+   Recuperaciones/90': 8.4
+   Duelos/90': 9.0
+
+2. Jugador_128 - Medellín
+   Similitud: 99.7%
+   Recuperaciones/90': 8.2
+   Duelos/90': 9.3
+
+3. Jugador_417 - Alianza
+   Similitud: 98.7%
+   Recuperaciones/90': 10.0
+   Duelos/90': 10.0
+
+4. Jugador_309 - Águilas Doradas
+   Similitud: 98.3%
+   Recuperaciones/90': 9.4
+   Duelos/90': 11.3
+
+5. Jugador_186 - Tolima
+   Similitud: 97.2%
+   Recuperaciones/90': 22.3
+   Duelos/90': 25.1
+
