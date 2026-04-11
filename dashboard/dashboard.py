@@ -61,7 +61,7 @@ elif opcion == "⚠️ Riesgo de Lesión":
             distancia = st.number_input("Distancia total (m)", 0, 20000, 9000)
             descanso = st.number_input("Días de descanso", 1, 7, 3)
             acwr = st.number_input("ACWR (carga aguda/crónica)", 0.5, 2.5, 1.2, 0.05)
-        entrada = np.array([[minutos, acwr, sprints, aceleraciones, distancia, descanso]])
+        entrada = np.array([[minutos, sprints, aceleraciones, distancia, descanso]])
                # Mostrar información de depuración (solo para ver el error)
         st.write("Características de entrada:", entrada.shape)
         st.write("Características esperadas por el modelo:", modelo.n_features_in_ if hasattr(modelo, 'n_features_in_') else "Desconocido")
