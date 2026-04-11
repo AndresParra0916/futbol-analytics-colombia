@@ -17,18 +17,16 @@ jobs:
         run: python main.py
       - name: Listar archivos generados
         run: |
-          echo "=== Directorio actual ==="
-          ls -la
-          echo "=== Contenido de data (si existe) ==="
+          echo "=== Contenido de data ==="
           ls -la data/ || echo "data/ no existe"
-          echo "=== Contenido de reports (si existe) ==="
+          echo "=== Contenido de reports ==="
           ls -la reports/ || echo "reports/ no existe"
-          echo "=== Contenido de models (si existe) ==="
+          echo "=== Contenido de models ==="
           ls -la models/ || echo "models/ no existe"
-           - name: Guardar cambios automáticamente
+      - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data reports models
-          git diff --staged --quiet || git commit -m "Actualización automática: datos y reportes"
+          git add data reports models
+          git diff --staged --quiet || git commit -m "Actualización automática"
           git push
