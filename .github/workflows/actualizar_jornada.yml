@@ -1,6 +1,8 @@
 name: Probar workflow
 
 on:
+  schedule:
+    - cron: '0 15 * * 1,4'
   workflow_dispatch:
 
 jobs:
