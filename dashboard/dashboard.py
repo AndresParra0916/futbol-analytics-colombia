@@ -62,6 +62,9 @@ elif opcion == "⚠️ Riesgo de Lesión":
             descanso = st.number_input("Días de descanso", 1, 7, 3)
             acwr = st.number_input("ACWR (carga aguda/crónica)", 0.5, 2.5, 1.2, 0.05)
         entrada = np.array([[minutos, acwr, sprints, aceleraciones, distancia, descanso]])
+               # Mostrar información de depuración (solo para ver el error)
+        st.write("Características de entrada:", entrada.shape)
+        st.write("Características esperadas por el modelo:", modelo.n_features_in_ if hasattr(modelo, 'n_features_in_') else "Desconocido")
         proba = modelo.predict_proba(entrada)[0][1]
         st.metric("Probabilidad de lesión en la próxima semana", f"{proba:.1%}")
         if proba > 0.6:
