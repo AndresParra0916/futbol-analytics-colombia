@@ -48,7 +48,7 @@ elif opcion == "⚽ Top Goleadores":
 
 elif opcion == "⚠️ Riesgo de Lesión":
     st.header("Predicción de Riesgo de Lesión")
-    modelo_path = 'models/modelo_lesiones_gps.pkl'
+   modelo_path = 'models/modelo_lesiones.pkl'
     if os.path.exists(modelo_path):
         modelo = joblib.load(modelo_path)
         st.success("✅ Usando modelo entrenado con datos GPS")
