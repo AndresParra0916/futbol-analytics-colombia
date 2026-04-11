@@ -4,9 +4,7 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-import sys
 import joblib
-from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Configuración de la página
@@ -23,9 +21,9 @@ st.markdown("### Sistema de Scouting Inteligente y Prevención de Lesiones")
 st.markdown("---")
 
 # ============================================
-# CARGAR DATOS DESDE LOS ARCHIVOS DEL REPO
+# FUNCIONES DE CARGA DE DATOS
 # ============================================
-@st.cache_data(ttl=3600)  # cache por 1 hora
+@st.cache_data(ttl=3600)
 def cargar_posiciones():
     try:
         df = pd.read_csv('data/tabla_posiciones.csv')
@@ -68,7 +66,7 @@ def recomendar_similares(nombre, scaler, ref, top_n=5):
 # ============================================
 st.sidebar.image("https://github.com/AndresParra0916/futbol-analytics-colombia/blob/main/reports/puntos_por_equipo.png?raw=True", use_column_width=True)
 st.sidebar.markdown("## Navegación")
-opcion = st.sidebar.radio("Ir a:", ["📊 Tabla de Posiciones", "⚽ Top Goleadores", "🔍 Scouting", "⚠️ Riesgo de Lesión", "📈 Acerca de"])
+opcion = st.sidebar.radio("Ir a:", ["📊 Tabla de Posiciones", "⚽ Top Goleadores", "🔍 Scouting", "⚠️ Riesgo de Lesión"])
 
 # ============================================
 # 1. TABLA DE POSICIONES
@@ -77,14 +75,9 @@ if opcion == "📊 Tabla de Posiciones":
     st.header("📊 Tabla de Posiciones - Liga BetPlay")
     df_pos = cargar_posiciones()
     if df_pos is not None:
-        # Formatear
-        df_pos_display = df_pos[['Pos', 'Equipo', 'PJ', 'PG', 'PE', 'PP', 'GF', 'GC', 'DIF', 'PTS']].copy()
-        st.dataframe(df_pos_display, use_container_width=True, hide_index=True)
-        
-        # Gráfico interactivo con Plotly
+        st.dataframe(df_pos, use_container_width=True, hide_index=True)
         fig = px.bar(df_pos, x='Equipo', y='PTS', title='Puntos por Equipo',
-                     color='PTS', color_continuous_scale='Viridis',
-                     text='PTS')
+                     color='PTS', color_continuous_scale='Viridis', text='PTS')
         fig.update_layout(xaxis_tickangle=-45, height=500)
         st.plotly_chart(fig, use_container_width=True)
     else:
@@ -120,14 +113,10 @@ elif opcion == "🔍 Scouting":
     st.header("🔍 Motor de Scouting - Encontrar Jugadores Similares")
     df_jug = cargar_jugadores()
     scaler, ref = cargar_modelo_scouting()
-    
     if df_jug is not None and scaler is not None:
-        # Selector de jugador
         jugadores_lista = sorted(df_jug['Nombre'].unique())
         jugador_base = st.selectbox("Selecciona un jugador de referencia:", jugadores_lista)
-        
         top_n = st.slider("Número de recomendaciones:", 3, 10, 5)
-        
         if st.button("🔍 Recomendar similares"):
             similares = recomendar_similares(jugador_base, scaler, ref, top_n)
             if similares is not None:
@@ -141,10 +130,9 @@ elif opcion == "🔍 Scouting":
 # ============================================
 # 4. RIESGO DE LESIÓN (SIMULADO)
 # ============================================
-elif opcion == "⚠️ Riesgo de Lesión":
+else:
     st.header("⚠️ Predicción de Riesgo de Lesión")
     st.markdown("_Esta sección utiliza un modelo simulado. Con datos GPS reales, la precisión será profesional._")
-    
     col1, col2 = st.columns(2)
     with col1:
         minutos = st.number_input("Minutos en la semana:", 0, 180, 90)
@@ -155,53 +143,20 @@ elif opcion == "⚠️ Riesgo de Lesión":
         descanso = st.number_input("Días de descanso:", 1, 7, 3)
         fatiga = st.number_input("Índice de fatiga (0-4):", 0.0, 4.0, 1.0, 0.1)
     
-    # Cargar modelo de lesiones (simulado)
-    try:
-        modelo = joblib.load('models/modelo_lesiones.pkl')
-        entrada = np.array([[minutos, acwr, sprints, aceleraciones, descanso, fatiga]])
-        prob = modelo.predict_proba(entrada)[0][1]
-        riesgo_texto = "🔴 ALTO" if prob > 0.6 else "🟡 MODERADO" if prob > 0.3 else "🟢 BAJO"
-        st.metric("Probabilidad de lesión en la próxima semana", f"{prob:.1%}")
-        st.markdown(f"**Riesgo: {riesgo_texto}**")
-        
-        # Barra de progreso
-        st.progress(prob)
-        
-        # Recomendación
-        if prob > 0.6:
-            st.error("⚠️ Alto riesgo. Considera reducir carga o aumentar descanso.")
-        elif prob > 0.3:
-            st.warning("📉 Riesgo moderado. Monitorear fatiga y recuperación.")
-        else:
-            st.success("✅ Riesgo bajo. Mantener la planificación.")
-    except:
-        st.warning("Modelo de lesiones no disponible. Ejecuta primero el workflow.")
+    # Modelo simulado (cuando tengas datos GPS reales, reemplázalo)
+    np.random.seed(42)
+    proba = np.clip(0.1 + (minutos/180)*0.3 + (acwr-1)*0.2 + (sprints/50)*0.1 + (1/descanso)*0.1, 0.05, 0.95)
+    riesgo_texto = "🔴 ALTO" if proba > 0.6 else "🟡 MODERADO" if proba > 0.3 else "🟢 BAJO"
+    st.metric("Probabilidad de lesión en la próxima semana", f"{proba:.1%}")
+    st.markdown(f"**Riesgo: {riesgo_texto}**")
+    st.progress(proba)
+    if proba > 0.6:
+        st.error("⚠️ Alto riesgo. Considera reducir carga o aumentar descanso.")
+    elif proba > 0.3:
+        st.warning("📉 Riesgo moderado. Monitorear fatiga y recuperación.")
+    else:
+        st.success("✅ Riesgo bajo. Mantener la planificación.")
 
-# ============================================
-# 5. ACERCA DE
-# ============================================
-else:
-    st.header("📈 Acerca de este proyecto")
-    st.markdown("""
-    **Futbol Analytics Colombia** es un sistema de análisis de datos para clubes de fútbol profesional colombiano.
-    
-    ### Módulos implementados:
-    - ✅ **Scraping automático** de datos de la Liga BetPlay (ESPN).
-    - ✅ **Motor de scouting** por similitud (encuentra jugadores con perfiles similares).
-    - ✅ **Modelo predictivo de lesiones** basado en carga y fatiga (simulado, listo para GPS reales).
-    - ✅ **Dashboard interactivo** con visualizaciones en tiempo real.
-    - ✅ **Automatización semanal** con GitHub Actions.
-    
-    ### Próximos pasos:
-    - Integración con datos GPS reales (sprints, aceleraciones, distancia, HR).
-    - Modelo de valoración de mercado.
-    - Recomendaciones tácticas por posición.
-    
-    ### Contacto:
-    - 📧 [tu email]
-    - 🔗 [LinkedIn]
-    - 🐙 [GitHub](https://github.com/AndresParra0916/futbol-analytics-colombia)
-    """)
-
+# Pie de página
 st.sidebar.markdown("---")
 st.sidebar.info("**Actualización automática:** Cada lunes y jueves (10 AM Colombia).")
