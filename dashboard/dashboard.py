@@ -4,6 +4,7 @@ import numpy as np
 import plotly.express as px
 import os
 import joblib
+from sklearn.metrics.pairwise import cosine_similarity
 
 st.set_page_config(page_title="Futbol Analytics Colombia", page_icon="⚽", layout="wide")
 
@@ -11,6 +12,9 @@ st.title("⚽ Futbol Analytics Colombia")
 st.markdown("### Sistema de Scouting Inteligente y Prevención de Lesiones")
 st.markdown("---")
 
+# ============================================
+# CARGAR DATOS
+# ============================================
 @st.cache_data(ttl=3600)
 def cargar_posiciones():
     try:
@@ -25,8 +29,39 @@ def cargar_jugadores():
     except:
         return None
 
-opcion = st.sidebar.radio("Menú", ["📊 Tabla de Posiciones", "⚽ Top Goleadores", "⚠️ Riesgo de Lesión"])
+@st.cache_resource
+def cargar_scouting():
+    try:
+        scaler = joblib.load('models/scaler_scouting.pkl')
+        ref = joblib.load('models/referencia_scouting.pkl')
+        return scaler, ref
+    except:
+        return None, None
 
+# ============================================
+# FUNCIÓN DE RECOMENDACIÓN
+# ============================================
+def recomendar_similares(nombre, scaler, ref, top_n=5):
+    if scaler is None or ref is None:
+        return None
+    if nombre not in ref['Nombre'].values:
+        return None
+    features = ['goles_p90', 'asistencias_p90', 'recuperaciones_p90', 
+                'duelos_ganados_p90', 'pases_progresivos_p90']
+    X = scaler.transform(ref[features].fillna(0).values)
+    idx = ref[ref['Nombre'] == nombre].index[0]
+    sim = cosine_similarity([X[idx]], X)[0]
+    top_idx = np.argsort(sim)[::-1][1:top_n+1]
+    return ref.iloc[top_idx][['Nombre', 'Equipo'] + features].assign(similitud=sim[top_idx].round(3))
+
+# ============================================
+# MENÚ LATERAL
+# ============================================
+opcion = st.sidebar.radio("Menú", ["📊 Tabla de Posiciones", "⚽ Top Goleadores", "🔍 Scouting", "⚠️ Riesgo de Lesión"])
+
+# ============================================
+# 1. TABLA DE POSICIONES
+# ============================================
 if opcion == "📊 Tabla de Posiciones":
     st.header("Tabla de Posiciones")
     df = cargar_posiciones()
@@ -35,6 +70,9 @@ if opcion == "📊 Tabla de Posiciones":
     else:
         st.warning("Datos no disponibles. Ejecuta primero el workflow.")
 
+# ============================================
+# 2. TOP GOLEADORES
+# ============================================
 elif opcion == "⚽ Top Goleadores":
     st.header("Top Goleadores")
     df = cargar_jugadores()
@@ -46,9 +84,33 @@ elif opcion == "⚽ Top Goleadores":
     else:
         st.warning("Datos no disponibles.")
 
+# ============================================
+# 3. SCOUTING - RECOMENDACIÓN DE JUGADORES
+# ============================================
+elif opcion == "🔍 Scouting":
+    st.header("🔍 Motor de Scouting - Encontrar Jugadores Similares")
+    df_jug = cargar_jugadores()
+    scaler, ref = cargar_scouting()
+    if df_jug is not None and scaler is not None:
+        jugadores_lista = sorted(df_jug['Nombre'].unique())
+        jugador_base = st.selectbox("Selecciona un jugador de referencia:", jugadores_lista)
+        top_n = st.slider("Número de recomendaciones:", 3, 10, 5)
+        if st.button("🔍 Recomendar similares"):
+            similares = recomendar_similares(jugador_base, scaler, ref, top_n)
+            if similares is not None:
+                st.success(f"Jugadores similares a {jugador_base}:")
+                st.dataframe(similares, use_container_width=True, hide_index=True)
+            else:
+                st.error("No se pudieron generar recomendaciones.")
+    else:
+        st.warning("Modelo de scouting no disponible. Ejecuta primero el workflow.")
+
+# ============================================
+# 4. RIESGO DE LESIÓN
+# ============================================
 elif opcion == "⚠️ Riesgo de Lesión":
     st.header("Predicción de Riesgo de Lesión")
-    modelo_path = 'models/modelo_lesiones.pkl'   # CORREGIDO: nombre correcto
+    modelo_path = 'models/modelo_lesiones.pkl'
     if os.path.exists(modelo_path):
         modelo = joblib.load(modelo_path)
         st.success("✅ Usando modelo entrenado con datos GPS")
@@ -60,12 +122,9 @@ elif opcion == "⚠️ Riesgo de Lesión":
         with col2:
             distancia = st.number_input("Distancia total (m)", 0, 20000, 9000)
             descanso = st.number_input("Días de descanso", 1, 7, 3)
-            acwr = st.number_input("ACWR (carga aguda/crónica)", 0.5, 2.5, 1.2, 0.05)
-        entrada = np.array([[minutos, sprints, aceleraciones, distancia, descanso]])
-               # Mostrar información de depuración (solo para ver el error)
-        st.write("Características de entrada:", entrada.shape)
-        st.write("Características esperadas por el modelo:", modelo.n_features_in_ if hasattr(modelo, 'n_features_in_') else "Desconocido")
-        proba = modelo.predict_proba(entrada)[0][1]
+            # El modelo espera 5 características: minutos, sprints, aceleraciones, distancia, descanso
+            entrada = np.array([[minutos, sprints, aceleraciones, distancia, descanso]])
+            proba = modelo.predict_proba(entrada)[0][1]
         st.metric("Probabilidad de lesión en la próxima semana", f"{proba:.1%}")
         if proba > 0.6:
             st.error("⚠️ Alto riesgo. Considera reducir carga o aumentar descanso.")
@@ -74,4 +133,4 @@ elif opcion == "⚠️ Riesgo de Lesión":
         else:
             st.success("✅ Riesgo bajo.")
     else:
-        st.warning("Modelo no encontrado. Ejecuta: python integrar_gps.py data/datos_gps_prueba.csv")
+        st.warning("Modelo no encontrado. Asegúrate de que 'modelo_lesiones.pkl' esté en la carpeta 'models'.")
