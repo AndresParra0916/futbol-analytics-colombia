@@ -1,4 +1,11 @@
-# Excluir todo lo que no queremos, pero permitir data/, reports/, models/
+# Archivos y carpetas a ignorar (pero data, reports, models NO se ignoran)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# No ignorar las carpetas de resultados
 !data/
 !data/*
 !reports/
