@@ -48,7 +48,7 @@ elif opcion == "⚽ Top Goleadores":
 
 elif opcion == "⚠️ Riesgo de Lesión":
     st.header("Predicción de Riesgo de Lesión")
-   modelo_path = 'models/modelo_lesiones.pkl'
+    modelo_path = 'models/modelo_lesiones.pkl'   # CORREGIDO: nombre correcto
     if os.path.exists(modelo_path):
         modelo = joblib.load(modelo_path)
         st.success("✅ Usando modelo entrenado con datos GPS")
@@ -71,4 +71,4 @@ elif opcion == "⚠️ Riesgo de Lesión":
         else:
             st.success("✅ Riesgo bajo.")
     else:
-        st.warning("Modelo GPS no encontrado. Ejecuta: python integrar_gps.py data/datos_gps_prueba.csv")
+        st.warning("Modelo no encontrado. Ejecuta: python integrar_gps.py data/datos_gps_prueba.csv")
