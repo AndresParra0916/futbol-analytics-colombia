@@ -1,14 +1,8 @@
-# Archivos y carpetas a ignorar (pero data, reports, models NO se ignoran)
+# Ignorar archivos temporales y de sistema
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .vscode/
 .DS_Store
+Eliminar reglas que ignoraban data, reports y models
 
-# No ignorar las carpetas de resultados
-!data/
-!data/*
-!reports/
-!reports/*
-!models/
-!models/*
