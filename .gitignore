@@ -1,4 +1,7 @@
-data/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
+# Excluir todo lo que no queremos, pero permitir data/, reports/, models/
+!data/
+!data/*
+!reports/
+!reports/*
+!models/
+!models/*
