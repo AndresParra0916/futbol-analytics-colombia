@@ -71,5 +71,5 @@ elif opcion == "⚠️ Riesgo de Lesión":
         else:
             st.success("✅ Riesgo bajo.")
     else:
+        Corrige indentación en dashboard.py
         st.warning("Modelo GPS no encontrado. Ejecuta: python integrar_gps.py data/datos_gps_prueba.csv")
-      grega dashboard con modelo GPS
