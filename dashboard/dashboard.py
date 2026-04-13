@@ -105,9 +105,10 @@ elif opcion == "⚠️ Riesgo de Lesión":
                 acwr = st.number_input("ACWR (carga aguda/crónica)", 0.5, 2.5, 1.2, 0.05)
             submitted = st.form_submit_button("Calcular riesgo")
             if submitted:
-                # El modelo espera 6 características: minutos, acwr, sprints, aceleraciones, distancia, descanso
                 entrada = np.array([[minutos, acwr, sprints, aceleraciones, distancia, descanso]])
+                st.write("Entrada enviada al modelo:", entrada)
                 proba = modelo.predict_proba(entrada)[0][1]
+                st.write("Predicción (probabilidad de lesión):", proba)
                 st.metric("Probabilidad de lesión en la próxima semana", f"{proba:.1%}")
                 if proba > 0.6:
                     st.error("⚠️ Alto riesgo. Considera reducir carga o aumentar descanso.")
