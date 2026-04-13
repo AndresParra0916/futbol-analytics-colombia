@@ -103,9 +103,10 @@ elif opcion == "⚠️ Riesgo de Lesión":
                 distancia = st.number_input("Distancia total (m)", 0, 20000, 9000)
                 descanso = st.number_input("Días de descanso", 1, 7, 3)
             submitted = st.form_submit_button("Calcular riesgo")
-            if submitted:
-                entrada = np.array([[minutos, sprints, aceleraciones, distancia, descanso]])
-                st.write("Entrada enviada al modelo:", entrada)
+                       if submitted:
+                # El modelo espera 6 características: minutos, acwr, sprints, aceleraciones, distancia, descanso
+                acwr_fijo = 1.2  # valor típico (puedes agregar un input después)
+                entrada = np.array([[minutos, acwr_fijo, sprints, aceleraciones, distancia, descanso]])
                 proba = modelo.predict_proba(entrada)[0][1]
                 st.metric("Probabilidad de lesión en la próxima semana", f"{proba:.1%}")
                 if proba > 0.6:
