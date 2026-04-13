@@ -12,9 +12,6 @@ st.title("⚽ Futbol Analytics Colombia")
 st.markdown("### Sistema de Scouting Inteligente y Prevención de Lesiones")
 st.markdown("---")
 
-# ============================================
-# CARGAR DATOS
-# ============================================
 @st.cache_data(ttl=3600)
 def cargar_posiciones():
     try:
@@ -38,9 +35,6 @@ def cargar_scouting():
     except:
         return None, None
 
-# ============================================
-# FUNCIÓN DE RECOMENDACIÓN
-# ============================================
 def recomendar_similares(nombre, scaler, ref, top_n=5):
     if scaler is None or ref is None:
         return None
@@ -54,14 +48,8 @@ def recomendar_similares(nombre, scaler, ref, top_n=5):
     top_idx = np.argsort(sim)[::-1][1:top_n+1]
     return ref.iloc[top_idx][['Nombre', 'Equipo'] + features].assign(similitud=sim[top_idx].round(3))
 
-# ============================================
-# MENÚ LATERAL
-# ============================================
 opcion = st.sidebar.radio("Menú", ["📊 Tabla de Posiciones", "⚽ Top Goleadores", "🔍 Scouting", "⚠️ Riesgo de Lesión"])
 
-# ============================================
-# 1. TABLA DE POSICIONES
-# ============================================
 if opcion == "📊 Tabla de Posiciones":
     st.header("Tabla de Posiciones")
     df = cargar_posiciones()
@@ -70,9 +58,6 @@ if opcion == "📊 Tabla de Posiciones":
     else:
         st.warning("Datos no disponibles. Ejecuta primero el workflow.")
 
-# ============================================
-# 2. TOP GOLEADORES
-# ============================================
 elif opcion == "⚽ Top Goleadores":
     st.header("Top Goleadores")
     df = cargar_jugadores()
@@ -84,9 +69,6 @@ elif opcion == "⚽ Top Goleadores":
     else:
         st.warning("Datos no disponibles.")
 
-# ============================================
-# 3. SCOUTING - RECOMENDACIÓN DE JUGADORES
-# ============================================
 elif opcion == "🔍 Scouting":
     st.header("🔍 Motor de Scouting - Encontrar Jugadores Similares")
     df_jug = cargar_jugadores()
@@ -105,17 +87,12 @@ elif opcion == "🔍 Scouting":
     else:
         st.warning("Modelo de scouting no disponible. Ejecuta primero el workflow.")
 
-# ============================================
-# 4. RIESGO DE LESIÓN
-# ============================================
 elif opcion == "⚠️ Riesgo de Lesión":
     st.header("Predicción de Riesgo de Lesión")
     modelo_path = 'models/modelo_lesiones.pkl'
     if os.path.exists(modelo_path):
         modelo = joblib.load(modelo_path)
         st.success("✅ Usando modelo entrenado con datos GPS")
-        
-        # Crear un formulario para que los cambios sean explícitos
         with st.form(key="lesion_form"):
             col1, col2 = st.columns(2)
             with col1:
@@ -125,10 +102,7 @@ elif opcion == "⚠️ Riesgo de Lesión":
             with col2:
                 distancia = st.number_input("Distancia total (m)", 0, 20000, 9000)
                 descanso = st.number_input("Días de descanso", 1, 7, 3)
-            
-            # Botón para calcular
             submitted = st.form_submit_button("Calcular riesgo")
-            
             if submitted:
                 entrada = np.array([[minutos, sprints, aceleraciones, distancia, descanso]])
                 proba = modelo.predict_proba(entrada)[0][1]
@@ -139,8 +113,5 @@ elif opcion == "⚠️ Riesgo de Lesión":
                     st.warning("📉 Riesgo moderado. Monitorear fatiga.")
                 else:
                     st.success("✅ Riesgo bajo.")
-            else:
-                # Mostrar un valor por defecto sin calcular
-                st.info("Ajusta los valores y presiona 'Calcular riesgo' para obtener la probabilidad.")
     else:
         st.warning("Modelo no encontrado. Asegúrate de que 'modelo_lesiones.pkl' esté en la carpeta 'models'.")
