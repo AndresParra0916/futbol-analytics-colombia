@@ -114,23 +114,33 @@ elif opcion == "⚠️ Riesgo de Lesión":
     if os.path.exists(modelo_path):
         modelo = joblib.load(modelo_path)
         st.success("✅ Usando modelo entrenado con datos GPS")
-        col1, col2 = st.columns(2)
-        with col1:
-            minutos = st.number_input("Minutos en la semana", 0, 180, 90)
-            sprints = st.number_input("Sprints", 0, 50, 12)
-            aceleraciones = st.number_input("Aceleraciones", 0, 100, 30)
-        with col2:
-            distancia = st.number_input("Distancia total (m)", 0, 20000, 9000)
-            descanso = st.number_input("Días de descanso", 1, 7, 3)
-            # El modelo espera 5 características: minutos, sprints, aceleraciones, distancia, descanso
-            entrada = np.array([[minutos, sprints, aceleraciones, distancia, descanso]])
-            proba = modelo.predict_proba(entrada)[0][1]
-        st.metric("Probabilidad de lesión en la próxima semana", f"{proba:.1%}")
-        if proba > 0.6:
-            st.error("⚠️ Alto riesgo. Considera reducir carga o aumentar descanso.")
-        elif proba > 0.3:
-            st.warning("📉 Riesgo moderado. Monitorear fatiga.")
-        else:
-            st.success("✅ Riesgo bajo.")
+        
+        # Crear un formulario para que los cambios sean explícitos
+        with st.form(key="lesion_form"):
+            col1, col2 = st.columns(2)
+            with col1:
+                minutos = st.number_input("Minutos en la semana", 0, 180, 90)
+                sprints = st.number_input("Sprints", 0, 50, 12)
+                aceleraciones = st.number_input("Aceleraciones", 0, 100, 30)
+            with col2:
+                distancia = st.number_input("Distancia total (m)", 0, 20000, 9000)
+                descanso = st.number_input("Días de descanso", 1, 7, 3)
+            
+            # Botón para calcular
+            submitted = st.form_submit_button("Calcular riesgo")
+            
+            if submitted:
+                entrada = np.array([[minutos, sprints, aceleraciones, distancia, descanso]])
+                proba = modelo.predict_proba(entrada)[0][1]
+                st.metric("Probabilidad de lesión en la próxima semana", f"{proba:.1%}")
+                if proba > 0.6:
+                    st.error("⚠️ Alto riesgo. Considera reducir carga o aumentar descanso.")
+                elif proba > 0.3:
+                    st.warning("📉 Riesgo moderado. Monitorear fatiga.")
+                else:
+                    st.success("✅ Riesgo bajo.")
+            else:
+                # Mostrar un valor por defecto sin calcular
+                st.info("Ajusta los valores y presiona 'Calcular riesgo' para obtener la probabilidad.")
     else:
         st.warning("Modelo no encontrado. Asegúrate de que 'modelo_lesiones.pkl' esté en la carpeta 'models'.")
