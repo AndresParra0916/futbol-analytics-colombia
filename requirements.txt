@@ -5,3 +5,6 @@ scikit-learn
 requests
 beautifulsoup4
 joblib
+
+plotly
+streamlit
