@@ -1,0 +1,25 @@
+import requests
+import pandas as pd
+from bs4 import BeautifulSoup
+
+HEADERS = {'User-Agent': 'Mozilla/5.0'}
+url = "https://www.espn.com.co/futbol/posiciones/_/liga/col.1"
+resp = requests.get(url, headers=HEADERS)
+soup = BeautifulSoup(resp.text, 'html.parser')
+nombres = [e.text.strip() for e in soup.find_all('span', class_='hide-mobile')]
+dfs = pd.read_html(resp.text)
+df_stats = dfs[1].copy()
+df_stats.columns = ['PJ', 'PG', 'PE', 'PP', 'GF', 'GC', 'DIF', 'PTS']
+df_final = pd.DataFrame({
+    'Equipo': nombres[:len(df_stats)],
+    'PJ': df_stats['PJ'],
+    'PG': df_stats['PG'],
+    'PE': df_stats['PE'],
+    'PP': df_stats['PP'],
+    'GF': df_stats['GF'],
+    'GC': df_stats['GC'],
+    'DIF': df_stats['DIF'],
+    'PTS': df_stats['PTS']
+})
+df_final.to_csv('data/tabla_posiciones.csv', index=False)
+print("✅ Tabla de posiciones guardada correctamente en 'data/tabla_posiciones.csv'")

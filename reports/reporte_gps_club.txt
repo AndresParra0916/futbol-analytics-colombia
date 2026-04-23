@@ -1,0 +1,15 @@
+=== REPORTE DE ANÁLISIS DE RIESGO DE LESIÓN ===
+
+Total de registros procesados: 30
+Total de jugadores únicos: 10
+Tasa de lesiones en el período: 40.0%
+
+Variables más importantes para predecir lesiones:
+- minutos_semana: 0.240
+- aceleraciones: 0.220
+- distancia_total: 0.220
+- dias_descanso: 0.170
+- sprints: 0.150
+- acwr: 0.000
+
+El modelo puede predecir el riesgo individual con una precisión del 100.0%.
