@@ -131,3 +131,4 @@ else:
         st.warning("📉 Riesgo moderado. Monitorear fatiga.")
     else:
         st.success("✅ Riesgo bajo.")
+# FORCE_DEPLOY_TIMESTAMP 2026-04-23 17:45:46
