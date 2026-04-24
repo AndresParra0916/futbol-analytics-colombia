@@ -1,0 +1,33 @@
+name: Actualización semanal de datos
+
+on:
+  schedule:
+    # Todos los lunes a las 6:00 AM UTC (3:00 AM hora Argentina)
+    - cron: '0 6 * * 1'
+  workflow_dispatch:  # Permite ejecución manual desde GitHub
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar script de actualización
+        run: python actualizar_datos.py
+
+      - name: Commit y push de cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.csv models/*.pkl
+          git diff --quiet && git diff --staged --quiet || git commit -m "Actualización automática de datos semanal"
+          git push
