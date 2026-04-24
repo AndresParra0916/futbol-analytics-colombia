@@ -1,0 +1,21 @@
+{
+  "name": "Futbol Analytics Scouting",
+  "short_name": "FutScout",
+  "description": "Sistema de scouting inteligente y prevención de lesiones",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f4c81",
+  "icons": [
+    {
+      "src": "https://streamlit.io/images/brand/streamlit-mark-color.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://streamlit.io/images/brand/streamlit-mark-color.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
