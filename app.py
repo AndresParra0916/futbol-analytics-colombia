@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import requests
+import plotly.express as px
 from sklearn.metrics.pairwise import cosine_similarity
 
 st.set_page_config(layout="wide")
@@ -25,35 +27,66 @@ st.title("⚽ Futbol Analytics Colombia")
 st.markdown("### Sistema de Scouting Inteligente y Prevención de Lesiones")
 st.markdown("---")
 
-# Cargar modelos
+# ============================================
+# 1. TABLA DE POSICIONES (desde CSV)
+# ============================================
 try:
-    scaler = joblib.load("models/scaler_scouting_2025.pkl")
-    ref = joblib.load("models/referencia_scouting_2025.pkl")
+    df_tabla = pd.read_csv("data/tabla_posiciones.csv")
+    st.header("📊 Tabla de Posiciones 2026")
+    st.dataframe(df_tabla, use_container_width=True)
+except:
+    st.warning("Tabla de posiciones no disponible. Ejecuta 'actualizar_datos.py' primero.")
+
+# ============================================
+# 2. TOP GOLEADORES (desde API directa, datos reales 2026)
+# ============================================
+st.header("⚽ Top Goleadores 2026")
+
+API_KEY = "ebb8f00138af0df132bbda386d55981c"
+headers = {"x-apisports-key": API_KEY}
+url_top = "https://v3.football.api-sports.io/players/topscorers?league=239&season=2026"
+
+try:
+    r = requests.get(url_top, headers=headers)
+    if r.status_code == 200:
+        data = r.json()
+        goleadores_api = []
+        for item in data['response']:
+            player = item['player']['name']
+            goals = item['statistics'][0]['goals']['total']
+            team = item['statistics'][0]['team']['name']
+            goleadores_api.append({
+                'Jugador': player,
+                'Goles': goals,
+                'Equipo': team
+            })
+        df_goleadores = pd.DataFrame(goleadores_api).head(10)
+        st.dataframe(df_goleadores, use_container_width=True)
+        
+        # Gráfico de barras
+        fig = px.bar(df_goleadores, x='Jugador', y='Goles', 
+                     title='Top 10 Goleadores Liga BetPlay 2026',
+                     color='Goles', color_continuous_scale='Viridis')
+        st.plotly_chart(fig)
+    else:
+        st.warning("No se pudo obtener el ranking de goleadores desde la API")
+except Exception as e:
+    st.warning(f"Error al cargar goleadores: {e}")
+
+# ============================================
+# 3. MOTOR DE SCOUTING (con modelos entrenados)
+# ============================================
+st.header("🔍 Motor de Scouting")
+
+try:
+    scaler = joblib.load("models/scaler_scouting.pkl")
+    ref = joblib.load("models/referencia_scouting.pkl")
     features = ['goles_p90', 'asistencias_p90', 'tiros_p90', 'pases_p90', 'entradas_p90', 'duelos_ganados_p90']
     st.success("✅ Modelos cargados correctamente")
 except Exception as e:
     st.error(f"Error cargando modelos: {e}")
+    st.stop()
 
-# Tabla de posiciones
-try:
-    df_tabla = pd.read_csv("data/tabla_posiciones.csv")
-    st.header("📊 Tabla de Posiciones 2025")
-    st.dataframe(df_tabla, use_container_width=True)
-except:
-    st.warning("Tabla de posiciones no disponible")
-
-# Top goleadores
-try:
-    df_stats = pd.read_csv("data/estadisticas_api.csv")
-    goleadores = df_stats.groupby('player_name')['goals'].sum().nlargest(10).reset_index()
-    goleadores.columns = ['Jugador', 'Goles']
-    st.header("⚽ Top Goleadores")
-    st.dataframe(goleadores, use_container_width=True)
-except:
-    st.warning("Datos de goleadores no disponibles")
-
-# Scouting
-st.header("🔍 Motor de Scouting")
 jugadores = sorted(ref['player_name'].unique())
 jugador_base = st.selectbox("Selecciona un jugador de referencia", jugadores)
 top_n = st.slider("Número de recomendaciones", 3, 10, 5)
@@ -68,7 +101,9 @@ if st.button("Recomendar similares"):
     st.success(f"Jugadores similares a {jugador_base}:")
     st.dataframe(resultados, use_container_width=True)
 
-# Riesgo de lesión
+# ============================================
+# 4. RIESGO DE LESIÓN (demo conceptual)
+# ============================================
 st.header("⚠️ Riesgo de Lesión (Demo)")
 st.info("Modelo conceptual. Con datos GPS del club se puede personalizar.")
 col1, col2 = st.columns(2)
