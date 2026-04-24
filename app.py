@@ -1,134 +1,106 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import os
 import joblib
 from sklearn.metrics.pairwise import cosine_similarity
+import plotly.express as px
+import requests
 
-st.set_page_config(page_title="Futbol Analytics Colombia", page_icon="⚽", layout="wide")
-
+st.set_page_config(layout="wide")
 st.title("⚽ Futbol Analytics Colombia")
 st.markdown("### Sistema de Scouting Inteligente y Prevención de Lesiones")
 st.markdown("---")
 
 # ============================================
-# CARGAR DATOS (usando tus archivos reales)
+# 1. TABLA DE POSICIONES (desde API si no existe CSV)
 # ============================================
+try:
+    df_tabla = pd.read_csv("data/tabla_posiciones.csv")
+except:
+    API_KEY = "ebb8f00138af0df132bbda386d55981c"
+    headers = {"x-apisports-key": API_KEY}
+    url = "https://v3.football.api-sports.io/standings?league=239&season=2025"
+    r = requests.get(url, headers=headers)
+    data = r.json()
+    standings_arrays = data['response'][0]['league']['standings']
+    tabla_general = [arr for arr in standings_arrays if len(arr)==20][0]
+    equipos = []
+    for t in tabla_general:
+        equipos.append({
+            'Equipo': t['team']['name'],
+            'PJ': t['all']['played'],
+            'PG': t['all']['win'],
+            'PE': t['all']['draw'],
+            'PP': t['all']['lose'],
+            'GF': t['all']['goals']['for'],
+            'GC': t['all']['goals']['against'],
+            'DIF': t['goalsDiff'],
+            'PTS': t['points']
+        })
+    df_tabla = pd.DataFrame(equipos)
 
-@st.cache_data(ttl=3600)
-def cargar_posiciones():
-    # Tu archivo de posiciones se llama 'tabla_posiciones.csv' (sin 'betplay')
-    try:
-        return pd.read_csv('data/tabla_posiciones.csv')
-    except:
-        return None
+st.header("📊 Tabla de Posiciones 2025")
+st.dataframe(df_tabla, use_container_width=True, hide_index=True)
 
-@st.cache_data(ttl=3600)
-def cargar_jugadores():
-    # Usar el archivo de estadísticas de la API (con los 360 registros)
-    try:
-        df = pd.read_csv('data/estadisticas_api_2024_prueba.csv')
-        return df
-    except:
-        return None
+# ============================================
+# 2. TOP GOLEADORES (desde estadísticas)
+# ============================================
+try:
+    df_stats = pd.read_csv("data/estadisticas_api_2025_prueba.csv")
+    goleadores = df_stats.groupby('player_name')['goals'].sum().nlargest(10).reset_index()
+    goleadores.columns = ['Jugador', 'Goles']
+    st.header("⚽ Top Goleadores")
+    st.dataframe(goleadores, use_container_width=True, hide_index=True)
+    fig = px.bar(goleadores, x='Jugador', y='Goles', title='Goles por Jugador')
+    st.plotly_chart(fig)
+except:
+    st.warning("Datos de goleadores no disponibles")
 
-@st.cache_resource
-def cargar_scouting():
-    try:
-        scaler = joblib.load('models/scaler_scouting.pkl')
-        ref = joblib.load('models/referencia_scouting.pkl')
-        return scaler, ref
-    except:
-        return None, None
+# ============================================
+# 3. SCOUTING (con los modelos correctos)
+# ============================================
+st.header("🔍 Motor de Scouting - Encontrar Jugadores Similares")
 
-def recomendar_similares(nombre, scaler, ref, top_n=5):
-    if scaler is None or ref is None:
-        return None
-    if nombre not in ref['player_name'].values:
-        return None
+try:
+    # Cargar modelos desde la carpeta models (usando los de 2025)
+    scaler = joblib.load("models/scaler_scouting_2025.pkl")
+    ref = joblib.load("models/referencia_scouting_2025.pkl")
     features = ['goles_p90', 'asistencias_p90', 'tiros_p90', 'pases_p90', 'entradas_p90', 'duelos_ganados_p90']
-    X = scaler.transform(ref[features].fillna(0).values)
-    idx = ref[ref['player_name'] == nombre].index[0]
-    sim = cosine_similarity([X[idx]], X)[0]
-    top_idx = np.argsort(sim)[::-1][1:top_n+1]
-    return ref.iloc[top_idx][['player_name'] + features].assign(similitud=sim[top_idx].round(3))
+    
+    jugadores_lista = sorted(ref['player_name'].unique())
+    jugador_base = st.selectbox("Selecciona un jugador de referencia:", jugadores_lista)
+    top_n = st.slider("Número de recomendaciones:", 3, 10, 5)
+    
+    if st.button("🔍 Recomendar similares"):
+        idx = ref[ref['player_name'] == jugador_base].index[0]
+        X = scaler.transform(ref[features].fillna(0).values)
+        sim = cosine_similarity([X[idx]], X)[0]
+        top_idx = np.argsort(sim)[::-1][1:top_n+1]
+        resultados = ref.iloc[top_idx][['player_name'] + features].copy()
+        resultados['similitud'] = sim[top_idx].round(3)
+        st.success(f"Jugadores similares a {jugador_base}:")
+        st.dataframe(resultados, use_container_width=True, hide_index=True)
+except Exception as e:
+    st.warning(f"No se pudo cargar el modelo de scouting. Error: {e}")
 
 # ============================================
-# MENÚ
+# 4. RIESGO DE LESIÓN (demo)
 # ============================================
-opcion = st.sidebar.radio("Menú", ["📊 Tabla de Posiciones", "⚽ Top Goleadores", "🔍 Scouting", "⚠️ Riesgo de Lesión"])
+st.header("⚠️ Predicción de Riesgo de Lesión")
+st.info("Modelo conceptual. Con datos GPS reales del club se puede personalizar.")
+col1, col2 = st.columns(2)
+with col1:
+    minutos = st.number_input("Minutos en la semana", 0, 180, 90)
+    sprints = st.number_input("Sprints", 0, 50, 12)
+with col2:
+    descanso = st.number_input("Días de descanso", 1, 7, 3)
+    aceleraciones = st.number_input("Aceleraciones", 0, 100, 30)
 
-# ============================================
-# 1. TABLA DE POSICIONES
-# ============================================
-if opcion == "📊 Tabla de Posiciones":
-    st.header("Tabla de Posiciones")
-    df = cargar_posiciones()
-    if df is not None:
-        st.dataframe(df, use_container_width=True)
-    else:
-        st.warning("Archivo 'data/tabla_posiciones.csv' no encontrado. Ejecuta primero el scraping de ESPN.")
-
-# ============================================
-# 2. TOP GOLEADORES (desde estadísticas de la API)
-# ============================================
-elif opcion == "⚽ Top Goleadores":
-    st.header("Top Goleadores")
-    df_jug = cargar_jugadores()
-    if df_jug is not None:
-        # Agrupar por jugador y sumar goles
-        top_g = df_jug.groupby('player_name')['goals'].sum().nlargest(10).reset_index()
-        top_g.columns = ['Jugador', 'Goles']
-        st.dataframe(top_g, use_container_width=True)
-        fig = px.bar(top_g, x='Jugador', y='Goles', title='Goles por Jugador')
-        st.plotly_chart(fig)
-    else:
-        st.warning("Datos de jugadores no disponibles. Ejecuta primero 'api_stats_2024_prueba.py'")
-
-# ============================================
-# 3. SCOUTING (recomendaciones)
-# ============================================
-elif opcion == "🔍 Scouting":
-    st.header("🔍 Motor de Scouting - Encontrar Jugadores Similares")
-    df_jug = cargar_jugadores()
-    scaler, ref = cargar_scouting()
-    if df_jug is not None and scaler is not None:
-        jugadores_lista = sorted(df_jug['player_name'].unique())
-        if len(jugadores_lista) == 0:
-            st.warning("No hay jugadores en los datos.")
-        else:
-            jugador_base = st.selectbox("Selecciona un jugador de referencia:", jugadores_lista)
-            top_n = st.slider("Número de recomendaciones:", 3, 10, 5)
-            if st.button("🔍 Recomendar similares"):
-                similares = recomendar_similares(jugador_base, scaler, ref, top_n)
-                if similares is not None:
-                    st.success(f"Jugadores similares a {jugador_base}:")
-                    st.dataframe(similares, use_container_width=True, hide_index=True)
-                else:
-                    st.error("No se pudieron generar recomendaciones. Asegúrate de que el modelo esté entrenado.")
-    else:
-        st.warning("Modelo de scouting no disponible. Ejecuta 'entrenar_con_api_2024.py' primero.")
-
-# ============================================
-# 4. RIESGO DE LESIÓN (simulado)
-# ============================================
+riesgo = np.clip(0.1 + (minutos/180)*0.3 + (sprints/50)*0.2 + (1/descanso)*0.1 + (aceleraciones/100)*0.1, 0, 1)
+st.metric("Probabilidad de lesión en la próxima semana", f"{riesgo:.1%}")
+if riesgo > 0.6:
+    st.error("⚠️ Alto riesgo. Considera reducir carga.")
+elif riesgo > 0.3:
+    st.warning("📉 Riesgo moderado.")
 else:
-    st.header("Predicción de Riesgo de Lesión")
-    st.info("Modelo simulado. Con datos GPS reales se puede personalizar.")
-    col1, col2 = st.columns(2)
-    with col1:
-        minutos = st.number_input("Minutos en la semana", 0, 180, 90)
-        sprints = st.number_input("Sprints", 0, 50, 12)
-    with col2:
-        descanso = st.number_input("Días de descanso", 1, 7, 3)
-        aceleraciones = st.number_input("Aceleraciones", 0, 100, 30)
-    riesgo = np.clip(0.1 + (minutos/180)*0.3 + (sprints/50)*0.2 + (1/descanso)*0.1 + (aceleraciones/100)*0.1, 0, 1)
-    st.metric("Probabilidad de lesión en la próxima semana", f"{riesgo:.1%}")
-    if riesgo > 0.6:
-        st.error("⚠️ Alto riesgo. Considera reducir carga o aumentar descanso.")
-    elif riesgo > 0.3:
-        st.warning("📉 Riesgo moderado. Monitorear fatiga.")
-    else:
-        st.success("✅ Riesgo bajo.")
-# FORCE_DEPLOY_TIMESTAMP 2026-04-23 17:45:46
+    st.success("✅ Riesgo bajo.")
