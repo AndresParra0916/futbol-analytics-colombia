@@ -2,9 +2,9 @@ import pandas as pd
 import joblib
 from sklearn.preprocessing import StandardScaler
 
-print("=== ENTRENANDO MODELO CON DATOS 2026 ===\n")
+print("=== ENTRENANDO MODELO UNIFICADO (SUDAMÉRICA + MÉXICO) ===\n")
 
-df = pd.read_csv("data/players_stats_2026_completo.csv")
+df = pd.read_csv("data/players_unificado.csv")
 print(f"Jugadores con minutos: {len(df)}")
 
 # Calcular métricas por 90 minutos
@@ -18,6 +18,6 @@ X = df[features].values
 scaler = StandardScaler()
 scaler.fit(X)
 
-joblib.dump(scaler, 'models/scaler_2026.pkl')
-joblib.dump(df[['player_name', 'team_name', 'position'] + features], 'models/referencia_2026.pkl')
-print("✅ Modelos guardados (scaler_2026.pkl, referencia_2026.pkl)")
+joblib.dump(scaler, 'models/scaler_unificado.pkl')
+joblib.dump(df[['player_name', 'team_name', 'league_name', 'country', 'position'] + features], 'models/referencia_unificado.pkl')
+print("✅ Modelo guardado (scaler_unificado.pkl, referencia_unificado.pkl)")
