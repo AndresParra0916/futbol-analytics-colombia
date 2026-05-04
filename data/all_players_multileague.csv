@@ -13,7 +13,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1125,Millonarios,356058,Sebastián Valencia Isaza,29.0,22.0,Defender
 239,Liga BetPlay,Colombia,local,1125,Millonarios,612958,S. Castrillon,18.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,59660,M. García,27.0,19.0,Midfielder
-239,Liga BetPlay,Colombia,local,1125,Millonarios,51164,D. Quintero,38.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1125,Millonarios,51164,D. Quintero,38.0,7.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,13656,D. Silva,39.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,11805,R. Ureña,32.0,18.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,13643,S. Vega,27.0,28.0,Midfielder
@@ -91,7 +91,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,35554,A. Hurtado,38.0,18.0,Attacker
 239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,383800,J. Martínez,23.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,411975,J. Mena,20.0,14.0,Attacker
-239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,13530,S. Rodríguez,27.0,23.0,Attacker
+239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,13530,S. Rodríguez,27.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,426553,I. Blanco,19.0,34.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,13696,E. Chaux,34.0,25.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,30493,S. Ichazo,33.0,1.0,Goalkeeper
@@ -105,7 +105,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,81033,D. Londoño,30.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,311419,K. Mantilla,22.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538299,J. Mena,19.0,21.0,Defender
-239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,36374,E. Mena,28.0,26.0,Midfielder
+239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,36374,E. Mena,28.0,26.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,13439,J. Ortiz,27.0,24.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,13313,H. Palacios,26.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,375854,M. Palacios,21.0,23.0,Defender
@@ -123,7 +123,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,437770,Andrés Felipe Dávila Mosquera,18.0,28.0,Attacker
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,6358,F. Fydriszewski,32.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,199065,E. Larrosa,24.0,9.0,Attacker
-239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538242,G. Mancilla,16.0,17.0,Attacker
+239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538242,G. Mancilla,16.0,17.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,414333,J. Montaño,19.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538216,N. Segura,18.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,642394,A. Ortega,19.0,45.0,Defender
@@ -167,9 +167,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1132,Chico,13821,D. Ruíz,28.0,29.0,Defender
 239,Liga BetPlay,Colombia,local,1132,Chico,555102,A. Saldana,22.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1132,Chico,538251,A. Valencia,22.0,24.0,Defender
-239,Liga BetPlay,Colombia,local,1132,Chico,396505,A. Aedo,21.0,6.0,Midfielder
-239,Liga BetPlay,Colombia,local,1132,Chico,13180,Y. Cabrera,35.0,18.0,Attacker
-239,Liga BetPlay,Colombia,local,1132,Chico,636468,Oscar Caicedo,19.0,17.0,Defender
+239,Liga BetPlay,Colombia,local,1132,Chico,396505,A. Aedo,21.0,6.0,Defender
+239,Liga BetPlay,Colombia,local,1132,Chico,13180,Y. Cabrera,35.0,18.0,Midfielder
+239,Liga BetPlay,Colombia,local,1132,Chico,636468,Oscar Caicedo,19.0,17.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,125678,J. Díaz,24.0,28.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,538319,J. Mena,23.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,345321,J. Ostos,24.0,26.0,Midfielder
@@ -184,7 +184,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1132,Chico,456741,Jhonny Jordán,24.0,27.0,Attacker
 239,Liga BetPlay,Colombia,local,1132,Chico,538323,S. Mera,24.0,16.0,Attacker
 239,Liga BetPlay,Colombia,local,1132,Chico,59607,J. Molina,32.0,9.0,Attacker
-239,Liga BetPlay,Colombia,local,1132,Chico,633610,Italo Montano,26.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1132,Chico,633610,Italo Montano,26.0,7.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,195988,J. Pimentel,23.0,21.0,Attacker
 239,Liga BetPlay,Colombia,local,1132,Chico,538236,L. C. Segura Garcia,21.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1133,Jaguares,13760,D. Martínez,36.0,1.0,Goalkeeper
@@ -206,7 +206,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1133,Jaguares,13553,F. Mosquera,30.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1133,Jaguares,555029,Y. Mosquera,30.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1133,Jaguares,284859,S. Cubides,25.0,24.0,Midfielder
-239,Liga BetPlay,Colombia,local,1133,Jaguares,13488,W. De La Rosa,32.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1133,Jaguares,13488,W. De La Rosa,32.0,20.0,Midfielder
 239,Liga BetPlay,Colombia,local,1133,Jaguares,336526,K. Lenis,24.0,18.0,Attacker
 239,Liga BetPlay,Colombia,local,1133,Jaguares,80987,D. López,33.0,26.0,Attacker
 239,Liga BetPlay,Colombia,local,1133,Jaguares,53113,J. Maza,31.0,15.0,Defender
@@ -228,19 +228,18 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538189,M. Angel Amaya Pena,21.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,362575,F. González,21.0,80.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,59410,R. Manjarrés,25.0,24.0,Midfielder
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,411170,S. Mayo,22.0,8.0,Midfielder
+239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,411170,S. Mayo,22.0,8.0,Defender
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,297717,D. Quiñonez,24.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,505532,M. Santamaria,20.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,13373,L. Vásquez,34.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,9606,F. Boné,30.0,11.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,13226,J. Caballero,27.0,23.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538196,B. Caicedo,20.0,21.0,Attacker
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,460818,F. Chaverra,22.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538218,Y. Garcia,18.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538201,R. Julio,20.0,25.0,Attacker
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,454964,D. Moncada,18.0,18.0,Midfielder
+239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,454964,D. Moncada,18.0,18.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,356517,K. Parra,22.0,10.0,Midfielder
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,638,I. Poveda,25.0,99.0,Attacker
+239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,638,I. Poveda,25.0,99.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,51923,F. Sanguinetti,25.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538252,J. Valencia,21.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,13457,J. Martínez,32.0,30.0,Goalkeeper
@@ -252,7 +251,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,538301,J. Pena,26.0,98.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,555282,C. Perez,18.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,13261,J. Pestaña,28.0,24.0,Defender
-239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Defender
+239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,642908,Daniel Socarras,,19.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59441,Y. Súarez,28.0,26.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59403,F. Ángel,24.0,80.0,Midfielder
@@ -265,11 +264,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,555289,D. Villarreal,17.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,1706,C. Bacca,39.0,70.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,13709,C. Barrios,27.0,77.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,431436,J. Canchimbo,20.0,21.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,13524,B. Castrillón,26.0,88.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,431436,J. Canchimbo,20.0,21.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,13524,B. Castrillón,26.0,88.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,2492,Y. Chará,34.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,13592,T. Gutiérrez,40.0,29.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,538320,C. Olmos,20.0,2.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,53128,G. Paiva,28.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,153065,K.  Pérez,28.0,18.0,Midfielder
@@ -279,7 +278,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,195721,J. Parra,25.0,99.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,81333,J. Cardona,26.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,454541,J. Castaño,27.0,16.0,Defender
-239,Liga BetPlay,Colombia,local,1136,Once Caldas,200154,K. Cuesta,25.0,23.0,Midfielder
+239,Liga BetPlay,Colombia,local,1136,Once Caldas,200154,K. Cuesta,25.0,23.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59615,J. Cuesta,28.0,22.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,13207,E. Navarro,26.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,13368,J. Patiño,27.0,33.0,Defender
@@ -290,7 +289,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,406432,K. Tamayo,26.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,633969,R. Acuna,19.0,36.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,181420,J. Alvarado,26.0,15.0,Midfielder
-239,Liga BetPlay,Colombia,local,1136,Once Caldas,128779,E. Beltrán,26.0,8.0,Midfielder
+239,Liga BetPlay,Colombia,local,1136,Once Caldas,128779,E. Beltrán,26.0,8.0,Attacker
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59860,R. Mejía,25.0,88.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59564,J. Quiñónes,25.0,42.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,6184,A. Roa,32.0,20.0,Midfielder
@@ -298,7 +297,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,13482,I. Rojas,28.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,455897,Kevin Villada,18.0,27.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,51131,M. Barrios,34.0,7.0,Attacker
-239,Liga BetPlay,Colombia,local,1136,Once Caldas,126094,Pipe Gómez,26.0,9.0,Attacker
+239,Liga BetPlay,Colombia,local,1136,Once Caldas,126094,Pipe Gómez,26.0,9.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,6250,D. Moreno,40.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,538169,D. Quinones,30.0,70.0,Attacker
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59637,J. Zapata,25.0,14.0,Midfielder
@@ -313,7 +312,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,13575,C. Haydar,24.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,491335,F. Martínez,19.0,,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,555255,N. Parra,20.0,3.0,Defender
-239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,574172,X. Rios,19.0,31.0,Midfielder
+239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,574172,X. Rios,19.0,31.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,13642,A. Román,30.0,6.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,2487,W. Tesillo,35.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,538171,C. Uribe,18.0,5.0,Defender
@@ -330,7 +329,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,41450,C. Arango,30.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,51240,D. Asprilla,33.0,27.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,11765,E. Bello,30.0,18.0,Midfielder
-239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,1761,A. Morelos,29.0,9.0,Attacker
+239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,1761,A. Morelos,29.0,9.0,Midfielder
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,35794,M. Moreno,29.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,324615,N. Rodríguez,21.0,13.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,538215,J. Rosa,18.0,24.0,Attacker
@@ -342,7 +341,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1138,America de Cali,375842,M. Castillo,22.0,13.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,439969,B. Correa,21.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,13286,N. Hernández,27.0,22.0,Defender
-239,Liga BetPlay,Colombia,local,1138,America de Cali,59849,M. Mina,26.0,14.0,Defender
+239,Liga BetPlay,Colombia,local,1138,America de Cali,59849,M. Mina,26.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,475282,L. Mina,21.0,28.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,35483,A. Mosquera,35.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,13392,D. Rosero,32.0,3.0,Defender
@@ -359,13 +358,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1138,America de Cali,297577,T. Ángel,22.0,21.0,Midfielder
 239,Liga BetPlay,Colombia,local,1138,America de Cali,13771,D. Borrero,23.0,8.0,Attacker
 239,Liga BetPlay,Colombia,local,1138,America de Cali,451945,Y. Garcés,19.0,18.0,Attacker
-239,Liga BetPlay,Colombia,local,1138,America de Cali,303136,J. Lucumí,21.0,17.0,Midfielder
-239,Liga BetPlay,Colombia,local,1138,America de Cali,2459,D. Machís,32.0,11.0,Attacker
-239,Liga BetPlay,Colombia,local,1138,America de Cali,2451,J. Murillo,30.0,7.0,Attacker
-239,Liga BetPlay,Colombia,local,1138,America de Cali,538255,T. Palacios,20.0,19.0,Attacker
+239,Liga BetPlay,Colombia,local,1138,America de Cali,303136,J. Lucumí,21.0,17.0,Attacker
+239,Liga BetPlay,Colombia,local,1138,America de Cali,2459,D. Machís,32.0,11.0,Midfielder
+239,Liga BetPlay,Colombia,local,1138,America de Cali,2451,J. Murillo,30.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1138,America de Cali,538255,T. Palacios,20.0,19.0,Midfielder
 239,Liga BetPlay,Colombia,local,1138,America de Cali,46695,A. Ramos,39.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1138,America de Cali,16790,J. Valencia,29.0,9.0,Attacker
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,538243,J. Andrades,21.0,35.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538305,W. Asprilla,26.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13496,A. Mosquera,34.0,1.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538297,C. Nemocon,,33.0,Goalkeeper
@@ -377,14 +375,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,6639,E. Olivera,35.0,18.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,2486,H. Palacios,32.0,13.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,323288,L. Palacios,24.0,14.0,Midfielder
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,306718,Y. Perlaza,22.0,27.0,Midfielder
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,306718,Y. Perlaza,22.0,27.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,59514,M. Puerta,28.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,59416,I. Scarpeta,29.0,15.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,311421,S. Tamayo,23.0,25.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538250,K. Cortes,22.0,30.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,288239,E. Murillo,25.0,21.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,46720,D. Torres,36.0,16.0,Midfielder
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,608593,J. Torres,22.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,608593,J. Torres,22.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,356522,K. Toscano,21.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13290,Y. Velásquez,26.0,20.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13485,A. Zapata,30.0,10.0,Midfielder
@@ -394,7 +392,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,35751,O. Fernández,32.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,6523,M. Lovera,26.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,59617,J. Melendez,23.0,5.0,Defender
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,13528,E. Mosquera,24.0,22.0,Midfielder
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,13528,E. Mosquera,24.0,22.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13755,J. Obrian,30.0,77.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,643030,Martin Palacios,18.0,40.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,49892,H. Rodallega,40.0,11.0,Attacker
@@ -421,7 +419,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,640054,Jose Hinojosa,,21.0,Midfielder
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,633607,William Meza Mercado Ever,25.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538322,E. Perez,19.0,25.0,Midfielder
-239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538184,C. Villegas,20.0,14.0,Defender
+239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538184,C. Villegas,20.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538179,S. A. Aponza Cantonil,20.0,11.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,35986,A. Del Valle,36.0,77.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,352514,Yeiner Stiwar Londoño Rentería,25.0,27.0,Midfielder
@@ -432,7 +430,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538257,J. Osorio,19.0,28.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,35722,F. Pardo,35.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,638479,Eudy Perez,19.0,4.0,Attacker
-239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538280,L. Valencia,18.0,20.0,Midfielder
+239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538280,L. Valencia,18.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538228,J. Valoyes,16.0,30.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,451946,J. Azcarate,20.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,362868,G. Balanta,23.0,23.0,Goalkeeper
@@ -441,7 +439,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,79170,A. Angulo,29.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,371249,J. Angulo,24.0,3.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13460,C. Arrieta,29.0,17.0,Defender
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,555096,S. P. Barbosa Gomez,21.0,30.0,Midfielder
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,555096,S. P. Barbosa Gomez,21.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,637640,S. Cabezas,,26.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,127601,J. Hernández,26.0,20.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,538318,M. Martinez,19.0,27.0,Defender
@@ -449,55 +447,55 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,59588,J. Mosquera,26.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,2443,Y. Osorio,31.0,71.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,200156,D. Pedrozo,21.0,4.0,Defender
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13679,S. Guzmán,28.0,32.0,Defender
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13679,S. Guzmán,28.0,32.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,538281,Y. Moreno,17.0,31.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13682,J. Nieto,32.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,491473,V. Reyes,18.0,16.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,364816,É. Ricardo,21.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13304,B. Rovira,29.0,80.0,Midfielder
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,356516,J. Torres,21.0,10.0,Attacker
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,356516,J. Torres,21.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13372,C. Trujillo,27.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,647225,Nilder Zapata,17.0,25.0,Midfielder
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,373765,K. Flórez,21.0,18.0,Attacker
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,373765,K. Flórez,21.0,18.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,417285,J. Fuentes,20.0,25.0,Attacker
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,207764,J. González,24.0,7.0,Midfielder
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,6417,E. López,30.0,28.0,Midfielder
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,207764,J. González,24.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,6417,E. López,30.0,28.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,59642,A. Parra,28.0,24.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,538333,Y. A. Parra,18.0,21.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,638681,Neifer Sanchez,,29.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,59414,L. Sandoval,26.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,647783,Joven Santiago,,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13663,J. Valencia,26.0,11.0,Attacker
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13522,E. Valencia,28.0,8.0,Midfielder
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13522,E. Valencia,28.0,8.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,2480,I. Arboleda,29.0,1.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,648737,Juan Hurtado,19.0,34.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,577878,A. Salazar,31.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,555015,A. Alvarez,26.0,18.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,538343,G. Cadavi,18.0,18.0,Defender
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,538343,G. Cadavi,18.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,645188,Gabriel Cadavid,18.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13605,J. García,36.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13169,D. Hernández,25.0,5.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,353424,A. Higgins,20.0,20.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,330300,N. Lara,22.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,70581,H. Lópes,34.0,29.0,Defender
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,344164,D. Lozano,23.0,26.0,Defender
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,441050,J. Mena,21.0,32.0,Defender
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,344164,D. Lozano,23.0,26.0,Midfielder
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,441050,J. Mena,21.0,32.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,51483,J. Varela,27.0,3.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,351926,J. Ávalo,24.0,24.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,405536,R. Benítez,20.0,90.0,Midfielder
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,405536,R. Benítez,20.0,90.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,59469,F. Lozano,32.0,19.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,59762,J. Pineda,28.0,16.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13520,A. Ricaurte,34.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,59526,J. Roa,31.0,25.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,554949,C. Caicedo,23.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,554949,C. Caicedo,23.0,7.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,190475,C. Cañozales,26.0,11.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13554,J. Obregón,28.0,99.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,405537,J. Palacio,22.0,80.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,648738,Juan Quintero,18.0,33.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,393877,Jorge Luis Rivaldo Pinto,22.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13492,C. Rojas,27.0,16.0,Attacker
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,373771,F. Suárez,21.0,15.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,79590,B. Urueña,33.0,10.0,Midfielder
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,373771,F. Suárez,21.0,15.0,Attacker
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,79590,B. Urueña,33.0,10.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,410104,M. Barragán,21.0,32.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,339312,C. Santander,22.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,52915,M. Silva,25.0,1.0,Goalkeeper
@@ -511,8 +509,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13393,A. Arroyo,23.0,33.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,369699,K. Balanta,21.0,17.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13515,Y. Díaz,28.0,6.0,Defender
+239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,657510,J. Garcia,,27.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13638,S. Navarro,25.0,8.0,Midfielder
-239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,606946,C. Orozco,17.0,20.0,Defender
+239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,606946,C. Orozco,17.0,20.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,524433,Sebastian Palacios,20.0,22.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13586,L. Pico,34.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,465668,S. Ramíirez,19.0,21.0,Midfielder
@@ -525,7 +524,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,442023,J. Martínez,20.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,566360,F. Pulicastro,26.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,634558,R. D. Rivas Torres,20.0,26.0,Midfielder
-239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,415272,J. Salas,22.0,24.0,Midfielder
+239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,415272,J. Salas,22.0,24.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,636712,J. Sinisterra,17.0,23.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,342048,T. Wilke Braams,23.0,29.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,555309,J. Betancourth,21.0,12.0,Goalkeeper
@@ -533,9 +532,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612950,M. Lopez,,35.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,620466,J. Martinez,19.0,1.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,638481,Jorge Mosquera,19.0,1.0,Goalkeeper
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612960,S. Zuluaga,18.0,33.0,Goalkeeper
+239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612960,S. Zuluaga,18.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,133128,S. Aguilar,27.0,15.0,Defender
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612949,S. Alzate Uribe,18.0,31.0,Defender
+239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612949,S. Alzate Uribe,18.0,34.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,294466,T. Bovone,26.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59507,F. Delgado,26.0,25.0,Defender
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59471,J. Monroy,29.0,20.0,Midfielder
@@ -551,7 +550,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59593,J. Bermúdez,24.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59400,D. Mendoza,24.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612951,J. Montoya,19.0,13.0,Midfielder
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,651182,J. Morales,21.0,13.0,Attacker
+239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,651182,J. Morales,21.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,13438,Ederson Moreno,31.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,306783,Eber Moreno,23.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,643745,Luis Moreno,24.0,37.0,Midfielder
@@ -563,7 +562,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,13430,S. Acosta,31.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,569006,A. Calderon,16.0,31.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,653080,M. Diaz,20.0,31.0,Attacker
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612953,G. Garcia,19.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,348333,J. Largacha,24.0,11.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612955,J. Lopez,18.0,31.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,650008,M. Patino,18.0,34.0,Attacker
@@ -590,13 +588,13 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1464,Llaneros,440683,J. RamÃ­rez,23.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,371252,E. Restrepo,26.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,36269,Marlon Ricardo Sierra Zamora,31.0,6.0,Midfielder
-239,Liga BetPlay,Colombia,local,1464,Llaneros,301275,J. Blanco,25.0,15.0,Attacker
+239,Liga BetPlay,Colombia,local,1464,Llaneros,301275,J. Blanco,25.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,323778,É. Bodencer,25.0,24.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,207225,C. Cortés,24.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,13157,J. Vásquez,30.0,95.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,13714,D. Mantilla,29.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,538186,L. Marimon,21.0,11.0,Attacker
-239,Liga BetPlay,Colombia,local,1464,Llaneros,13348,L. Miranda,28.0,7.0,Defender
+239,Liga BetPlay,Colombia,local,1464,Llaneros,13348,L. Miranda,28.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,363371,N. Ospina,22.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,538332,K. Rincon,,77.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,566614,F. Abadia,27.0,24.0,Goalkeeper
@@ -616,7 +614,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1470,Cucuta,13640,L. Payares,35.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1470,Cucuta,419766,J. Quiñónes,21.0,4.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,13738,S. Rodríguez,25.0,28.0,Defender
-239,Liga BetPlay,Colombia,local,1470,Cucuta,306733,L. Berdugo,23.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1470,Cucuta,306733,L. Berdugo,23.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,554913,A. Cano,24.0,70.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555184,J. Castellanos,20.0,77.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,126093,J. Ceballos,27.0,8.0,Midfielder
@@ -626,11 +624,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1470,Cucuta,6124,L. Ríos,27.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,16349,S. Támara,29.0,33.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,13344,J. Agudelo,33.0,32.0,Attacker
-239,Liga BetPlay,Colombia,local,1470,Cucuta,408371,E. Arízalas,24.0,11.0,Attacker
+239,Liga BetPlay,Colombia,local,1470,Cucuta,408371,E. Arízalas,24.0,11.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555164,H. Beltran,19.0,77.0,Attacker
-239,Liga BetPlay,Colombia,local,1470,Cucuta,61363,F. Castañeda,31.0,23.0,Defender
+239,Liga BetPlay,Colombia,local,1470,Cucuta,61363,F. Castañeda,31.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,52430,L. Hernández,24.0,90.0,Attacker
-239,Liga BetPlay,Colombia,local,1470,Cucuta,427330,J. Peralta,20.0,9.0,Midfielder
+239,Liga BetPlay,Colombia,local,1470,Cucuta,427330,J. Peralta,20.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555163,D. Gelvez,17.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,635782,Breiner Rodriguez,,13.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555080,J. Valencia,23.0,19.0,Attacker
@@ -697,6 +695,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,642174,L. Pereyra,18.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,6005,J. Quintero,32.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,414329,A. Ruberto,19.0,32.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,657681,L. Silva,19.0,44.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,214,F. Colidio,25.0,11.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,1222,S. Driussi,29.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,560314,J. Freitas,18.0,35.0,Attacker
@@ -706,12 +705,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6364,F. Cambeses,28.0,25.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,363338,F. Gómez,21.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,5624,M. Tagliamonte,27.0,30.0,Goalkeeper
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,295508,E. Cannavo,23.0,4.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,295508,E. Cannavo,23.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,125177,N. Colombo,26.0,23.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,289466,M. Di Cesare,23.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,63937,A. García,33.0,2.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,515930,B. González,18.0,31.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,197520,G. Martirena,25.0,15.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,197520,G. Martirena,25.0,15.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6573,F. Pardo,28.0,18.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6608,G. Rojas,28.0,27.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,890,M. Rojo,35.0,6.0,Defender
@@ -719,19 +718,19 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6006,S. Sosa,26.0,13.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,465127,G. Volpe,21.0,42.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,341646,V. Carboni,20.0,21.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,169928,A. Fernández,24.0,24.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,169928,A. Fernández,24.0,24.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,472128,A. Forneris,20.0,8.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6719,M. Miljevic,24.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,645058,E. Perez,17.0,45.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,363341,B. Gallego,22.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,310181,I. Rodríguez,23.0,19.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,310181,I. Rodríguez,23.0,19.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,599944,F. Schaare,20.0,59.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,415029,G. Sosa,20.0,44.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,472570,A. Tello,17.0,46.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,2477,M. Zaracho,27.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6008,B. Zuculini,32.0,36.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,70749,A. Martínez,33.0,9.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,51241,T. Conechny,27.0,17.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,51241,T. Conechny,27.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,421048,T. Pérez,19.0,58.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,344165,D. Pizarro,20.0,14.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,170127,S. Solari,27.0,28.0,Attacker
@@ -740,7 +739,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,6492,J. Ledesma,32.0,23.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,641325,Leonardo Sosa,18.0,48.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,5962,G. Ávila,24.0,13.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,599935,M. Cabrera,19.0,7.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,599935,M. Cabrera,19.0,7.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,655327,Franco Castorani,20.0,52.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,6367,E. Coronel,28.0,32.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,636717,A. Guich,16.0,36.0,Defender
@@ -758,7 +757,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,460106,S. Beltrán,21.0,,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,653230,B. Cantero,17.0,40.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,5916,G. Fernández,34.0,28.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,70700,E. Giménez,27.0,16.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,70700,E. Giménez,27.0,16.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,129878,F. Ibarra,24.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,637587,Paolo Lescano,18.0,44.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,6241,F. Navarro,25.0,31.0,Midfielder
@@ -808,7 +807,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,455313,M. Daniele,21.0,28.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,653527,S. Ferez,20.0,60.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5161,M. Vicentini,35.0,23.0,Goalkeeper
-128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,354681,Alcides Benítez,23.0,26.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,354681,Alcides Benítez,23.0,26.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,646881,J. Biani,,43.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,646882,T. Charras,,44.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,636718,A. Falcon,21.0,45.0,Defender
@@ -817,7 +816,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,6368,A. Maldonado,28.0,2.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5822,L. Morales,34.0,14.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,513437,Álvaro Ocampo,21.0,13.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,46820,F. Ricca,31.0,16.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,46820,F. Ricca,31.0,16.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,646937,A. Rosso,,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,6371,A. Spörle,30.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,406161,T. Castro,23.0,59.0,Midfielder
@@ -830,7 +829,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,422464,J. Mavilla,25.0,32.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5978,A. Sánchez,26.0,21.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,524227,R. Tulián,17.0,15.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,2057,F. Vázquez,36.0,20.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,2057,F. Vázquez,36.0,20.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,35528,L. Zelarayán,33.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5952,N. Fernández,29.0,22.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,6714,F. González,28.0,11.0,Midfielder
@@ -857,7 +856,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,538364,S. Grella,20.0,46.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,6152,L. Menossi,33.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,167652,J. Palacios,26.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,323847,N. Palavecino,22.0,8.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,323847,N. Palavecino,22.0,8.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,6123,M. Pittón,31.0,30.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,5921,A. Solari,33.0,23.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,555909,M. Aguirre,18.0,31.0,Attacker
@@ -910,10 +909,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,6111,F. Vera,27.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,510978,Luca Babino,20.0,28.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,74973,L. Carrizo,28.0,3.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,351923,Ó. Cortés,22.0,7.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,351923,Ó. Cortés,22.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,6511,L. Gil,34.0,8.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516763,F. Kalinger,20.0,52.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516757,L. Mora,19.0,41.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516757,L. Mora,19.0,41.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,6513,E. Ojeda,28.0,20.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516760,T. Peralta,17.0,23.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516761,T. Pérez,19.0,37.0,Midfielder
@@ -932,14 +931,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,491805,Alexis González,20.0,22.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,6567,T. Guidara,29.0,33.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,5965,C. Izquierdoz,37.0,24.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,449248,T. Laplace,19.0,39.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,449248,T. Laplace,19.0,39.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,129986,S. Marcich,27.0,6.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,5295,N. Morgantini,31.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,197062,G. Pérez,24.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,517351,T. Quiroz,20.0,32.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,465141,L. Romero,19.0,2.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,465140,F. Sánchez,20.0,27.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,423866,D. Aquino,20.0,25.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,465140,F. Sánchez,20.0,27.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,423866,D. Aquino,20.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,70732,J. Canale,29.0,13.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,6147,A. Cardozo,28.0,30.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,6030,R. Carrera,32.0,23.0,Midfielder
@@ -992,7 +991,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,429,F. Muslera,39.0,16.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,2508,S. Arzamendia,27.0,15.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,289472,G. Benedetti,24.0,13.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,515938,M. Desábato,20.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,1688,R. Funes Mori,34.0,26.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,50875,L. González,33.0,14.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,463861,M. Magdaleno,18.0,37.0,Defender
@@ -1011,7 +1009,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,206984,T. Palacios,24.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,5275,Lucas Ezequiel Piovi,33.0,21.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,49887,J. Sosa,40.0,7.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,289465,B. Aguirre,22.0,28.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,289465,B. Aguirre,22.0,28.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,982,L. Alario,33.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,463859,F. Basualdo,18.0,38.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,463852,J. Burgos,21.0,17.0,Attacker
@@ -1081,10 +1079,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,392734,J. Saralegui,22.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,458318,T. Serrago,21.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,506461,M. Fernández,21.0,18.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,414392,S. López,19.0,22.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,414392,S. López,19.0,22.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,70490,A. Oviedo,30.0,19.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,560390,I. Peluffo,,50.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,646546,Marco Rivas,17.0,72.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,646546,Marco Rivas,17.0,77.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,194905,D. Romero,22.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,289448,I. Russo,25.0,29.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,453,Independiente,162447,J. Blázquez,24.0,1.0,Goalkeeper
@@ -1178,9 +1176,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,196005,B. Barticciotto,24.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,516785,E. Chiavassa,19.0,36.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,501779,V. Dávila,18.0,49.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,133621,V. Depietri,25.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,133621,V. Depietri,25.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,95314,R. Martínez,29.0,77.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,119666,Rick,26.0,37.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,119666,Rick,26.0,37.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,6254,D. Valoyes,29.0,7.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,2547,G. Arias,38.0,21.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,289461,W. Barlasina,27.0,1.0,Goalkeeper
@@ -1209,10 +1207,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,58954,F. García,28.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,506278,T. Gigena,20.0,16.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,511036,Facundo Gauch,18.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,58668,L. Herrera,29.0,27.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,58668,L. Herrera,29.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,59231,W. Mazzantti,29.0,18.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,657006,Sebastian Montero,21.0,,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,368992,W. Núñez,22.0,33.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,368992,W. Núñez,22.0,33.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,237210,F. Orozco,23.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,51560,I. Ramírez,28.0,99.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,579715,T. Rios,19.0,39.0,Midfielder
@@ -1244,9 +1242,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,6070,L. Fernández,34.0,18.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,645326,R. Fernandez,19.0,38.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,296671,L. Giaccone,24.0,7.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,560435,F. Jainikoski,17.0,48.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,560435,F. Jainikoski,17.0,48.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,373589,R. Kida,20.0,34.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,75989,T. Molina,30.0,27.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,75989,T. Molina,30.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,2565,I. Morales,26.0,30.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,463830,D. Porcel,20.0,47.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,545957,K. Ryouga,20.0,34.0,Attacker
@@ -1284,7 +1282,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,5925,A. Cuello,25.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,13526,D. Herazo,29.0,18.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,369729,M. Hernández,20.0,44.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,170829,M. Reali,28.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,170829,M. Reali,28.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,319396,G. Rodríguez,25.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,506475,Branco Salinardi,18.0,22.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,19036,L. Vietto,32.0,19.0,Attacker
@@ -1317,6 +1315,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,6191,N. Cordero,26.0,19.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,51757,M. da Luz,31.0,77.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,356278,F. De La Vega,22.0,22.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,560350,A. Fernandez,20.0,48.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,5504,T. Fernández,27.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,195757,N. Guzmán,26.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,456937,D. Juárez,18.0,29.0,Attacker
@@ -1324,7 +1323,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,288756,R. Márquez,23.0,20.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,344891,B. Palavecino,22.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,372117,A. Villarreal,20.0,30.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,613326,Nicolás Bolcato,21.0,30.0,Goalkeeper
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,613326,Nicolás Bolcato,21.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,288693,Emmanuel Gómez,24.0,21.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,5622,R. Macagno,28.0,12.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,501780,T. Andino,22.0,45.0,Defender
@@ -1341,7 +1340,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,70790,I. Villalba,30.0,40.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,292885,T. Bottari,24.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,288705,L. Bucca,26.0,8.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,59088,D. Crego,28.0,27.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,59088,D. Crego,28.0,27.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,119809,J. Florentín,29.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,289431,S. Moreyra,24.0,34.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,314410,T. Muro,23.0,23.0,Midfielder
@@ -1351,11 +1350,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,167651,L. Sequeira,22.0,77.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,388480,K. Vázquez,24.0,32.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,95460,A. Arce,30.0,9.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,362740,R. Atencio,23.0,19.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,362740,R. Atencio,23.0,19.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,524235,B. DadÃ­n,19.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,6329,V. Ramis,31.0,7.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,354677,F. Sartori,23.0,43.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,2494,S. Villa,29.0,22.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,354677,F. Sartori,23.0,43.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,2494,S. Villa,29.0,22.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,426454,T. Ayala,24.0,12.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,16408,J. Burrai,35.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,636824,D. Monza,17.0,23.0,Goalkeeper
@@ -1386,7 +1385,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,636452,Ulises Delgado,23.0,16.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,70568,D. Churín,36.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,449511,Alexis González,20.0,32.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,6119,G. González,24.0,22.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,5561,P. Magnín,35.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,70638,J. Marabel,27.0,27.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,472197,Brandon Márquez,20.0,40.0,Attacker
@@ -1396,14 +1394,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,638291,Jorge Luque,22.0,26.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,507607,M. Aiello,21.0,17.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,6496,M. Barbieri,32.0,6.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5570,M. Bracamonte,26.0,36.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5570,M. Bracamonte,26.0,36.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,642910,Alejo Duarte,20.0,39.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,296833,R. Gallo,25.0,13.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59338,J. Goitía,31.0,27.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,294447,F. Miño,26.0,24.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59342,Y. Murillo,32.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5545,C. Paz,30.0,22.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278365,P. Ramírez,25.0,5.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278365,P. Ramírez,25.0,5.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,75690,J. Randazzo,31.0,19.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,639227,J. Rodriguez Ares,23.0,33.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59056,R. Sayavedra,30.0,28.0,Attacker
@@ -1413,6 +1411,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,536919,P. Madero,26.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,294454,P. Monje,28.0,14.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,263698,Johnson Nsumoh Kalu,24.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,440094,B. Pérez,19.0,45.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5361,M. Ramírez,30.0,23.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,639228,D. Sanchez,19.0,37.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5526,N. Sansotre,32.0,15.0,Midfielder
@@ -1422,7 +1421,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5415,N. Benegas,29.0,8.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,6617,A. Díaz,25.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,540441,L. Duarte,20.0,39.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278607,G. Flores,23.0,32.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278607,G. Flores,23.0,32.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59355,J. Herrera,34.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5478,J. Ingratti,25.0,21.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,411409,G. Obredor,28.0,40.0,Midfielder
@@ -1465,12 +1464,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,75893,B. Bustos,29.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,129888,N. Sumavil,26.0,22.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,613328,Thiago Currado,19.0,41.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,5485,G. Goñi,27.0,42.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,524454,Stefan Đokić,31.0,38.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,129905,A. Lagos,24.0,4.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,538360,A. Maglione,20.0,,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,459866,M. Mendia,21.0,34.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,404631,S. Quirós,22.0,35.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,366554,E. Raggio,24.0,6.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,170010,J. Saborido,27.0,25.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,353488,T. Silva,22.0,3.0,Defender
@@ -1487,7 +1483,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,322307,F. Zapiola,24.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,480881,Benjamín Bosch,20.0,47.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,459877,S. Dalmasso,21.0,27.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,196750,J. Gauto,21.0,33.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,196750,J. Gauto,21.0,33.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,6591,G. Lencina,28.0,99.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,6129,A. Lotti,29.0,21.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,6059,G. Mainero,30.0,7.0,Midfielder
@@ -1496,7 +1492,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,463850,T. Nasif,21.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,58544,N. Retamar,26.0,43.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,451011,M. Tucker,21.0,28.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,524735,Stefan Dajić,18.0,39.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,6330,A. Aguerre,35.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,426313,J. Vallejos,22.0,25.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,433517,Lucas Bernabéu,21.0,26.0,Defender
@@ -1512,7 +1507,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,414153,A. Quiroga,23.0,23.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,354790,J. Cardozo,21.0,55.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,313063,T. Cravero,30.0,5.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,47260,S. Cristóforo,32.0,41.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,126671,L. González,25.0,18.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,59201,M. Iacobellis,26.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,6238,F. Juárez,27.0,8.0,Midfielder
@@ -1544,11 +1538,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5170,F. Antonini,28.0,21.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,309626,N. Barboza,26.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,425728,J. Ceballos,21.0,19.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,108437,B. Ferreyra,29.0,9.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,108437,B. Ferreyra,29.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,6381,N. Linares,29.0,8.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,311341,T. O&apos;Connor,21.0,28.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5949,T. Ortiz,25.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,6384,J. Álvarez,29.0,18.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,6384,J. Álvarez,29.0,18.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5364,B. Andrada,28.0,33.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,70841,B. Armoa,25.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,371639,A. Cervera,23.0,37.0,Attacker
@@ -1557,6 +1551,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,312314,F. Lencioni,24.0,26.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,440074,A. Módica,22.0,29.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,58688,S. Rodríguez,28.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5368,N. Romano,26.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,296125,I. Sabatini,26.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,135336,U. Sánchez,27.0,15.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,459878,V. Simoni,21.0,35.0,Attacker
@@ -1607,7 +1602,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,41409,G. Campi,34.0,37.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,126866,N. Capraro,27.0,2.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,5541,N. Demartini,26.0,31.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,368991,K. Jappert,21.0,14.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,368991,K. Jappert,21.0,14.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,6109,D. Martínez,35.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,67906,Y. Rak,32.0,15.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,35712,F. Tobio,36.0,32.0,Defender
@@ -1626,13 +1621,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,52000,J. Candia,30.0,20.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,6192,L. Gamba,38.0,21.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,503556,Ivan Guaraz,20.0,16.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,156767,R. Insúa,28.0,6.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,156767,R. Insúa,28.0,6.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,390809,J. Morales,22.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,216526,W. Rivera,22.0,23.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,498459,V. GandÃ­n,18.0,22.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,634326,F. Ferreira,18.0,81.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,118,Bahia,9979,João Paulo,30.0,34.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,118,Bahia,10109,Léo Vieira,35.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,118,Bahia,657690,J. C. Neres dos Santos I.,19.0,91.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,118,Bahia,9512,Ronaldo,29.0,1.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,118,Bahia,407275,Victor,19.0,61.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,118,Bahia,10351,David Duarte,30.0,33.0,Defender
@@ -1663,14 +1659,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,118,Bahia,9854,Ademir,30.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,607365,C. Suassuna,18.0,90.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,510677,Dell,17.0,89.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,303127,Erick Pulga,25.0,16.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,303127,Erick Pulga,25.0,16.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,118,Bahia,10222,Everaldo,34.0,27.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,409288,João Coni,19.0,78.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,525667,Çağatay Yılmaz,21.0,57.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,118,Bahia,544701,Lyan Araujo,16.0,71.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,51701,M. Araújo,29.0,15.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,118,Bahia,634401,R. Nascimento,17.0,72.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,67902,C. Olivera,23.0,99.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,67902,C. Olivera,23.0,99.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,118,Bahia,633434,Ruan Roger,21.0,82.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,454147,Ruan Pablo,17.0,77.0,Attacker
 71,Brasileirão,Brazil,sudamerica,118,Bahia,355253,M. Sanabria,21.0,23.0,Attacker
@@ -1728,7 +1724,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,2440,N. Ferraresi,27.0,5.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,561346,Gabriel Abdias,19.0,36.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,414428,J. Hernández,19.0,67.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,505409,Huguinho,18.0,75.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,505409,Huguinho,18.0,75.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,614641,F. Januario,18.0,21.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,613321,Kadu Santos,20.0,42.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,474102,Kauã Branco,19.0,53.0,Defender
@@ -1759,7 +1755,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,614621,Arthur Izaque,18.0,39.0,Attacker
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,544681,K. Barria,18.0,37.0,Attacker
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,1854,J. Correa,31.0,30.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,10432,Júnior Santos,31.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,10432,Júnior Santos,31.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,413140,Kauan Toledo,19.0,59.0,Attacker
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,305821,Matheus Martins,22.0,11.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,614654,Matheusinho,18.0,57.0,Attacker
@@ -1782,7 +1778,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10125,Khellven,24.0,12.0,Defender
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10083,Murilo,28.0,26.0,Defender
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,51466,J. Piquerez,27.0,22.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,425714,Allan,21.0,40.0,Attacker
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,425714,Allan,21.0,40.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,899,Andreas Pereira,29.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,575323,Larson,20.0,48.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,21095,Lucas Evangelista,30.0,30.0,Midfielder
@@ -1790,7 +1786,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,9218,Marlon Freitas,30.0,17.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,153083,E. Martínez,26.0,32.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,106485,Maurício,24.0,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,196298,R. Sosa,26.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,196298,R. Sosa,26.0,19.0,Attacker
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,13708,J. Arias,28.0,11.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,512522,Erick Machado,18.0,45.0,Attacker
 71,Brasileirão,Brazil,sudamerica,121,Palmeiras,2412,Felipe Anderson,32.0,7.0,Midfielder
@@ -1827,7 +1823,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,124,Fluminense,1262,Otávio,31.0,94.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,124,Fluminense,10311,PH Ganso,36.0,10.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,124,Fluminense,502726,Riquelme,18.0,28.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,51214,J. Savarino,29.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,51214,J. Savarino,29.0,11.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,124,Fluminense,13523,G. Cano,37.0,14.0,Attacker
 71,Brasileirão,Brazil,sudamerica,124,Fluminense,51603,A. Canobbio,27.0,17.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,124,Fluminense,304048,R. Castillo,26.0,19.0,Attacker
@@ -1840,7 +1836,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,50726,Carlos Coronel,29.0,31.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,10081,Rafael,36.0,23.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,311517,Young,23.0,50.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,516821,Nicolas,18.0,56.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,516821,Nicolas,18.0,56.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,6237,E. Díaz,30.0,13.0,Defender
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,6083,A. Franco,29.0,28.0,Defender
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,634548,Igor Felisberto,18.0,40.0,Defender
@@ -1851,15 +1847,15 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,35777,Dória,31.0,4.0,Defender
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,2571,R. Arboleda,34.0,5.0,Defender
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,9340,Sabino,29.0,35.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,190,Cédric Soares,34.0,21.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,190,Cédric Soares,34.0,21.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,30429,R. Tolói,35.0,2.0,Defender
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,970,Wendell,32.0,18.0,Defender
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,195107,D. Bobadilla,24.0,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,25272,Cauly,30.0,80.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,25272,Cauly,30.0,80.0,Attacker
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,77754,Danielzinho,31.0,94.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,612911,D. Ferreira,18.0,48.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,415147,Felipe Negrucci,21.0,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,633532,Leonardo Hugo,21.0,38.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,633532,Leonardo Hugo,21.0,38.0,Defender
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,9957,Luan,26.0,33.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,696,Marcos Antônio,25.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,313732,Pablo Maia,23.0,29.0,Midfielder
@@ -1916,7 +1912,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,5994,J. Carrascal,27.0,15.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,633423,David Viana de Oliveira,18.0,63.0,Attacker
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,586025,Douglas Telles,18.0,81.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,2414,Everton,29.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,2414,Everton,29.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,589368,Camargo Joao,18.0,18.0,Attacker
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,22238,Luiz Araújo,29.0,7.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,10321,Pedro,28.0,9.0,Attacker
@@ -1926,6 +1922,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,405160,Wallace,20.0,64.0,Attacker
 71,Brasileirão,Brazil,sudamerica,128,Santos,321454,Diógenes,24.0,1.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,128,Santos,31007,Gabriel Brazão,25.0,77.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,128,Santos,606900,Joao Lucio,17.0,79.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,128,Santos,653531,Rodrigo Falcao,21.0,67.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,128,Santos,6637,G. Escobar,28.0,31.0,Defender
 71,Brasileirão,Brazil,sudamerica,128,Santos,5872,A. Frías,27.0,98.0,Defender
@@ -1933,7 +1930,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,128,Santos,527683,João Paulo Ananias,18.0,26.0,Defender
 71,Brasileirão,Brazil,sudamerica,128,Santos,71,Luan Peres,31.0,14.0,Defender
 71,Brasileirão,Brazil,sudamerica,128,Santos,9991,Lucas Veríssimo,30.0,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,9917,Mayke,33.0,12.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,9917,Mayke,33.0,2.0,Defender
 71,Brasileirão,Brazil,sudamerica,128,Santos,609540,Rafael Gonzaga,18.0,38.0,Defender
 71,Brasileirão,Brazil,sudamerica,128,Santos,507379,Vinicius Lira,18.0,3.0,Defender
 71,Brasileirão,Brazil,sudamerica,128,Santos,10114,Zé Ivaldo,28.0,2.0,Defender
@@ -1971,7 +1968,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,130,Gremio,510552,Luis Eduardo,17.0,43.0,Defender
 71,Brasileirão,Brazil,sudamerica,130,Gremio,9916,Marcos Rocha,37.0,14.0,Defender
 71,Brasileirão,Brazil,sudamerica,130,Gremio,10309,Marlon,28.0,23.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,647516,Pedro Gabriel,18.0,54.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,647516,Pedro Gabriel,18.0,54.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,130,Gremio,607376,V. Ramon,18.0,32.0,Defender
 71,Brasileirão,Brazil,sudamerica,130,Gremio,424277,Viery,20.0,44.0,Defender
 71,Brasileirão,Brazil,sudamerica,130,Gremio,9993,Wagner Leonardo,26.0,3.0,Defender
@@ -1989,17 +1986,16 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,130,Gremio,237847,André Henrique,24.0,77.0,Attacker
 71,Brasileirão,Brazil,sudamerica,130,Gremio,2737,M. Braithwaite,34.0,22.0,Attacker
 71,Brasileirão,Brazil,sudamerica,130,Gremio,104,Carlos Vinícius,30.0,95.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,13616,J. Enamorado,26.0,99.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,13616,J. Enamorado,26.0,99.0,Attacker
 71,Brasileirão,Brazil,sudamerica,130,Gremio,507527,Gabriel Mec,17.0,37.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,5981,C. Pavón,29.0,7.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,5981,C. Pavón,29.0,7.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,130,Gremio,408342,L. Pérez,21.0,33.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,576652,Roger,17.0,47.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,576652,Roger,17.0,47.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,130,Gremio,691,Tetê,25.0,21.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,2294,Willian,37.0,10.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,2294,Willian,37.0,10.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,415084,Felipe Longo,20.0,40.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,123759,Hugo Souza,26.0,1.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,415083,Kauê Camargo,21.0,51.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,195499,Matheus Donelli,23.0,32.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,1085,André Ramalho,33.0,5.0,Defender
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,5987,F. Angileri,31.0,26.0,Defender
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,915,Gabriel Paulista,35.0,3.0,Defender
@@ -2011,6 +2007,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,9742,Matheus Bidu,26.0,21.0,Defender
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,10161,Matheuzinho,25.0,2.0,Defender
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,182025,P. Milans,23.0,20.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,10067,Alex Santana,30.0,80.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,10319,Allan,28.0,29.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,609468,G. Amorim,17.0,48.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,544679,Andre,19.0,49.0,Midfielder
@@ -2021,13 +2018,13 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,543,Z. Labyad,32.0,52.0,Attacker
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,900,J. Lingard,33.0,77.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,871,Matheus Pereira,27.0,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,160436,Raniele,29.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,160436,Raniele,29.0,14.0,Defender
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,2426,A. Carrillo,34.0,19.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,667,M. Depay,31.0,10.0,Attacker
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,463975,Dieguinho,18.0,61.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,463979,Guilherme Inácio,18.0,56.0,Attacker
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,380435,Kaio César,21.0,37.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,415090,Kayke,21.0,31.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,415090,Kayke,21.0,31.0,Attacker
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,9329,Pedro Raul,29.0,18.0,Attacker
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,10177,Vitinho,32.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,131,Corinthians,10007,Yuri Alberto,24.0,9.0,Attacker
@@ -2037,44 +2034,45 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9589,Rafael Santos,36.0,1.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632422,Wellington,18.0,32.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,207758,Bruno Leonardo,29.0,33.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10192,Bruno Pacheco,34.0,91.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10192,Bruno Pacheco,34.0,91.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631574,Carlos,21.0,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,633456,Silva Da,26.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,633456,Silva Da,26.0,18.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106467,Doma,27.0,3.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,55185,Everton,30.0,26.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,650652,I. Gnoatto,18.0,6.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,544977,Gustavo Talles,22.0,15.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,197064,João Paulo,28.0,4.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,545022,Kauan,22.0,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,306254,Mancha,24.0,17.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,306254,Mancha,24.0,6.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9629,Marcos Vinícius,28.0,2.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9560,Rafael Thyere,32.0,15.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9666,Victor Caetano,28.0,25.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,638546,Eduardo Vinicius,20.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,638546,Eduardo Vinicius,20.0,14.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,655911,Yago,20.0,16.0,Defender
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632420,Kaue Arno,17.0,2.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,63998,Camilo,26.0,27.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,70793,W. Clar,31.0,37.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,544990,David Antunes,20.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,70793,W. Clar,31.0,37.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,544990,David Antunes,20.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10356,Giovanni Augusto,36.0,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,650653,K. Godoy,18.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,650653,K. Godoy,18.0,20.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9212,Higor Meritão,31.0,22.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,77799,Jean Carlos,33.0,20.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,237669,João Vitor,27.0,5.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632957,Miguel,19.0,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106495,Rafael Carvalheira,26.0,99.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106495,Rafael Carvalheira,26.0,99.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,455091,Robert Santos,22.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631034,Rodrigo,18.0,11.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,408347,Rubens,22.0,70.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,26991,Thomás Bedinelli,32.0,30.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,278496,Vinicius Balieiro,24.0,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631529,Wermeson,24.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631529,Wermeson,24.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631260,Alberto,20.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,651842,Bernardo,19.0,19.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,1432,Y. Bolasie,36.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,197324,Ênio,24.0,97.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,651301,T. Ferreira,18.0,21.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,634404,Gleidson,18.0,22.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,410229,Italo,23.0,77.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,410229,Italo,23.0,77.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,614597,Joao Henrique,20.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631962,Luizao,19.0,19.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10363,Marcinho,30.0,7.0,Attacker
@@ -2110,7 +2108,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,606272,Samuel,19.0,67.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,9958,Tchê Tchê,33.0,3.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,22232,Thiago Mendes,33.0,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,306261,Adson,25.0,28.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,306261,Adson,25.0,28.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505407,Andrey,20.0,74.0,Attacker
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,9975,Brenner,25.0,20.0,Attacker
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,609598,V. Joao,17.0,60.0,Attacker
@@ -2127,23 +2125,22 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10112,Santos,35.0,23.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,36258,J. Aguirre,29.0,33.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457420,Arthur Dias,18.0,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,58577,G. Benavídez,30.0,29.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,58577,G. Benavídez,30.0,29.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630991,Claudinho,20.0,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,288704,L. Esquivel,24.0,37.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,288704,L. Esquivel,24.0,37.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544703,Gilberto Junior,20.0,2.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630993,Veiga Gustavo,19.0,15.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,9951,Léo,29.0,3.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544957,Leo Derik,20.0,6.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545019,Marcos Maia,19.0,4.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13493,C. Terán,25.0,22.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,636980,Daniel Aguilar,22.0,29.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630996,Murilo Almeida,18.0,14.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,635901,Benjamin Brito,20.0,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,570392,Bruninho,17.0,48.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,570392,Bruninho,17.0,48.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630997,Chiqueti,20.0,47.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457593,Diogo Riquelme,20.0,63.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,414399,Dudu,19.0,53.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,140507,Felipinho,24.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,414399,Dudu,19.0,53.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,140507,Felipinho,24.0,5.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13669,A. García,24.0,20.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630998,Back Guilherme,19.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10091,Jádson,32.0,16.0,Midfielder
@@ -2158,7 +2155,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,472802,Kayke Santos,17.0,16.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,408145,Leozinho,27.0,21.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631973,Amorim Lucas,19.0,25.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,21394,S. Mendoza,33.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,21394,S. Mendoza,33.0,7.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544933,Renan Peixoto,25.0,70.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,311289,Renan Viana,22.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631004,Sorriso,19.0,19.0,Attacker
@@ -2194,7 +2191,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10100,L. Romero,31.0,29.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,25387,Walace,30.0,5.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,414405,K. Arroyo,19.0,99.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,9445,Bruno Rodrigues,28.0,9.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,9445,Bruno Rodrigues,28.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,36312,Francisco da Costa,30.0,91.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10008,Kaio Jorge,23.0,19.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465165,Kenji,19.0,70.0,Attacker
@@ -2203,6 +2200,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,439566,N. Villareal,20.0,22.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,2083,Wanderson,31.0,94.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,634324,Bernardo Rocha,17.0,,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,197031,Fintelman,24.0,35.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,31384,Gabriel Vasconcelos,33.0,22.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,9510,Lucas Arcanjo,27.0,1.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,635197,E. Oliveira Reis,19.0,57.0,Goalkeeper
@@ -2235,7 +2233,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,633433,Italo Machado,17.0,17.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,153837,D. Capewell,29.0,52.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,464018,Luis Aucélio,19.0,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,114436,Matheuzinho,28.0,10.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,114436,Matheuzinho,28.0,10.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,404404,Pablo,22.0,62.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,64363,Ronald,28.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,638335,N. Talero,18.0,65.0,Midfielder
@@ -2244,7 +2242,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,41580,Pedro Henrique,29.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,633443,Anderson,23.0,28.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,639902,Marcos Cabrobo,19.0,49.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9549,Erick,28.0,33.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9549,Erick,28.0,33.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,9823,Fabrício,25.0,23.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,163436,K. Saverio,26.0,19.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,11490,R. López,31.0,31.0,Attacker
@@ -2255,7 +2253,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,9726,Renato Kayzer,29.0,79.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,442404,Rene,22.0,91.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,455047,D. Tarzia,22.0,12.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,464022,Wendell Sacramento,20.0,41.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,464022,Wendell Sacramento,20.0,41.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,296061,Benassi,22.0,67.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,77918,Gabriel Leite,38.0,87.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,10370,Keiller,29.0,13.0,Goalkeeper
@@ -2292,11 +2290,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,159493,Wallisson,28.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,9208,Willian Oliveira,32.0,29.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,653237,D. Alves,18.0,33.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631679,Brayan,19.0,18.0,Attacker
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,53966,Breno Lopes,29.0,77.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,143365,Fabinho,26.0,28.0,Attacker
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,16847,Keno,36.0,20.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,315569,J. Lavega,20.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,315569,J. Lavega,20.0,7.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,631680,L. Crepaldi,18.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,410449,Lucas Ronier,21.0,11.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,147,Coritiba,631685,Paulo Roberto,20.0,19.0,Attacker
@@ -2333,14 +2330,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,310307,I. Sosa,22.0,15.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,505877,Yuri,19.0,28.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,625329,Yuri Leles,18.0,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10004,Eduardo Sasha,33.0,8.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10004,Eduardo Sasha,33.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,688,Fernando,26.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,354791,J. Herrera,22.0,32.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279811,Lucas Barbosa,24.0,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,350927,Henry Mosquera,24.0,30.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279811,Lucas Barbosa,24.0,21.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,350927,Henry Mosquera,24.0,30.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,631038,Jhuan Nunes Coelho,18.0,67.0,Attacker
 71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,70670,I. Pitta,26.0,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,431417,Vinicius,21.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,431417,Vinicius,21.0,17.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9978,Everson,35.0,22.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,311275,Gabriel Delfim,23.0,1.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,619024,Kaio Assis,17.0,43.0,Goalkeeper
@@ -2348,9 +2345,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,465184,Robert,20.0,31.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,2499,J. Alonso,32.0,6.0,Defender
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,615190,Luis Chaves,19.0,32.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10122,Renan Lodi,27.0,16.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10122,Renan Lodi,27.0,16.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,30476,Lyanco,28.0,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,197450,Natanael,23.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,197450,Natanael,23.0,2.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,609544,K. Pascini,17.0,36.0,Defender
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,2583,A. Preciado,27.0,23.0,Defender
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,404640,I. Román,19.0,3.0,Defender
@@ -2370,18 +2367,16 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,607356,F. Murillo,19.0,41.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,415069,Patrick Silva,21.0,20.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,414544,T. Pérez,20.0,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10166,Reinier,23.0,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,352371,Victor Hugo,21.0,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,18761,Bernard,33.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10166,Reinier,23.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,352371,Victor Hugo,21.0,30.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,18761,Bernard,33.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,5923,M. Cassierra,28.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,609519,Caua,17.0,29.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,6031,T. Cuello,25.0,28.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9939,Dudu,33.0,92.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,6031,T. Cuello,25.0,28.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9939,Dudu,33.0,92.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,12705,Hulk,39.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,280695,A. Minda,22.0,27.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,610496,Mosquito,17.0,41.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1198,Remo,9692,Ivan,28.0,97.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1198,Remo,613323,Joao Victor,20.0,12.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,1198,Remo,77812,Marcelo Rangel,37.0,88.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,1198,Remo,9694,Ygor Vinhas,31.0,94.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,1198,Remo,6048,B. Cufré,29.0,24.0,Defender
@@ -2403,7 +2398,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,1198,Remo,195109,Patrick de Paula,26.0,12.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1198,Remo,5211,L. Picco,27.0,14.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1198,Remo,31741,P. Tachtsidis,34.0,77.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,9962,Vitor Bueno,31.0,15.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,9962,Vitor Bueno,31.0,15.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1198,Remo,10310,Zé Ricardo,26.0,55.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1198,Remo,9882,José Welison,30.0,28.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1198,Remo,96343,Alef Manga,31.0,11.0,Attacker
@@ -2426,25 +2421,25 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640106,Victor Caua Soares,17.0,29.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9771,Daniel Borges,32.0,20.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9789,Igor Cariús,32.0,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,156191,Igor Formiga,26.0,32.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,156191,Igor Formiga,26.0,32.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,115525,João Victor,28.0,34.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9308,Lucas Oliveira,29.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,631245,Luiz Silva,18.0,35.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,649589,Marcelinho,17.0,53.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9946,Reinaldo,36.0,6.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9946,Reinaldo,36.0,6.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10488,Rodrigues,28.0,97.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9907,Victor Luís,32.0,12.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80654,Willian Machado,29.0,3.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80474,Chico,34.0,10.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,276452,Denilson,24.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,44348,Eduardo,36.0,33.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,638294,Luiz Fernando,25.0,35.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,568,Gabriel Pires,32.0,18.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,133183,José Aldo,27.0,21.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,65837,L. Mugni,34.0,26.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,504957,Neto,20.0,25.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10025,Shaylon,28.0,7.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,550705,Y. Lara,31.0,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9429,Alesson,26.0,77.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9429,Alesson,26.0,77.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,41430,André Luís,31.0,99.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640108,Vinicius Bacchi,18.0,47.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,520668,Carlos Eduardo de Barros,19.0,96.0,Attacker
@@ -2452,5 +2447,5 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54235,Everton Galdino,28.0,17.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,95392,A. Galeano,25.0,27.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9371,Nathan Fogaça,26.0,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,153458,Negueba,26.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,153458,Negueba,26.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,390,Tiquinho Soares,34.0,29.0,Attacker

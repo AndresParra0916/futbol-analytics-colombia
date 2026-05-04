@@ -13,7 +13,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1125,Millonarios,356058,Sebastián Valencia Isaza,29.0,22.0,Defender
 239,Liga BetPlay,Colombia,local,1125,Millonarios,612958,S. Castrillon,18.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,59660,M. García,27.0,19.0,Midfielder
-239,Liga BetPlay,Colombia,local,1125,Millonarios,51164,D. Quintero,38.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1125,Millonarios,51164,D. Quintero,38.0,7.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,13656,D. Silva,39.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,11805,R. Ureña,32.0,18.0,Midfielder
 239,Liga BetPlay,Colombia,local,1125,Millonarios,13643,S. Vega,27.0,28.0,Midfielder
@@ -91,7 +91,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,35554,A. Hurtado,38.0,18.0,Attacker
 239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,383800,J. Martínez,23.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,411975,J. Mena,20.0,14.0,Attacker
-239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,13530,S. Rodríguez,27.0,23.0,Attacker
+239,Liga BetPlay,Colombia,local,1127,Deportivo Cali,13530,S. Rodríguez,27.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,426553,I. Blanco,19.0,34.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,13696,E. Chaux,34.0,25.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,30493,S. Ichazo,33.0,1.0,Goalkeeper
@@ -105,7 +105,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,81033,D. Londoño,30.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,311419,K. Mantilla,22.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538299,J. Mena,19.0,21.0,Defender
-239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,36374,E. Mena,28.0,26.0,Midfielder
+239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,36374,E. Mena,28.0,26.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,13439,J. Ortiz,27.0,24.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,13313,H. Palacios,26.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,375854,M. Palacios,21.0,23.0,Defender
@@ -123,7 +123,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,437770,Andrés Felipe Dávila Mosquera,18.0,28.0,Attacker
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,6358,F. Fydriszewski,32.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,199065,E. Larrosa,24.0,9.0,Attacker
-239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538242,G. Mancilla,16.0,17.0,Attacker
+239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538242,G. Mancilla,16.0,17.0,Defender
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,414333,J. Montaño,19.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,538216,N. Segura,18.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1128,Independiente Medellin,642394,A. Ortega,19.0,45.0,Defender
@@ -167,9 +167,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1132,Chico,13821,D. Ruíz,28.0,29.0,Defender
 239,Liga BetPlay,Colombia,local,1132,Chico,555102,A. Saldana,22.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1132,Chico,538251,A. Valencia,22.0,24.0,Defender
-239,Liga BetPlay,Colombia,local,1132,Chico,396505,A. Aedo,21.0,6.0,Midfielder
-239,Liga BetPlay,Colombia,local,1132,Chico,13180,Y. Cabrera,35.0,18.0,Attacker
-239,Liga BetPlay,Colombia,local,1132,Chico,636468,Oscar Caicedo,19.0,17.0,Defender
+239,Liga BetPlay,Colombia,local,1132,Chico,396505,A. Aedo,21.0,6.0,Defender
+239,Liga BetPlay,Colombia,local,1132,Chico,13180,Y. Cabrera,35.0,18.0,Midfielder
+239,Liga BetPlay,Colombia,local,1132,Chico,636468,Oscar Caicedo,19.0,17.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,125678,J. Díaz,24.0,28.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,538319,J. Mena,23.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,345321,J. Ostos,24.0,26.0,Midfielder
@@ -184,7 +184,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1132,Chico,456741,Jhonny Jordán,24.0,27.0,Attacker
 239,Liga BetPlay,Colombia,local,1132,Chico,538323,S. Mera,24.0,16.0,Attacker
 239,Liga BetPlay,Colombia,local,1132,Chico,59607,J. Molina,32.0,9.0,Attacker
-239,Liga BetPlay,Colombia,local,1132,Chico,633610,Italo Montano,26.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1132,Chico,633610,Italo Montano,26.0,7.0,Midfielder
 239,Liga BetPlay,Colombia,local,1132,Chico,195988,J. Pimentel,23.0,21.0,Attacker
 239,Liga BetPlay,Colombia,local,1132,Chico,538236,L. C. Segura Garcia,21.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1133,Jaguares,13760,D. Martínez,36.0,1.0,Goalkeeper
@@ -206,7 +206,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1133,Jaguares,13553,F. Mosquera,30.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1133,Jaguares,555029,Y. Mosquera,30.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1133,Jaguares,284859,S. Cubides,25.0,24.0,Midfielder
-239,Liga BetPlay,Colombia,local,1133,Jaguares,13488,W. De La Rosa,32.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1133,Jaguares,13488,W. De La Rosa,32.0,20.0,Midfielder
 239,Liga BetPlay,Colombia,local,1133,Jaguares,336526,K. Lenis,24.0,18.0,Attacker
 239,Liga BetPlay,Colombia,local,1133,Jaguares,80987,D. López,33.0,26.0,Attacker
 239,Liga BetPlay,Colombia,local,1133,Jaguares,53113,J. Maza,31.0,15.0,Defender
@@ -228,19 +228,18 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538189,M. Angel Amaya Pena,21.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,362575,F. González,21.0,80.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,59410,R. Manjarrés,25.0,24.0,Midfielder
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,411170,S. Mayo,22.0,8.0,Midfielder
+239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,411170,S. Mayo,22.0,8.0,Defender
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,297717,D. Quiñonez,24.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,505532,M. Santamaria,20.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,13373,L. Vásquez,34.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,9606,F. Boné,30.0,11.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,13226,J. Caballero,27.0,23.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538196,B. Caicedo,20.0,21.0,Attacker
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,460818,F. Chaverra,22.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538218,Y. Garcia,18.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538201,R. Julio,20.0,25.0,Attacker
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,454964,D. Moncada,18.0,18.0,Midfielder
+239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,454964,D. Moncada,18.0,18.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,356517,K. Parra,22.0,10.0,Midfielder
-239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,638,I. Poveda,25.0,99.0,Attacker
+239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,638,I. Poveda,25.0,99.0,Midfielder
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,51923,F. Sanguinetti,25.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1134,Internacional de Bogota,538252,J. Valencia,21.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,13457,J. Martínez,32.0,30.0,Goalkeeper
@@ -252,7 +251,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,538301,J. Pena,26.0,98.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,555282,C. Perez,18.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,13261,J. Pestaña,28.0,24.0,Defender
-239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Defender
+239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,642908,Daniel Socarras,,19.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59441,Y. Súarez,28.0,26.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59403,F. Ángel,24.0,80.0,Midfielder
@@ -265,11 +264,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,555289,D. Villarreal,17.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,1706,C. Bacca,39.0,70.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,13709,C. Barrios,27.0,77.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,431436,J. Canchimbo,20.0,21.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,13524,B. Castrillón,26.0,88.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,431436,J. Canchimbo,20.0,21.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,13524,B. Castrillón,26.0,88.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,2492,Y. Chará,34.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,13592,T. Gutiérrez,40.0,29.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,538320,C. Olmos,20.0,2.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,53128,G. Paiva,28.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,153065,K.  Pérez,28.0,18.0,Midfielder
@@ -279,7 +278,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,195721,J. Parra,25.0,99.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,81333,J. Cardona,26.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,454541,J. Castaño,27.0,16.0,Defender
-239,Liga BetPlay,Colombia,local,1136,Once Caldas,200154,K. Cuesta,25.0,23.0,Midfielder
+239,Liga BetPlay,Colombia,local,1136,Once Caldas,200154,K. Cuesta,25.0,23.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59615,J. Cuesta,28.0,22.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,13207,E. Navarro,26.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,13368,J. Patiño,27.0,33.0,Defender
@@ -290,7 +289,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,406432,K. Tamayo,26.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,633969,R. Acuna,19.0,36.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,181420,J. Alvarado,26.0,15.0,Midfielder
-239,Liga BetPlay,Colombia,local,1136,Once Caldas,128779,E. Beltrán,26.0,8.0,Midfielder
+239,Liga BetPlay,Colombia,local,1136,Once Caldas,128779,E. Beltrán,26.0,8.0,Attacker
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59860,R. Mejía,25.0,88.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59564,J. Quiñónes,25.0,42.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,6184,A. Roa,32.0,20.0,Midfielder
@@ -298,7 +297,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,13482,I. Rojas,28.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,455897,Kevin Villada,18.0,27.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,51131,M. Barrios,34.0,7.0,Attacker
-239,Liga BetPlay,Colombia,local,1136,Once Caldas,126094,Pipe Gómez,26.0,9.0,Attacker
+239,Liga BetPlay,Colombia,local,1136,Once Caldas,126094,Pipe Gómez,26.0,9.0,Midfielder
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,6250,D. Moreno,40.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,538169,D. Quinones,30.0,70.0,Attacker
 239,Liga BetPlay,Colombia,local,1136,Once Caldas,59637,J. Zapata,25.0,14.0,Midfielder
@@ -313,7 +312,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,13575,C. Haydar,24.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,491335,F. Martínez,19.0,,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,555255,N. Parra,20.0,3.0,Defender
-239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,574172,X. Rios,19.0,31.0,Midfielder
+239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,574172,X. Rios,19.0,31.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,13642,A. Román,30.0,6.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,2487,W. Tesillo,35.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,538171,C. Uribe,18.0,5.0,Defender
@@ -330,7 +329,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,41450,C. Arango,30.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,51240,D. Asprilla,33.0,27.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,11765,E. Bello,30.0,18.0,Midfielder
-239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,1761,A. Morelos,29.0,9.0,Attacker
+239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,1761,A. Morelos,29.0,9.0,Midfielder
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,35794,M. Moreno,29.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,324615,N. Rodríguez,21.0,13.0,Attacker
 239,Liga BetPlay,Colombia,local,1137,Atletico Nacional,538215,J. Rosa,18.0,24.0,Attacker
@@ -342,7 +341,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1138,America de Cali,375842,M. Castillo,22.0,13.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,439969,B. Correa,21.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,13286,N. Hernández,27.0,22.0,Defender
-239,Liga BetPlay,Colombia,local,1138,America de Cali,59849,M. Mina,26.0,14.0,Defender
+239,Liga BetPlay,Colombia,local,1138,America de Cali,59849,M. Mina,26.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,475282,L. Mina,21.0,28.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,35483,A. Mosquera,35.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1138,America de Cali,13392,D. Rosero,32.0,3.0,Defender
@@ -359,13 +358,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1138,America de Cali,297577,T. Ángel,22.0,21.0,Midfielder
 239,Liga BetPlay,Colombia,local,1138,America de Cali,13771,D. Borrero,23.0,8.0,Attacker
 239,Liga BetPlay,Colombia,local,1138,America de Cali,451945,Y. Garcés,19.0,18.0,Attacker
-239,Liga BetPlay,Colombia,local,1138,America de Cali,303136,J. Lucumí,21.0,17.0,Midfielder
-239,Liga BetPlay,Colombia,local,1138,America de Cali,2459,D. Machís,32.0,11.0,Attacker
-239,Liga BetPlay,Colombia,local,1138,America de Cali,2451,J. Murillo,30.0,7.0,Attacker
-239,Liga BetPlay,Colombia,local,1138,America de Cali,538255,T. Palacios,20.0,19.0,Attacker
+239,Liga BetPlay,Colombia,local,1138,America de Cali,303136,J. Lucumí,21.0,17.0,Attacker
+239,Liga BetPlay,Colombia,local,1138,America de Cali,2459,D. Machís,32.0,11.0,Midfielder
+239,Liga BetPlay,Colombia,local,1138,America de Cali,2451,J. Murillo,30.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1138,America de Cali,538255,T. Palacios,20.0,19.0,Midfielder
 239,Liga BetPlay,Colombia,local,1138,America de Cali,46695,A. Ramos,39.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1138,America de Cali,16790,J. Valencia,29.0,9.0,Attacker
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,538243,J. Andrades,21.0,35.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538305,W. Asprilla,26.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13496,A. Mosquera,34.0,1.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538297,C. Nemocon,,33.0,Goalkeeper
@@ -377,14 +375,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,6639,E. Olivera,35.0,18.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,2486,H. Palacios,32.0,13.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,323288,L. Palacios,24.0,14.0,Midfielder
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,306718,Y. Perlaza,22.0,27.0,Midfielder
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,306718,Y. Perlaza,22.0,27.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,59514,M. Puerta,28.0,4.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,59416,I. Scarpeta,29.0,15.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,311421,S. Tamayo,23.0,25.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538250,K. Cortes,22.0,30.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,288239,E. Murillo,25.0,21.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,46720,D. Torres,36.0,16.0,Midfielder
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,608593,J. Torres,22.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,608593,J. Torres,22.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,356522,K. Toscano,21.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13290,Y. Velásquez,26.0,20.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13485,A. Zapata,30.0,10.0,Midfielder
@@ -394,7 +392,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,35751,O. Fernández,32.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,6523,M. Lovera,26.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,59617,J. Melendez,23.0,5.0,Defender
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,13528,E. Mosquera,24.0,22.0,Midfielder
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,13528,E. Mosquera,24.0,22.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13755,J. Obrian,30.0,77.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,643030,Martin Palacios,18.0,40.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,49892,H. Rodallega,40.0,11.0,Attacker
@@ -421,7 +419,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,640054,Jose Hinojosa,,21.0,Midfielder
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,633607,William Meza Mercado Ever,25.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538322,E. Perez,19.0,25.0,Midfielder
-239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538184,C. Villegas,20.0,14.0,Defender
+239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538184,C. Villegas,20.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538179,S. A. Aponza Cantonil,20.0,11.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,35986,A. Del Valle,36.0,77.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,352514,Yeiner Stiwar Londoño Rentería,25.0,27.0,Midfielder
@@ -432,7 +430,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538257,J. Osorio,19.0,28.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,35722,F. Pardo,35.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,638479,Eudy Perez,19.0,4.0,Attacker
-239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538280,L. Valencia,18.0,20.0,Midfielder
+239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538280,L. Valencia,18.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1141,Alianza Valledupar,538228,J. Valoyes,16.0,30.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,451946,J. Azcarate,20.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,362868,G. Balanta,23.0,23.0,Goalkeeper
@@ -441,7 +439,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,79170,A. Angulo,29.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,371249,J. Angulo,24.0,3.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13460,C. Arrieta,29.0,17.0,Defender
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,555096,S. P. Barbosa Gomez,21.0,30.0,Midfielder
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,555096,S. P. Barbosa Gomez,21.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,637640,S. Cabezas,,26.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,127601,J. Hernández,26.0,20.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,538318,M. Martinez,19.0,27.0,Defender
@@ -449,55 +447,55 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,59588,J. Mosquera,26.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,2443,Y. Osorio,31.0,71.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,200156,D. Pedrozo,21.0,4.0,Defender
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13679,S. Guzmán,28.0,32.0,Defender
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13679,S. Guzmán,28.0,32.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,538281,Y. Moreno,17.0,31.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13682,J. Nieto,32.0,15.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,491473,V. Reyes,18.0,16.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,364816,É. Ricardo,21.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13304,B. Rovira,29.0,80.0,Midfielder
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,356516,J. Torres,21.0,10.0,Attacker
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,356516,J. Torres,21.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13372,C. Trujillo,27.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,647225,Nilder Zapata,17.0,25.0,Midfielder
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,373765,K. Flórez,21.0,18.0,Attacker
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,373765,K. Flórez,21.0,18.0,Midfielder
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,417285,J. Fuentes,20.0,25.0,Attacker
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,207764,J. González,24.0,7.0,Midfielder
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,6417,E. López,30.0,28.0,Midfielder
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,207764,J. González,24.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,6417,E. López,30.0,28.0,Defender
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,59642,A. Parra,28.0,24.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,538333,Y. A. Parra,18.0,21.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,638681,Neifer Sanchez,,29.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,59414,L. Sandoval,26.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,647783,Joven Santiago,,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13663,J. Valencia,26.0,11.0,Attacker
-239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13522,E. Valencia,28.0,8.0,Midfielder
+239,Liga BetPlay,Colombia,local,1142,Deportes Tolima,13522,E. Valencia,28.0,8.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,2480,I. Arboleda,29.0,1.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,648737,Juan Hurtado,19.0,34.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,577878,A. Salazar,31.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,555015,A. Alvarez,26.0,18.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,538343,G. Cadavi,18.0,18.0,Defender
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,538343,G. Cadavi,18.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,645188,Gabriel Cadavid,18.0,33.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13605,J. García,36.0,2.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13169,D. Hernández,25.0,5.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,353424,A. Higgins,20.0,20.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,330300,N. Lara,22.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,70581,H. Lópes,34.0,29.0,Defender
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,344164,D. Lozano,23.0,26.0,Defender
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,441050,J. Mena,21.0,32.0,Defender
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,344164,D. Lozano,23.0,26.0,Midfielder
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,441050,J. Mena,21.0,32.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,51483,J. Varela,27.0,3.0,Defender
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,351926,J. Ávalo,24.0,24.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,405536,R. Benítez,20.0,90.0,Midfielder
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,405536,R. Benítez,20.0,90.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,59469,F. Lozano,32.0,19.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,59762,J. Pineda,28.0,16.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13520,A. Ricaurte,34.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,59526,J. Roa,31.0,25.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,554949,C. Caicedo,23.0,7.0,Attacker
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,554949,C. Caicedo,23.0,7.0,Midfielder
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,190475,C. Cañozales,26.0,11.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13554,J. Obregón,28.0,99.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,405537,J. Palacio,22.0,80.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,648738,Juan Quintero,18.0,33.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,393877,Jorge Luis Rivaldo Pinto,22.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,13492,C. Rojas,27.0,16.0,Attacker
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,373771,F. Suárez,21.0,15.0,Midfielder
-239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,79590,B. Urueña,33.0,10.0,Midfielder
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,373771,F. Suárez,21.0,15.0,Attacker
+239,Liga BetPlay,Colombia,local,1144,Águilas Doradas,79590,B. Urueña,33.0,10.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,410104,M. Barragán,21.0,32.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,339312,C. Santander,22.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,52915,M. Silva,25.0,1.0,Goalkeeper
@@ -511,8 +509,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13393,A. Arroyo,23.0,33.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,369699,K. Balanta,21.0,17.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13515,Y. Díaz,28.0,6.0,Defender
+239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,657510,J. Garcia,,27.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13638,S. Navarro,25.0,8.0,Midfielder
-239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,606946,C. Orozco,17.0,20.0,Defender
+239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,606946,C. Orozco,17.0,20.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,524433,Sebastian Palacios,20.0,22.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,13586,L. Pico,34.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,465668,S. Ramíirez,19.0,21.0,Midfielder
@@ -525,7 +524,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,442023,J. Martínez,20.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,566360,F. Pulicastro,26.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,634558,R. D. Rivas Torres,20.0,26.0,Midfielder
-239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,415272,J. Salas,22.0,24.0,Midfielder
+239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,415272,J. Salas,22.0,24.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,636712,J. Sinisterra,17.0,23.0,Attacker
 239,Liga BetPlay,Colombia,local,1147,Fortaleza FC,342048,T. Wilke Braams,23.0,29.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,555309,J. Betancourth,21.0,12.0,Goalkeeper
@@ -533,9 +532,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612950,M. Lopez,,35.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,620466,J. Martinez,19.0,1.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,638481,Jorge Mosquera,19.0,1.0,Goalkeeper
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612960,S. Zuluaga,18.0,33.0,Goalkeeper
+239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612960,S. Zuluaga,18.0,12.0,Goalkeeper
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,133128,S. Aguilar,27.0,15.0,Defender
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612949,S. Alzate Uribe,18.0,31.0,Defender
+239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612949,S. Alzate Uribe,18.0,34.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,294466,T. Bovone,26.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59507,F. Delgado,26.0,25.0,Defender
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59471,J. Monroy,29.0,20.0,Midfielder
@@ -551,7 +550,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59593,J. Bermúdez,24.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,59400,D. Mendoza,24.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612951,J. Montoya,19.0,13.0,Midfielder
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,651182,J. Morales,21.0,13.0,Attacker
+239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,651182,J. Morales,21.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,13438,Ederson Moreno,31.0,14.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,306783,Eber Moreno,23.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,643745,Luis Moreno,24.0,37.0,Midfielder
@@ -563,7 +562,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,13430,S. Acosta,31.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,569006,A. Calderon,16.0,31.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,653080,M. Diaz,20.0,31.0,Attacker
-239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612953,G. Garcia,19.0,17.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,348333,J. Largacha,24.0,11.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,612955,J. Lopez,18.0,31.0,Attacker
 239,Liga BetPlay,Colombia,local,1462,Deportivo Pereira,650008,M. Patino,18.0,34.0,Attacker
@@ -590,13 +588,13 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1464,Llaneros,440683,J. RamÃ­rez,23.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,371252,E. Restrepo,26.0,5.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,36269,Marlon Ricardo Sierra Zamora,31.0,6.0,Midfielder
-239,Liga BetPlay,Colombia,local,1464,Llaneros,301275,J. Blanco,25.0,15.0,Attacker
+239,Liga BetPlay,Colombia,local,1464,Llaneros,301275,J. Blanco,25.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,323778,É. Bodencer,25.0,24.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,207225,C. Cortés,24.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,13157,J. Vásquez,30.0,95.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,13714,D. Mantilla,29.0,19.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,538186,L. Marimon,21.0,11.0,Attacker
-239,Liga BetPlay,Colombia,local,1464,Llaneros,13348,L. Miranda,28.0,7.0,Defender
+239,Liga BetPlay,Colombia,local,1464,Llaneros,13348,L. Miranda,28.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1464,Llaneros,363371,N. Ospina,22.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1464,Llaneros,538332,K. Rincon,,77.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,566614,F. Abadia,27.0,24.0,Goalkeeper
@@ -616,7 +614,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1470,Cucuta,13640,L. Payares,35.0,30.0,Defender
 239,Liga BetPlay,Colombia,local,1470,Cucuta,419766,J. Quiñónes,21.0,4.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,13738,S. Rodríguez,25.0,28.0,Defender
-239,Liga BetPlay,Colombia,local,1470,Cucuta,306733,L. Berdugo,23.0,7.0,Midfielder
+239,Liga BetPlay,Colombia,local,1470,Cucuta,306733,L. Berdugo,23.0,7.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,554913,A. Cano,24.0,70.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555184,J. Castellanos,20.0,77.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,126093,J. Ceballos,27.0,8.0,Midfielder
@@ -626,11 +624,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1470,Cucuta,6124,L. Ríos,27.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,16349,S. Támara,29.0,33.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,13344,J. Agudelo,33.0,32.0,Attacker
-239,Liga BetPlay,Colombia,local,1470,Cucuta,408371,E. Arízalas,24.0,11.0,Attacker
+239,Liga BetPlay,Colombia,local,1470,Cucuta,408371,E. Arízalas,24.0,11.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555164,H. Beltran,19.0,77.0,Attacker
-239,Liga BetPlay,Colombia,local,1470,Cucuta,61363,F. Castañeda,31.0,23.0,Defender
+239,Liga BetPlay,Colombia,local,1470,Cucuta,61363,F. Castañeda,31.0,23.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,52430,L. Hernández,24.0,90.0,Attacker
-239,Liga BetPlay,Colombia,local,1470,Cucuta,427330,J. Peralta,20.0,9.0,Midfielder
+239,Liga BetPlay,Colombia,local,1470,Cucuta,427330,J. Peralta,20.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555163,D. Gelvez,17.0,20.0,Attacker
 239,Liga BetPlay,Colombia,local,1470,Cucuta,635782,Breiner Rodriguez,,13.0,Midfielder
 239,Liga BetPlay,Colombia,local,1470,Cucuta,555080,J. Valencia,23.0,19.0,Attacker

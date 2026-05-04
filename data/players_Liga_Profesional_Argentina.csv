@@ -62,6 +62,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,642174,L. Pereyra,18.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,6005,J. Quintero,32.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,414329,A. Ruberto,19.0,32.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,657681,L. Silva,19.0,44.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,214,F. Colidio,25.0,11.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,1222,S. Driussi,29.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,435,River Plate,560314,J. Freitas,18.0,35.0,Attacker
@@ -71,12 +72,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6364,F. Cambeses,28.0,25.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,363338,F. Gómez,21.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,5624,M. Tagliamonte,27.0,30.0,Goalkeeper
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,295508,E. Cannavo,23.0,4.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,295508,E. Cannavo,23.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,125177,N. Colombo,26.0,23.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,289466,M. Di Cesare,23.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,63937,A. García,33.0,2.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,515930,B. González,18.0,31.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,197520,G. Martirena,25.0,15.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,197520,G. Martirena,25.0,15.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6573,F. Pardo,28.0,18.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6608,G. Rojas,28.0,27.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,890,M. Rojo,35.0,6.0,Defender
@@ -84,19 +85,19 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6006,S. Sosa,26.0,13.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,465127,G. Volpe,21.0,42.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,341646,V. Carboni,20.0,21.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,169928,A. Fernández,24.0,24.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,169928,A. Fernández,24.0,24.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,472128,A. Forneris,20.0,8.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6719,M. Miljevic,24.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,645058,E. Perez,17.0,45.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,363341,B. Gallego,22.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,310181,I. Rodríguez,23.0,19.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,310181,I. Rodríguez,23.0,19.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,599944,F. Schaare,20.0,59.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,415029,G. Sosa,20.0,44.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,472570,A. Tello,17.0,46.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,2477,M. Zaracho,27.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6008,B. Zuculini,32.0,36.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,70749,A. Martínez,33.0,9.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,51241,T. Conechny,27.0,17.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,51241,T. Conechny,27.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,421048,T. Pérez,19.0,58.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,344165,D. Pizarro,20.0,14.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,170127,S. Solari,27.0,28.0,Attacker
@@ -105,7 +106,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,6492,J. Ledesma,32.0,23.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,641325,Leonardo Sosa,18.0,48.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,5962,G. Ávila,24.0,13.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,599935,M. Cabrera,19.0,7.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,599935,M. Cabrera,19.0,7.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,655327,Franco Castorani,20.0,52.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,6367,E. Coronel,28.0,32.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,636717,A. Guich,16.0,36.0,Defender
@@ -123,7 +124,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,460106,S. Beltrán,21.0,,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,653230,B. Cantero,17.0,40.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,5916,G. Fernández,34.0,28.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,70700,E. Giménez,27.0,16.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,70700,E. Giménez,27.0,16.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,129878,F. Ibarra,24.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,637587,Paolo Lescano,18.0,44.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,437,Rosario Central,6241,F. Navarro,25.0,31.0,Midfielder
@@ -173,7 +174,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,455313,M. Daniele,21.0,28.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,653527,S. Ferez,20.0,60.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5161,M. Vicentini,35.0,23.0,Goalkeeper
-128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,354681,Alcides Benítez,23.0,26.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,354681,Alcides Benítez,23.0,26.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,646881,J. Biani,,43.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,646882,T. Charras,,44.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,636718,A. Falcon,21.0,45.0,Defender
@@ -182,7 +183,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,6368,A. Maldonado,28.0,2.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5822,L. Morales,34.0,14.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,513437,Álvaro Ocampo,21.0,13.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,46820,F. Ricca,31.0,16.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,46820,F. Ricca,31.0,16.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,646937,A. Rosso,,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,6371,A. Spörle,30.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,406161,T. Castro,23.0,59.0,Midfielder
@@ -195,7 +196,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,422464,J. Mavilla,25.0,32.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5978,A. Sánchez,26.0,21.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,524227,R. Tulián,17.0,15.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,2057,F. Vázquez,36.0,20.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,2057,F. Vázquez,36.0,20.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,35528,L. Zelarayán,33.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,5952,N. Fernández,29.0,22.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,440,Belgrano Cordoba,6714,F. González,28.0,11.0,Midfielder
@@ -222,7 +223,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,538364,S. Grella,20.0,46.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,6152,L. Menossi,33.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,167652,J. Palacios,26.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,323847,N. Palavecino,22.0,8.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,323847,N. Palavecino,22.0,8.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,6123,M. Pittón,31.0,30.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,5921,A. Solari,33.0,23.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,441,Union Santa Fe,555909,M. Aguirre,18.0,31.0,Attacker
@@ -275,10 +276,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,6111,F. Vera,27.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,510978,Luca Babino,20.0,28.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,74973,L. Carrizo,28.0,3.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,351923,Ó. Cortés,22.0,7.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,351923,Ó. Cortés,22.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,6511,L. Gil,34.0,8.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516763,F. Kalinger,20.0,52.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516757,L. Mora,19.0,41.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516757,L. Mora,19.0,41.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,6513,E. Ojeda,28.0,20.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516760,T. Peralta,17.0,23.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,445,Huracan,516761,T. Pérez,19.0,37.0,Midfielder
@@ -297,14 +298,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,491805,Alexis González,20.0,22.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,6567,T. Guidara,29.0,33.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,5965,C. Izquierdoz,37.0,24.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,449248,T. Laplace,19.0,39.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,449248,T. Laplace,19.0,39.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,129986,S. Marcich,27.0,6.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,5295,N. Morgantini,31.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,197062,G. Pérez,24.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,517351,T. Quiroz,20.0,32.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,465141,L. Romero,19.0,2.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,465140,F. Sánchez,20.0,27.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,423866,D. Aquino,20.0,25.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,465140,F. Sánchez,20.0,27.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,423866,D. Aquino,20.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,70732,J. Canale,29.0,13.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,6147,A. Cardozo,28.0,30.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,446,Lanus,6030,R. Carrera,32.0,23.0,Midfielder
@@ -357,7 +358,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,429,F. Muslera,39.0,16.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,2508,S. Arzamendia,27.0,15.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,289472,G. Benedetti,24.0,13.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,515938,M. Desábato,20.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,1688,R. Funes Mori,34.0,26.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,50875,L. González,33.0,14.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,463861,M. Magdaleno,18.0,37.0,Defender
@@ -376,7 +376,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,206984,T. Palacios,24.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,5275,Lucas Ezequiel Piovi,33.0,21.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,49887,J. Sosa,40.0,7.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,289465,B. Aguirre,22.0,28.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,289465,B. Aguirre,22.0,28.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,982,L. Alario,33.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,463859,F. Basualdo,18.0,38.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,450,Estudiantes L.P.,463852,J. Burgos,21.0,17.0,Attacker
@@ -446,10 +446,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,392734,J. Saralegui,22.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,458318,T. Serrago,21.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,506461,M. Fernández,21.0,18.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,414392,S. López,19.0,22.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,414392,S. López,19.0,22.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,70490,A. Oviedo,30.0,19.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,560390,I. Peluffo,,50.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,646546,Marco Rivas,17.0,72.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,646546,Marco Rivas,17.0,77.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,194905,D. Romero,22.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,452,Tigre,289448,I. Russo,25.0,29.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,453,Independiente,162447,J. Blázquez,24.0,1.0,Goalkeeper
@@ -543,9 +543,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,196005,B. Barticciotto,24.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,516785,E. Chiavassa,19.0,36.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,501779,V. Dávila,18.0,49.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,133621,V. Depietri,25.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,133621,V. Depietri,25.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,95314,R. Martínez,29.0,77.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,119666,Rick,26.0,37.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,119666,Rick,26.0,37.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,456,Talleres Cordoba,6254,D. Valoyes,29.0,7.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,2547,G. Arias,38.0,21.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,289461,W. Barlasina,27.0,1.0,Goalkeeper
@@ -574,10 +574,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,58954,F. García,28.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,506278,T. Gigena,20.0,16.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,511036,Facundo Gauch,18.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,58668,L. Herrera,29.0,27.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,58668,L. Herrera,29.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,59231,W. Mazzantti,29.0,18.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,657006,Sebastian Montero,21.0,,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,368992,W. Núñez,22.0,33.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,368992,W. Núñez,22.0,33.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,237210,F. Orozco,23.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,51560,I. Ramírez,28.0,99.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,457,Newells Old Boys,579715,T. Rios,19.0,39.0,Midfielder
@@ -609,9 +609,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,6070,L. Fernández,34.0,18.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,645326,R. Fernandez,19.0,38.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,296671,L. Giaccone,24.0,7.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,560435,F. Jainikoski,17.0,48.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,560435,F. Jainikoski,17.0,48.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,373589,R. Kida,20.0,34.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,75989,T. Molina,30.0,27.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,75989,T. Molina,30.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,2565,I. Morales,26.0,30.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,463830,D. Porcel,20.0,47.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,545957,K. Ryouga,20.0,34.0,Attacker
@@ -649,7 +649,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,5925,A. Cuello,25.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,13526,D. Herazo,29.0,18.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,369729,M. Hernández,20.0,44.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,170829,M. Reali,28.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,170829,M. Reali,28.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,319396,G. Rodríguez,25.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,506475,Branco Salinardi,18.0,22.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,460,San Lorenzo,19036,L. Vietto,32.0,19.0,Attacker
@@ -682,6 +682,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,6191,N. Cordero,26.0,19.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,51757,M. da Luz,31.0,77.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,356278,F. De La Vega,22.0,22.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,560350,A. Fernandez,20.0,48.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,5504,T. Fernández,27.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,195757,N. Guzmán,26.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,456937,D. Juárez,18.0,29.0,Attacker
@@ -689,7 +690,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,288756,R. Márquez,23.0,20.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,344891,B. Palavecino,22.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,463,Aldosivi,372117,A. Villarreal,20.0,30.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,613326,Nicolás Bolcato,21.0,30.0,Goalkeeper
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,613326,Nicolás Bolcato,21.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,288693,Emmanuel Gómez,24.0,21.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,5622,R. Macagno,28.0,12.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,501780,T. Andino,22.0,45.0,Defender
@@ -706,7 +707,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,70790,I. Villalba,30.0,40.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,292885,T. Bottari,24.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,288705,L. Bucca,26.0,8.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,59088,D. Crego,28.0,27.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,59088,D. Crego,28.0,27.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,119809,J. Florentín,29.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,289431,S. Moreyra,24.0,34.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,314410,T. Muro,23.0,23.0,Midfielder
@@ -716,11 +717,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,167651,L. Sequeira,22.0,77.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,388480,K. Vázquez,24.0,32.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,95460,A. Arce,30.0,9.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,362740,R. Atencio,23.0,19.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,362740,R. Atencio,23.0,19.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,524235,B. DadÃ­n,19.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,6329,V. Ramis,31.0,7.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,354677,F. Sartori,23.0,43.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,2494,S. Villa,29.0,22.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,354677,F. Sartori,23.0,43.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,473,Independ. Rivadavia,2494,S. Villa,29.0,22.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,426454,T. Ayala,24.0,12.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,16408,J. Burrai,35.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,636824,D. Monza,17.0,23.0,Goalkeeper
@@ -751,7 +752,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,636452,Ulises Delgado,23.0,16.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,70568,D. Churín,36.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,449511,Alexis González,20.0,32.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,6119,G. González,24.0,22.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,5561,P. Magnín,35.0,7.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,70638,J. Marabel,27.0,27.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,474,Sarmiento Junin,472197,Brandon Márquez,20.0,40.0,Attacker
@@ -761,14 +761,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,638291,Jorge Luque,22.0,26.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,507607,M. Aiello,21.0,17.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,6496,M. Barbieri,32.0,6.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5570,M. Bracamonte,26.0,36.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5570,M. Bracamonte,26.0,36.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,642910,Alejo Duarte,20.0,39.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,296833,R. Gallo,25.0,13.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59338,J. Goitía,31.0,27.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,294447,F. Miño,26.0,24.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59342,Y. Murillo,32.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5545,C. Paz,30.0,22.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278365,P. Ramírez,25.0,5.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278365,P. Ramírez,25.0,5.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,75690,J. Randazzo,31.0,19.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,639227,J. Rodriguez Ares,23.0,33.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59056,R. Sayavedra,30.0,28.0,Attacker
@@ -778,6 +778,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,536919,P. Madero,26.0,25.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,294454,P. Monje,28.0,14.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,263698,Johnson Nsumoh Kalu,24.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,440094,B. Pérez,19.0,45.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5361,M. Ramírez,30.0,23.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,639228,D. Sanchez,19.0,37.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5526,N. Sansotre,32.0,15.0,Midfielder
@@ -787,7 +788,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5415,N. Benegas,29.0,8.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,6617,A. Díaz,25.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,540441,L. Duarte,20.0,39.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278607,G. Flores,23.0,32.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,278607,G. Flores,23.0,32.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,59355,J. Herrera,34.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,5478,J. Ingratti,25.0,21.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,476,Deportivo Riestra,411409,G. Obredor,28.0,40.0,Midfielder
@@ -830,12 +831,9 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,75893,B. Bustos,29.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,129888,N. Sumavil,26.0,22.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,613328,Thiago Currado,19.0,41.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,5485,G. Goñi,27.0,42.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,524454,Stefan Đokić,31.0,38.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,129905,A. Lagos,24.0,4.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,538360,A. Maglione,20.0,,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,459866,M. Mendia,21.0,34.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,404631,S. Quirós,22.0,35.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,366554,E. Raggio,24.0,6.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,170010,J. Saborido,27.0,25.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,353488,T. Silva,22.0,3.0,Defender
@@ -852,7 +850,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,322307,F. Zapiola,24.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,480881,Benjamín Bosch,20.0,47.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,459877,S. Dalmasso,21.0,27.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,196750,J. Gauto,21.0,33.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,196750,J. Gauto,21.0,33.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,6591,G. Lencina,28.0,99.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,6129,A. Lotti,29.0,21.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,6059,G. Mainero,30.0,7.0,Midfielder
@@ -861,7 +859,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,463850,T. Nasif,21.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,58544,N. Retamar,26.0,43.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,451011,M. Tucker,21.0,28.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,1064,Platense,524735,Stefan Dajić,18.0,39.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,6330,A. Aguerre,35.0,1.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,426313,J. Vallejos,22.0,25.0,Goalkeeper
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,433517,Lucas Bernabéu,21.0,26.0,Defender
@@ -877,7 +874,6 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,414153,A. Quiroga,23.0,23.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,354790,J. Cardozo,21.0,55.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,313063,T. Cravero,30.0,5.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,47260,S. Cristóforo,32.0,41.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,126671,L. González,25.0,18.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,59201,M. Iacobellis,26.0,10.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1065,Central Cordoba de Santiago,6238,F. Juárez,27.0,8.0,Midfielder
@@ -909,11 +905,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5170,F. Antonini,28.0,21.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,309626,N. Barboza,26.0,5.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,425728,J. Ceballos,21.0,19.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,108437,B. Ferreyra,29.0,9.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,108437,B. Ferreyra,29.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,6381,N. Linares,29.0,8.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,311341,T. O&apos;Connor,21.0,28.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5949,T. Ortiz,25.0,20.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,6384,J. Álvarez,29.0,18.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,6384,J. Álvarez,29.0,18.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5364,B. Andrada,28.0,33.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,70841,B. Armoa,25.0,27.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,371639,A. Cervera,23.0,37.0,Attacker
@@ -922,6 +918,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,312314,F. Lencioni,24.0,26.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,440074,A. Módica,22.0,29.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,58688,S. Rodríguez,28.0,11.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,5368,N. Romano,26.0,10.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,296125,I. Sabatini,26.0,17.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,135336,U. Sánchez,27.0,15.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,1066,Gimnasia M.,459878,V. Simoni,21.0,35.0,Attacker
@@ -972,7 +969,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,41409,G. Campi,34.0,37.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,126866,N. Capraro,27.0,2.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,5541,N. Demartini,26.0,31.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,368991,K. Jappert,21.0,14.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,368991,K. Jappert,21.0,14.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,6109,D. Martínez,35.0,4.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,67906,Y. Rak,32.0,15.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,35712,F. Tobio,36.0,32.0,Defender
@@ -991,7 +988,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,52000,J. Candia,30.0,20.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,6192,L. Gamba,38.0,21.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,503556,Ivan Guaraz,20.0,16.0,Attacker
-128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,156767,R. Insúa,28.0,6.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,156767,R. Insúa,28.0,6.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,390809,J. Morales,22.0,9.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,216526,W. Rivera,22.0,23.0,Attacker
 128,Liga Profesional Argentina,Argentina,sudamerica,2432,Barracas Central,498459,V. GandÃ­n,18.0,22.0,Attacker
