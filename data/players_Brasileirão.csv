@@ -1,825 +1,827 @@
 league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,number,position
-71,Brasileirão,Brazil,sudamerica,118,Bahia,634326,F. Ferreira,18,81.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,118,Bahia,9979,João Paulo,30,34.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10109,Léo Vieira,35,22.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,118,Bahia,657690,J. C. Neres dos Santos I.,19,91.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,118,Bahia,9512,Ronaldo,29,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,118,Bahia,407275,Victor,19,61.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10351,David Duarte,30,33.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,454143,DodÃ´,19,53.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,505598,Fred,19,83.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,353728,Gabriel Xavier,24,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,463667,Gerald,18,54.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10305,Gilberto,32,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,459837,Roman Gomez,21,31.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10375,Iago,28,25.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10059,Kanu,28,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,197383,Luciano Juba,26,46.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,454562,Luiz Gustavo,19,43.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,350808,Marcos Victor,24,44.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,129880,S. Ramos,24,21.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,411433,Zé Guilherme,20,66.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,180236,Caio Alexandre,26,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,510204,David Martins,18,63.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10130,Erick,28,14.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10168,Éverton Ribeiro,36,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,9994,Jean Lucas,27,6.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,51545,N. Acevedo,26,5.0,Defender
-71,Brasileirão,Brazil,sudamerica,118,Bahia,454146,Pedro Henrique,19,58.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,9954,Rodrigo Nestor,25,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,409289,Roger,18,80.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,407265,Sidney,19,55.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,454145,Wendel Silva,19,67.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,9854,Ademir,30,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,607365,C. Suassuna,18,90.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,510677,Dell,17,89.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,303127,Erick Pulga,25,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,10222,Everaldo,34,27.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,409288,João Coni,19,78.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,525667,Çağatay Yılmaz,21,57.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,544701,Lyan Araujo,16,71.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,51701,M. Araújo,29,15.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,634401,R. Nascimento,17,72.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,67902,C. Olivera,23,99.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,118,Bahia,633434,Ruan Roger,21,82.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,454147,Ruan Pablo,17,77.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,355253,M. Sanabria,21,23.0,Attacker
-71,Brasileirão,Brazil,sudamerica,118,Bahia,47319,Willian José,34,12.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,306552,Anthoni,23,12.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,119,Internacional,624986,Diego Esser,20,32.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,119,Internacional,415046,Kauan,22,22.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,119,Internacional,50077,S. Rochet,32,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,119,Internacional,288720,B. Aguirre,25,35.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,577746,Alisson,17,30.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,129902,A. Bernabéi,25,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,633308,Eduardo Carlos,19,39.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,279579,Clayton,25,20.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,9912,Juninho,30,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,633307,Lazaro,18,40.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,638214,D. Marfo,20,43.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,197051,Matheus Bahia,26,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,2044,G. Mercado,38,25.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,505150,Pablo,19,42.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,463956,Pedro Kauã,19,46.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,63964,F. Torres,28,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,305042,Victor Gabriel,21,41.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,692,Alan Patrick,34,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,415052,Allex,19,31.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,610495,B. Arhin,19,33.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,143368,Bruno Gomes,24,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,9921,Bruno Henrique,36,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,633310,Joao Gabriel Kempes Goncalves,16,51.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,633309,Alves Kauan,19,50.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,96353,Paulinho,28,27.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,10240,Richard,31,36.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,51468,A. Rodríguez,25,14.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,10167,Ronaldo,29,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,22231,Thiago Maia,28,29.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,6519,R. Villagra,24,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,9893,Alerrandro,25,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,6011,R. Borré,30,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,41368,Tabata,28,17.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,13691,J. Carbonero,26,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,407013,Diego Coser,20,38.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,609580,J. Bezerra,16,49.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,633284,Victor Joao,18,44.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,305819,Kayky,22,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,520576,Raykkonen Pereira Soares,17,48.0,Attacker
-71,Brasileirão,Brazil,sudamerica,119,Internacional,10147,Vitinho,26,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,119,Internacional,463962,Yago,18,37.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,292166,Léo Linck,24,24.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,410134,C. Loor,19,40.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,912,Neto,36,22.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,80188,Raul,28,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,378,Alex Telles,33,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,5933,A. Barboza,30,20.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,1845,Bartolomeu Jacinto Quissanga,34,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,283837,Caio Roque,23,27.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,2440,N. Ferraresi,27,5.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,561346,Gabriel Abdias,19,36.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,414428,J. Hernández,19,67.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,505409,Huguinho,18,75.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,614641,F. Januario,18,21.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,613321,Kadu Santos,20,42.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,474102,Kauã Branco,19,53.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,634521,J. Lira,17,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,652,Marçal,36,21.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,544705,Marquinhos,18,64.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,297687,M. Ponte,22,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,8661,Vitinho,26,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,426627,Ythallo,21,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,326,Allan,34,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,609493,Arthur Novaes,17,48.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,410843,J. Barrera,19,14.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,403670,Bernardo Valim,19,80.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,506276,Caio Valle,18,45.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,275170,Danilo,24,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,10387,Edenílson,36,88.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,635348,Pedro Henrique de Paula Martins,17,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,544707,G. Justino,19,34.0,Defender
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,414352,Lucas Camilo,19,78.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,237186,C. Medina,23,6.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,609481,Miguel Caldas,17,47.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,455130,Álvaro Montoro,18,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,634522,D. Nery,17,68.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,277169,Newton,25,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,51581,S. Rodríguez,25,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,463987,Wallace II,18,55.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,9938,Arthur Cabral,27,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,614621,Arthur Izaque,18,39.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,544681,K. Barria,18,37.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,1854,J. Correa,31,30.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,10432,Júnior Santos,31,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,413140,Kauan Toledo,19,59.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,305821,Matheus Martins,22,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,614654,Matheusinho,18,57.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,419936,Nathan Fernandes,20,16.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,104792,Chris Ramos,28,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,634523,Rogerinho,17,2.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,609507,Samuel,17,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,308798,L. Villalba,24,77.0,Attacker
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,464019,Aranha,20,24.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10373,Carlos Miguel,27,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,580796,K. Lima,18,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,512533,Luiz Felipe,18,51.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10372,Marcelo Lomba,39,14.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,425715,Arthur,20,56.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,415068,Benedetti,19,43.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10379,Bruno Fuchs,26,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,306706,A. Giay,21,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,2502,G. Gómez,32,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,311384,Jefté,22,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10125,Khellven,24,12.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10083,Murilo,28,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,51466,J. Piquerez,27,22.0,Defender
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,425714,Allan,21,40.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,899,Andreas Pereira,29,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,575323,Larson,20,48.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,21095,Lucas Evangelista,30,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,574837,Luis Felipe,17,50.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,9218,Marlon Freitas,30,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,153083,E. Martínez,26,32.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,106485,Maurício,24,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,196298,R. Sosa,26,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,13708,J. Arias,28,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,512522,Erick Machado,18,45.0,Attacker
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,2412,Felipe Anderson,32,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,516815,Ramon Riquelme,19,37.0,Attacker
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,295513,J. López,25,42.0,Attacker
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,449244,Luighi Hanri,19,31.0,Attacker
-71,Brasileirão,Brazil,sudamerica,121,Palmeiras,340279,Vitor Roque,20,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10080,Fábio,45,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,180866,Marcelo,23,27.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,634765,L. Santana,17,50.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10079,Vitor Eudes,27,98.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,505398,Davi Schuindt,21,40.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,6337,J. Freytes,25,22.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,9874,Guga,27,23.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,2038,Guilherme Arana,28,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10017,Ignacio,29,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,9872,Igor Rabello,30,21.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,282692,Jemmes,25,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,443088,Julio Fidelis,19,46.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,544690,Leo Jance,20,66.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,463986,João Loiola,20,41.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,13715,J. Millán,27,29.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10163,Renê,33,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10267,Samuel Xavier,35,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,50763,L. Acosta,31,32.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,405028,Agner,20,43.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10501,Alisson,32,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,316519,F. Bernal,22,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,505401,Davi Melo,20,91.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,266267,Hércules,25,35.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,280245,Martinelli,24,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,609503,Naara,18,58.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10396,Nonato,27,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,1262,Otávio,31,94.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,10311,PH Ganso,36,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,502726,Riquelme,18,28.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,51214,J. Savarino,29,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,13523,G. Cano,37,14.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,51603,A. Canobbio,27,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,304048,R. Castillo,26,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,297522,John Kennedy,23,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,519809,Keven Samuel,18,39.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,634370,Matheus Reis,18,15.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,70849,K. Serna,28,90.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,2454,Y. Soteldo,28,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,124,Fluminense,568706,Wesley Nata,17,34.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,50726,Carlos Coronel,29,31.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,10081,Rafael,36,23.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,311517,Young,23,50.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,516821,Nicolas,18,56.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,6237,E. Díaz,30,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,6083,A. Franco,29,28.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,634548,Igor Felisberto,18,40.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,352994,João Moreira,21,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,133330,Lucas Carvalho,29,19.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,639743,Osorio Luis,19,54.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,505991,Maik,20,42.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,35777,Dória,31,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,2571,R. Arboleda,34,5.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,9340,Sabino,29,35.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,190,Cédric Soares,34,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,30429,R. Tolói,35,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,970,Wendell,32,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,195107,D. Bobadilla,24,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,25272,Cauly,30,80.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,77754,Danielzinho,31,94.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,612911,D. Ferreira,18,48.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,415147,Felipe Negrucci,21,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,633532,Leonardo Hugo,21,38.0,Defender
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,9957,Luan,26,33.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,696,Marcos Antônio,25,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,313732,Pablo Maia,23,29.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,505992,Pedro Ferreira,18,46.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,41188,André Silva,28,17.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,10040,Artur,27,37.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,106510,Ferreira,28,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,47368,J. Calleri,32,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,178,Lucas Moura,33,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,505994,Lucca Marques Alencar,18,45.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,10323,Luciano,32,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,465195,Paulo Sérgio,20,39.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,201909,G. Tapia,23,14.0,Attacker
-71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,607350,P. dos Santos,18,34.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,372083,Dyogo,21,49.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,627201,Werneck,16,20.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,507663,Leonardo Lopes,18,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,633421,Pedro Henrique Vieira Batista,17,71.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,11756,A. Rossi,30,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,80528,Andrew,24,42.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,860,Alex Sandro,34,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,1771,Ayrton Lucas,28,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,583994,Da Mata,19,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,403299,Daniel Sales,19,51.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,634767,Daniel Carvalho,16,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,618,Danilo,34,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,1566,Emerson Royal,26,22.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,646337,E. Mellis,19,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,589364,Germano,19,60.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,512740,Johnny Góes,18,77.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,583993,Gusttavo,19,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,449253,João Victor Cunha,18,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,9458,Léo Ortiz,29,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,10124,Léo Pereira,29,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,1290,G. Varela,32,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,9909,Vitão,25,44.0,Defender
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,332654,Evertton Araújo,22,52.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,454555,Guilherme,19,47.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,570401,J. Vitor,16,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,2289,Jorginho,34,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,544685,Joshua,18,79.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,633422,Junior Kaio,18,67.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,589366,Kaio Nobrega,18,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,1646,Lucas Paquetá,28,20.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,619035,Lucas Vieira,18,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,644618,L. Mariano,18,75.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,48,Saúl,31,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,505531,Lucio,18,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,2560,E. Pulgar,32,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,2612,G. de Arrascaeta,31,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,5995,N. de la Cruz,28,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,589367,Alan,18,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,10180,Bruno Henrique,35,27.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,5994,J. Carrascal,27,15.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,633423,David Viana de Oliveira,18,63.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,586025,Douglas Telles,18,81.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,2414,Everton,29,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,589368,Camargo Joao,18,18.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,22238,Luiz Araújo,29,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,10321,Pedro,28,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,16369,G. Plata,25,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,570400,Ryan Roberto,17,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,126936,Samuel Lino,26,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,405160,Wallace,20,64.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,321454,Diógenes,24,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,128,Santos,31007,Gabriel Brazão,25,77.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,128,Santos,606900,Joao Lucio,17,79.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,128,Santos,653531,Rodrigo Falcao,21,67.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,128,Santos,6637,G. Escobar,28,31.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,5872,A. Frías,27,98.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,9949,Igor Vinicius,28,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,527683,João Paulo Ananias,18,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,71,Luan Peres,31,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,9991,Lucas Veríssimo,30,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,9917,Mayke,33,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,609540,Rafael Gonzaga,18,38.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,507379,Vinicius Lira,18,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,10114,Zé Ivaldo,28,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,128,Santos,506275,Gabriel Bontempo,20,49.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,195111,Gabriel Menino,25,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,506480,Gustavo Henrique Pereira,20,48.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,32901,João Schmidt,32,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,474261,Mateus Xavier,18,47.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,345756,M. Terceros,21,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,30568,C. Oliva,29,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,631334,Pedro Assis,18,37.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,632455,P. Fermino,18,20.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,2452,T. Rincón,37,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,197500,Nikita Solodchenko,24,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,10492,Thaciano,30,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,10173,Willian Arão,33,15.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,9932,Zé Rafael,32,6.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,6052,Á. Barreal,25,22.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,64172,L. Díaz,27,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,570405,Fernando Tank,17,55.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,10174,Gabriel Barbosa,29,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,153454,Moisés,29,21.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,609501,Nadson,17,57.0,Attacker
-71,Brasileirão,Brazil,sudamerica,128,Santos,276,Neymar,33,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,119485,B. Rollheiser,25,32.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,128,Santos,10143,Rony,30,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,309634,Gabriel Grando,25,12.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,130,Gremio,635023,G. Menegon,17,31.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,130,Gremio,454135,Thiago Beltrame,22,24.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,130,Gremio,2410,Weverton,38,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,130,Gremio,10527,Caio Paulista,27,38.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,2500,F. Balbuena,34,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,304867,Gustavo Martins,23,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,374,João Pedro,29,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,510552,Luis Eduardo,17,43.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,9916,Marcos Rocha,37,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,10309,Marlon,28,23.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,647516,Pedro Gabriel,18,54.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,607376,V. Ramon,18,32.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,424277,Viery,20,44.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,9993,Wagner Leonardo,26,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,2466,W. Kannemann,34,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,130,Gremio,150,Arthur,29,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,510554,Bernardo Zortea,18,50.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,10314,Dodi,29,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,457508,Riquelme Freitas,19,65.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,634340,Jefinho,19,40.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,277771,M. Monsalve,21,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,129882,J. Nardoni,23,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,199141,E. Noriega,24,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,502998,Tiago,17,39.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,1431,F. Amuzu,26,9.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,237847,André Henrique,24,77.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,2737,M. Braithwaite,34,22.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,104,Carlos Vinícius,30,95.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,13616,J. Enamorado,26,99.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,507527,Gabriel Mec,17,37.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,5981,C. Pavón,29,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,408342,L. Pérez,21,33.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,576652,Roger,17,47.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,691,Tetê,25,21.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,2294,Willian,37,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,415084,Felipe Longo,20,40.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,123759,Hugo Souza,26,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,415083,Kauê Camargo,21,51.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,1085,André Ramalho,33,5.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,5987,F. Angileri,31,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,915,Gabriel Paulista,35,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,9992,Gustavo Henrique,32,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,54093,Hugo,28,46.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,415085,João Pedro,22,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,544700,Joao Vitor,18,59.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,570402,I. Machado,17,55.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,9742,Matheus Bidu,26,21.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,10161,Matheuzinho,25,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,182025,P. Milans,23,20.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,10067,Alex Santana,30,80.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,10319,Allan,28,29.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,609468,G. Amorim,17,48.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,544679,Andre,19,49.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,414353,Luiz Gustavo,19,54.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,363693,Breno,20,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,9577,Charles,29,35.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,5794,R. Garro,27,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,543,Z. Labyad,32,52.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,900,J. Lingard,33,77.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,871,Matheus Pereira,27,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,160436,Raniele,29,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,2426,A. Carrillo,34,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,667,M. Depay,31,10.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,463975,Dieguinho,18,61.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,463979,Guilherme Inácio,18,56.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,380435,Kaio César,21,37.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,415090,Kayke,21,31.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,9329,Pedro Raul,29,18.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,10177,Vitinho,32,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,131,Corinthians,10007,Yuri Alberto,24,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,80173,Anderson,27,98.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,402675,Kainã,20,12.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,119847,Matheus Aurélio,26,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9589,Rafael Santos,36,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632422,Wellington,18,32.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,207758,Bruno Leonardo,29,33.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10192,Bruno Pacheco,34,91.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631574,Carlos,21,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,633456,Silva Da,26,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106467,Doma,27,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,55185,Everton,30,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,650652,I. Gnoatto,18,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,544977,Gustavo Talles,22,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,197064,João Paulo,28,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,545022,Kauan,22,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,306254,Mancha,24,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9629,Marcos Vinícius,28,2.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9560,Rafael Thyere,32,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9666,Victor Caetano,28,25.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,638546,Eduardo Vinicius,20,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,655911,Yago,20,16.0,Defender
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632420,Kaue Arno,17,2.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,63998,Camilo,26,27.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,70793,W. Clar,31,37.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,544990,David Antunes,20,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10356,Giovanni Augusto,36,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,650653,K. Godoy,18,20.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9212,Higor Meritão,31,22.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,77799,Jean Carlos,33,20.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,237669,João Vitor,27,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632957,Miguel,19,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106495,Rafael Carvalheira,26,99.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,455091,Robert Santos,22,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631034,Rodrigo,18,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,408347,Rubens,22,70.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,26991,Thomás Bedinelli,32,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,278496,Vinicius Balieiro,24,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631529,Wermeson,24,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631260,Alberto,20,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,651842,Bernardo,19,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,1432,Y. Bolasie,36,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,197324,Ênio,24,97.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,651301,T. Ferreira,18,21.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,634404,Gleidson,18,22.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,410229,Italo,23,77.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,614597,Joao Henrique,20,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631962,Luizao,19,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10363,Marcinho,30,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,201201,Garcez,28,31.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632935,M. Milani,19,8.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,54102,Neto Pessoa,31,18.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,51589,K. Ramírez,31,94.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,763,Daniel Fuzato,28,13.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,41169,Léo Jardim,30,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,454136,Pablo,22,37.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505138,Alison,18,54.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,588652,Bruno Andre,18,80.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,516810,Breno Vereza,18,87.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,13283,C. Cuesta,26,46.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,353034,Cuiabano,22,66.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,286962,Lucas Freitas,24,43.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,10234,Lucas Piton,25,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,133910,Paulo Henrique,29,96.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505408,Avellar,19,82.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,359372,Robert Renan,22,30.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,51426,J. Rodríguez,28,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,310774,A. Saldivia,23,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505139,Walace,20,64.0,Defender
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,404753,Cauan Barros,21,88.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,615186,Guimaraes Gustavo,19,50.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,10170,Hugo Moura,27,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,454138,JP,20,98.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,454458,Lukas Zuccarello,19,86.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,280739,Mateus Cocão,23,85.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,311157,Matheus França,21,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,614200,Ramon Rique,18,83.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,351920,J. Rojas,23,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,606272,Samuel,19,67.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,9958,Tchê Tchê,33,3.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,22232,Thiago Mendes,33,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,306261,Adson,25,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505407,Andrey,20,74.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,9975,Brenner,25,20.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,609598,V. Joao,17,60.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,10105,David,30,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,345748,A. Gómez,23,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,64134,M. Hinestroza,23,18.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,607352,Joao Vitor,20,60.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,544704,D. Minete,16,90.0,Attacker
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,163260,Nuno Moreira,26,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,6735,C. Spinelli,28,77.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545007,Carlos Eduardo,19,23.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545010,Mateus Soares,20,12.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,321646,Mycael,21,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10112,Santos,35,23.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,36258,J. Aguirre,29,33.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457420,Arthur Dias,18,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,58577,G. Benavídez,30,29.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630991,Claudinho,20,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,288704,L. Esquivel,24,37.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544703,Gilberto Junior,20,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630993,Veiga Gustavo,19,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,9951,Léo,29,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544957,Leo Derik,20,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545019,Marcos Maia,19,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13493,C. Terán,25,22.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630996,Murilo Almeida,18,14.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,635901,Benjamin Brito,20,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,570392,Bruninho,17,48.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630997,Chiqueti,20,47.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457593,Diogo Riquelme,20,63.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,414399,Dudu,19,53.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,140507,Felipinho,24,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13669,A. García,24,20.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630998,Back Guilherme,19,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10091,Jádson,32,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544942,Joao Cruz,19,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,1909,Luiz Gustavo,38,14.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631000,Lucas Marezi,19,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13151,J. Portilla,27,27.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631001,Kauan Stabelini,18,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,152931,B. Zapelli,23,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544932,Isaac,21,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,9661,Julimar,24,20.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,472802,Kayke Santos,17,16.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,408145,Leozinho,27,21.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631973,Amorim Lucas,19,25.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,21394,S. Mendoza,33,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544933,Renan Peixoto,25,70.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,311289,Renan Viana,22,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631004,Sorriso,19,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545020,Vitinho,18,13.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13198,K. Viveros,25,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10229,Cássio,38,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,631005,Eraclito Marcelo,19,24.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,306210,Matheus Cunha,24,31.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,360306,Otávio Eleodoro Rezende Costa,20,81.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,634329,Felipe Teixeira,16,41.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465175,Bruno Alves,20,44.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10089,Fabrício Bruno,29,15.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,2411,Fágner,36,23.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,409849,José,20,33.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,54866,João Marcelo,25,43.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,422150,Jonathan,21,34.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,309792,Kaiki,22,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,631009,Kaiquy,19,48.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,522246,Kauã Moraes,19,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,507692,Kauã Prates,17,36.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,6268,L. Villalba,31,25.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,631010,William,19,56.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,25398,William,30,12.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465171,Nicolas Pontes,19,42.0,Defender
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,67204,Christian,25,88.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,30408,Gerson,28,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,405353,Japa,21,77.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10102,Lucas Silva,32,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10494,Matheus Henrique,28,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,25618,Matheus Pereira,29,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465169,Murilo Rhikman,19,35.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,554485,Rhuan Gabriel,19,40.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10100,L. Romero,31,29.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,25387,Walace,30,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,414405,K. Arroyo,19,99.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,9445,Bruno Rodrigues,28,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,36312,Francisco da Costa,30,91.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10008,Kaio Jorge,23,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465165,Kenji,19,70.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,610497,R. Lelis,18,57.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,37161,L. Sinisterra,26,17.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,439566,N. Villareal,20,22.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,2083,Wanderson,31,94.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,634324,Bernardo Rocha,17,,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,197031,Fintelman,24,35.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,31384,Gabriel Vasconcelos,33,22.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9510,Lucas Arcanjo,27,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,635197,E. Oliveira Reis,19,57.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,197356,Yuri Sena,24,71.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,10085,Cacá,26,25.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,54692,Camutanga,32,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,136124,Edu,25,43.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,633432,Guilherme Inacio,17,67.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,634323,Ivan,19,48.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,41357,Jamerson,27,83.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,633124,Joao Marques,17,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,507322,Kauan,18,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,515580,Kauan Vitor,19,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,633125,Kevin,17,20.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9906,Luan Cândido,24,36.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,308148,Mateusinho,27,98.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,311518,Nathan,23,45.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,41299,Neris,33,77.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,67944,Ramon,24,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,127621,Riccieli,27,5.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,651675,Wanderson,17,69.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,515578,Gean,18,59.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,566354,A. Almaraz,18,46.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9460,Gabriel Baralhas,27,44.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,159653,Caíque,30,95.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,36848,Aitor Cantalapiedra,29,17.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,156942,Dudu,26,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,456004,Edenilson,20,26.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,16637,E. Martínez,31,6.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,633433,Italo Machado,17,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,153837,D. Capewell,29,52.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,464018,Luis Aucélio,19,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,114436,Matheuzinho,28,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,404404,Pablo,22,62.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,64363,Ronald,28,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,638335,N. Talero,18,65.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,457041,José Breno,21,55.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,288230,Zé Vitor,25,88.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,41580,Pedro Henrique,29,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,633443,Anderson,23,28.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,639902,Marcos Cabrobo,19,49.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9549,Erick,28,33.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9823,Fabrício,25,23.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,163436,K. Saverio,26,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,11490,R. López,31,31.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,41134,Lucas Silva,26,20.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,10506,Marinho,35,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,515579,Emanoel,18,22.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,10434,Osvaldo,38,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9726,Renato Kayzer,29,79.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,442404,Rene,22,91.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,455047,D. Tarzia,22,12.0,Defender
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,464022,Wendell Sacramento,20,41.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,296061,Benassi,22,67.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,77918,Gabriel Leite,38,87.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,10370,Keiller,29,13.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631769,L. Mello,19,12.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,425831,Pedro Luccas,21,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,293555,Pedro Rangel,25,22.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,10416,Bruno Melo,33,26.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,504965,Enzo Vágner,19,14.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,9989,Felipe Jonatan,27,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,9633,Jacy,28,55.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,505579,João Vitor,19,16.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,414394,JoÃ£o Pedro Chermont,19,44.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631770,Kauan Noveli,18,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631773,L. Leonardi Bortoluci Perez,18,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,44304,Maicon,37,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,10378,Rodrigo Moledo,38,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,505577,Lucas Taverna,18,86.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,9924,Thiago Santos,36,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,305026,Tiago Cóser,21,23.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,10413,Tinga,32,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,468958,A. Ararat,19,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631690,Dani Gruber,18,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,80187,Fernando Sobral,31,88.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,13310,S. Gómez,29,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,298041,Gustavo,23,39.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,2150,Josué,35,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631771,Khensane,16,15.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631772,Lucas Nunes,20,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631686,Matheus Dias,18,80.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,638007,Silva Miguel,18,15.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,632533,Renatinho,20,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631684,Tissi,18,20.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,309499,Vini Paulista,24,36.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,159493,Wallisson,28,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,9208,Willian Oliveira,32,29.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,653237,D. Alves,18,33.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,53966,Breno Lopes,29,77.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,143365,Fabinho,26,28.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,16847,Keno,36,20.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,315569,J. Lavega,20,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631680,L. Crepaldi,18,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,410449,Lucas Ronier,21,11.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631685,Paulo Roberto,20,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,10106,Pedro Rocha,31,32.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,544699,Renato Marques,21,78.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,54106,Rodrigo Rodrigues,29,99.0,Attacker
-71,Brasileirão,Brazil,sudamerica,147,Coritiba,631572,Thiago Azaf,18,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,9862,Cleiton,28,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,266856,Fabrício,25,37.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,631019,Gustavo,20,56.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,9944,Tiago Volpi,35,18.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,297893,Alix,26,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,525527,Cauê Nascimento Santos,18,51.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,41544,Eduardo Santos,28,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,304827,Gustavo Marques,24,16.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,68113,J. Hurtado,24,34.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10481,Juninho Capixaba,28,29.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,565735,W. Vivas,19,54.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,460491,Pedro Henrique,19,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,51571,A. Sant&apos;Anna,28,23.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,638355,Ryan Tavares,18,52.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279800,Vanderlan,23,12.0,Defender
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,468162,Davi Gomes,20,27.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10027,Eric Ramires,25,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279805,Fabinho,23,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10247,Gabriel,33,6.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,631032,Lopes Gabriel,19,58.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,403951,Gustavinho,21,22.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,129772,João Neto,22,80.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,544688,Marcelinho,21,57.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,9925,Matheus Fernandes,27,35.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,197533,Praxedes,23,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,363689,Rodriguinho,21,20.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,310307,I. Sosa,22,15.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,505877,Yuri,19,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,625329,Yuri Leles,18,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10004,Eduardo Sasha,33,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,688,Fernando,26,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,354791,J. Herrera,22,32.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279811,Lucas Barbosa,24,21.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,350927,Henry Mosquera,24,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,631038,Jhuan Nunes Coelho,18,67.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,70670,I. Pitta,26,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,431417,Vinicius,21,17.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9978,Everson,35,22.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,311275,Gabriel Delfim,23,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,619024,Kaio Assis,17,43.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,565711,Pedro Cobra,19,46.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,465184,Robert,20,31.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,2499,J. Alonso,32,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,615190,Luis Chaves,19,32.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10122,Renan Lodi,27,16.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,30476,Lyanco,28,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,197450,Natanael,23,2.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,609544,K. Pascini,17,36.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,2583,A. Preciado,27,23.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,404640,I. Román,19,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,152857,Ruan Tressoldi,26,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,633527,Samuel,19,34.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,515668,Vitão,17,40.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,30398,Vitor Hugo,34,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,363323,Alexsander,22,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,615196,Mamady Cisse,19,39.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,16360,A. Franco,27,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9926,Gustavo Scarpa,31,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9967,Igor Gomes,26,17.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,629376,Toledo Igor,19,35.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,506034,Índio,17,38.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,544678,M. J. Iseppe,19,48.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,687,Maycon,28,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,607356,F. Murillo,19,41.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,415069,Patrick Silva,21,20.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,414544,T. Pérez,20,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10166,Reinier,23,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,352371,Victor Hugo,21,30.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,18761,Bernard,33,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,5923,M. Cassierra,28,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,609519,Caua,17,29.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,6031,T. Cuello,25,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9939,Dudu,33,92.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,12705,Hulk,39,7.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,280695,A. Minda,22,27.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,9692,Ivan,28,97.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1198,Remo,77812,Marcelo Rangel,37,88.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1198,Remo,9694,Ygor Vinhas,31,94.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,1198,Remo,6048,B. Cufré,29,24.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,70368,João Lucas,27,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,404539,Kayky Almeida,20,27.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,547339,Leo Andrade,27,5.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,268877,Marcelinho,27,79.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,10232,Marllon,33,13.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,9709,Matheus Alexandre,26,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,80484,Mayk,26,98.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,36833,C. Tassano,29,17.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,22251,D. Tchamba,27,18.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,308601,Thalisson,23,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,1198,Remo,291530,F. Catarozzi,25,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,355193,David Francisco,24,26.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,404537,Freitas,22,35.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,9883,Nathan,29,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,10388,Patrick,33,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,195109,Patrick de Paula,26,12.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,5211,L. Picco,27,14.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,31741,P. Tachtsidis,34,77.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,9962,Vitor Bueno,31,15.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,10310,Zé Ricardo,26,55.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,9882,José Welison,30,28.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,96343,Alef Manga,31,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,70297,Carlinhos,28,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,269374,D. Hernández,25,33.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,197073,Eduardo Melo,24,39.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,352930,N. Ferreira,23,25.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,10141,Gabriel Poveda,27,99.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,80273,Gabriel Taliari,28,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,159960,Giovanni Pavani,29,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,10146,Jáderson,25,10.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,54894,Jája Silva,27,37.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1198,Remo,96450,João Pedro,29,45.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,64175,R. Monti Azpiazu,26,71.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1198,Remo,10581,Yago Pikachu,33,22.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9337,Alex Muralha,36,23.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80649,Georgemy,30,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,77966,Thomazella,35,90.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10226,Walter,38,22.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640106,Victor Caua Soares,17,29.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9771,Daniel Borges,32,20.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9789,Igor Cariús,32,14.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,156191,Igor Formiga,26,32.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,115525,João Victor,28,34.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9308,Lucas Oliveira,29,2.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,631245,Luiz Silva,18,35.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,649589,Marcelinho,17,53.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9946,Reinaldo,36,6.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10488,Rodrigues,28,97.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9907,Victor Luís,32,12.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80654,Willian Machado,29,3.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80474,Chico,34,10.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,276452,Denilson,24,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,44348,Eduardo,36,33.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,568,Gabriel Pires,32,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,133183,José Aldo,27,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,65837,L. Mugni,34,26.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,504957,Neto,20,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10025,Shaylon,28,7.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,550705,Y. Lara,31,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9429,Alesson,26,77.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,41430,André Luís,31,99.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640108,Vinicius Bacchi,18,47.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,520668,Carlos Eduardo de Barros,19,96.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54238,Edson,28,95.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54235,Everton Galdino,28,17.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,95392,A. Galeano,25,27.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9371,Nathan Fogaça,26,9.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,153458,Negueba,26,11.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,390,Tiquinho Soares,34,29.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,634326,F. Ferreira,18.0,81.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,118,Bahia,9979,João Paulo,30.0,34.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10109,Léo Vieira,35.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,118,Bahia,657690,J. C. Neres dos Santos I.,19.0,91.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,118,Bahia,9512,Ronaldo,29.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,118,Bahia,407275,Victor,19.0,61.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10351,David Duarte,30.0,33.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,454143,DodÃ´,19.0,53.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,505598,Fred,19.0,83.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,353728,Gabriel Xavier,24.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,463667,Gerald,18.0,54.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10305,Gilberto,32.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,459837,Roman Gomez,21.0,31.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10375,Iago,28.0,25.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10059,Kanu,28.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,197383,Luciano Juba,26.0,46.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,454562,Luiz Gustavo,19.0,43.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,350808,Marcos Victor,24.0,44.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,129880,S. Ramos,24.0,21.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,411433,Zé Guilherme,20.0,66.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,180236,Caio Alexandre,26.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,510204,David Martins,18.0,63.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10130,Erick,28.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10168,Éverton Ribeiro,36.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,9994,Jean Lucas,27.0,6.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,51545,N. Acevedo,26.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,118,Bahia,454146,Pedro Henrique,19.0,58.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,9954,Rodrigo Nestor,25.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,409289,Roger,18.0,80.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,407265,Sidney,19.0,55.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,454145,Wendel Silva,19.0,67.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,9854,Ademir,30.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,607365,C. Suassuna,18.0,90.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,510677,Dell,17.0,89.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,303127,Erick Pulga,25.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,10222,Everaldo,34.0,27.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,409288,João Coni,19.0,78.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,525667,Çağatay Yılmaz,21.0,57.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,544701,Lyan Araujo,16.0,71.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,51701,M. Araújo,29.0,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,634401,R. Nascimento,17.0,72.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,67902,C. Olivera,23.0,99.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,633434,Ruan Roger,21.0,82.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,454147,Ruan Pablo,17.0,77.0,Attacker
+71,Brasileirão,Brazil,sudamerica,118,Bahia,355253,M. Sanabria,21.0,23.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,118,Bahia,47319,Willian José,34.0,12.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,306552,Anthoni,23.0,12.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,119,Internacional,624986,Diego Esser,20.0,32.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,119,Internacional,415046,Kauan,22.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,119,Internacional,50077,S. Rochet,32.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,119,Internacional,288720,B. Aguirre,25.0,35.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,577746,Alisson,17.0,30.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,129902,A. Bernabéi,25.0,26.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,633308,Eduardo Carlos,19.0,39.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,279579,Clayton,25.0,20.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,9912,Juninho,30.0,18.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,633307,Lazaro,18.0,40.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,638214,D. Marfo,20.0,43.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,197051,Matheus Bahia,26.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,2044,G. Mercado,38.0,25.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,505150,Pablo,19.0,42.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,463956,Pedro Kauã,19.0,46.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,63964,F. Torres,28.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,305042,Victor Gabriel,21.0,41.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,692,Alan Patrick,34.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,415052,Allex,19.0,31.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,610495,B. Arhin,19.0,33.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,143368,Bruno Gomes,24.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,9921,Bruno Henrique,36.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,633310,Joao Gabriel Kempes Goncalves,16.0,51.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,633309,Alves Kauan,19.0,50.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,96353,Paulinho,28.0,27.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,10240,Richard,31.0,36.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,51468,A. Rodríguez,25.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,10167,Ronaldo,29.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,22231,Thiago Maia,28.0,29.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,6519,R. Villagra,24.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,9893,Alerrandro,25.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,6011,R. Borré,30.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,41368,Tabata,28.0,17.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,13691,J. Carbonero,26.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,119,Internacional,407013,Diego Coser,20.0,38.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,609580,J. Bezerra,16.0,49.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,633284,Victor Joao,18.0,44.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,305819,Kayky,22.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,520576,Raykkonen Pereira Soares,17.0,48.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,10147,Vitinho,26.0,28.0,Attacker
+71,Brasileirão,Brazil,sudamerica,119,Internacional,463962,Yago,18.0,37.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,292166,Léo Linck,24.0,24.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,410134,C. Loor,19.0,40.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,912,Neto,36.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,80188,Raul,28.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,378,Alex Telles,33.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,5933,A. Barboza,30.0,20.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,1845,Bartolomeu Jacinto Quissanga,34.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,283837,Caio Roque,23.0,27.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,2440,N. Ferraresi,27.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,561346,Gabriel Abdias,19.0,36.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,414428,J. Hernández,19.0,67.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,505409,Huguinho,18.0,75.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,614641,F. Januario,18.0,21.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,613321,Kadu Santos,20.0,42.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,474102,Kauã Branco,19.0,53.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,634521,J. Lira,17.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,652,Marçal,36.0,21.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,544705,Marquinhos,18.0,64.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,297687,M. Ponte,22.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,8661,Vitinho,26.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,426627,Ythallo,21.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,326,Allan,34.0,25.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,609493,Arthur Novaes,17.0,48.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,410843,J. Barrera,19.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,403670,Bernardo Valim,19.0,80.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,506276,Caio Valle,18.0,45.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,275170,Danilo,24.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,10387,Edenílson,36.0,88.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,635348,Pedro Henrique de Paula Martins,17.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,544707,G. Justino,19.0,34.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,414352,Lucas Camilo,19.0,78.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,237186,C. Medina,23.0,6.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,609481,Miguel Caldas,17.0,47.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,455130,Álvaro Montoro,18.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,634522,D. Nery,17.0,68.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,277169,Newton,25.0,28.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,51581,S. Rodríguez,25.0,23.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,463987,Wallace II,18.0,55.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,9938,Arthur Cabral,27.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,614621,Arthur Izaque,18.0,39.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,544681,K. Barria,18.0,37.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,1854,J. Correa,31.0,30.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,10432,Júnior Santos,31.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,413140,Kauan Toledo,19.0,59.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,305821,Matheus Martins,22.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,614654,Matheusinho,18.0,57.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,419936,Nathan Fernandes,20.0,16.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,104792,Chris Ramos,28.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,634523,Rogerinho,17.0,2.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,609507,Samuel,17.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,308798,L. Villalba,24.0,77.0,Attacker
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,464019,Aranha,20.0,24.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10373,Carlos Miguel,27.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,580796,K. Lima,18.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,512533,Luiz Felipe,18.0,51.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10372,Marcelo Lomba,39.0,14.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,425715,Arthur,20.0,56.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,415068,Benedetti,19.0,43.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10379,Bruno Fuchs,26.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,306706,A. Giay,21.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,2502,G. Gómez,32.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,311384,Jefté,22.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10125,Khellven,24.0,12.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,10083,Murilo,28.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,51466,J. Piquerez,27.0,22.0,Defender
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,425714,Allan,21.0,40.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,899,Andreas Pereira,29.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,575323,Larson,20.0,48.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,21095,Lucas Evangelista,30.0,30.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,574837,Luis Felipe,17.0,50.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,9218,Marlon Freitas,30.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,153083,E. Martínez,26.0,32.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,106485,Maurício,24.0,18.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,196298,R. Sosa,26.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,13708,J. Arias,28.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,512522,Erick Machado,18.0,45.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,2412,Felipe Anderson,32.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,516815,Ramon Riquelme,19.0,37.0,Attacker
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,295513,J. López,25.0,42.0,Attacker
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,449244,Luighi Hanri,19.0,31.0,Attacker
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,987,Paulinho,25.0,10.0,Attacker
+71,Brasileirão,Brazil,sudamerica,121,Palmeiras,340279,Vitor Roque,20.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10080,Fábio,45.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,180866,Marcelo,23.0,27.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,634765,L. Santana,17.0,50.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10079,Vitor Eudes,27.0,98.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,505398,Davi Schuindt,21.0,40.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,6337,J. Freytes,25.0,22.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,9874,Guga,27.0,23.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,2038,Guilherme Arana,28.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10017,Ignacio,29.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,9872,Igor Rabello,30.0,21.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,282692,Jemmes,25.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,443088,Julio Fidelis,19.0,46.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,544690,Leo Jance,20.0,66.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,463986,João Loiola,20.0,41.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,13715,J. Millán,27.0,29.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10163,Renê,33.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10267,Samuel Xavier,35.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,50763,L. Acosta,31.0,32.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,405028,Agner,20.0,43.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10501,Alisson,32.0,25.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,316519,F. Bernal,22.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,505401,Davi Melo,20.0,91.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,266267,Hércules,25.0,35.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,280245,Martinelli,24.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,609503,Naara,18.0,58.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10396,Nonato,27.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,1262,Otávio,31.0,94.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,10311,PH Ganso,36.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,502726,Riquelme,18.0,28.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,51214,J. Savarino,29.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,13523,G. Cano,37.0,14.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,51603,A. Canobbio,27.0,17.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,304048,R. Castillo,26.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,297522,John Kennedy,23.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,519809,Keven Samuel,18.0,39.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,634370,Matheus Reis,18.0,15.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,70849,K. Serna,28.0,90.0,Attacker
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,2454,Y. Soteldo,28.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,124,Fluminense,568706,Wesley Nata,17.0,34.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,50726,Carlos Coronel,29.0,31.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,10081,Rafael,36.0,23.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,311517,Young,23.0,50.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,516821,Nicolas,18.0,56.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,6237,E. Díaz,30.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,6083,A. Franco,29.0,28.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,634548,Igor Felisberto,18.0,40.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,352994,João Moreira,21.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,133330,Lucas Carvalho,29.0,19.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,639743,Osorio Luis,19.0,54.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,505991,Maik,20.0,42.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,35777,Dória,31.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,2571,R. Arboleda,34.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,9340,Sabino,29.0,35.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,190,Cédric Soares,34.0,21.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,30429,R. Tolói,35.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,970,Wendell,32.0,18.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,195107,D. Bobadilla,24.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,25272,Cauly,30.0,80.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,77754,Danielzinho,31.0,94.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,612911,D. Ferreira,18.0,48.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,415147,Felipe Negrucci,21.0,30.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,633532,Leonardo Hugo,21.0,38.0,Defender
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,9957,Luan,26.0,33.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,696,Marcos Antônio,25.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,313732,Pablo Maia,23.0,29.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,505992,Pedro Ferreira,18.0,46.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,41188,André Silva,28.0,17.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,10040,Artur,27.0,37.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,106510,Ferreira,28.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,47368,J. Calleri,32.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,178,Lucas Moura,33.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,505994,Lucca Marques Alencar,18.0,45.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,10323,Luciano,32.0,10.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,465195,Paulo Sérgio,20.0,39.0,Attacker
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,201909,G. Tapia,23.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,126,Sao Paulo,607350,P. dos Santos,18.0,34.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,372083,Dyogo,21.0,49.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,627201,Werneck,16.0,20.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,507663,Leonardo Lopes,18.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,633421,Pedro Henrique Vieira Batista,17.0,71.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,11756,A. Rossi,30.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,80528,Andrew,24.0,42.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,860,Alex Sandro,34.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,1771,Ayrton Lucas,28.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,583994,Da Mata,19.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,403299,Daniel Sales,19.0,51.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,634767,Daniel Carvalho,16.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,618,Danilo,34.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,1566,Emerson Royal,26.0,22.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,646337,E. Mellis,19.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,589364,Germano,19.0,60.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,512740,Johnny Góes,18.0,77.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,583993,Gusttavo,19.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,449253,João Victor Cunha,18.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,9458,Léo Ortiz,29.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,10124,Léo Pereira,29.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,1290,G. Varela,32.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,9909,Vitão,25.0,44.0,Defender
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,332654,Evertton Araújo,22.0,52.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,454555,Guilherme,19.0,47.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,570401,J. Vitor,16.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,2289,Jorginho,34.0,21.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,544685,Joshua,18.0,79.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,633422,Junior Kaio,18.0,67.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,589366,Kaio Nobrega,18.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,1646,Lucas Paquetá,28.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,619035,Lucas Vieira,18.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,644618,L. Mariano,18.0,75.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,48,Saúl,31.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,505531,Lucio,18.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,2560,E. Pulgar,32.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,2612,G. de Arrascaeta,31.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,5995,N. de la Cruz,28.0,18.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,589367,Alan,18.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,10180,Bruno Henrique,35.0,27.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,5994,J. Carrascal,27.0,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,633423,David Viana de Oliveira,18.0,63.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,586025,Douglas Telles,18.0,81.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,2414,Everton,29.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,589368,Camargo Joao,18.0,18.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,22238,Luiz Araújo,29.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,10321,Pedro,28.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,16369,G. Plata,25.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,570400,Ryan Roberto,17.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,126936,Samuel Lino,26.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,405160,Wallace,20.0,64.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,321454,Diógenes,24.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,128,Santos,31007,Gabriel Brazão,25.0,77.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,128,Santos,606900,Joao Lucio,17.0,79.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,128,Santos,653531,Rodrigo Falcao,21.0,67.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,128,Santos,6637,G. Escobar,28.0,31.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,5872,A. Frías,27.0,98.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,9949,Igor Vinicius,28.0,18.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,527683,João Paulo Ananias,18.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,71,Luan Peres,31.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,9991,Lucas Veríssimo,30.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,9917,Mayke,33.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,609540,Rafael Gonzaga,18.0,38.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,507379,Vinicius Lira,18.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,10114,Zé Ivaldo,28.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,128,Santos,506275,Gabriel Bontempo,20.0,49.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,195111,Gabriel Menino,25.0,25.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,506480,Gustavo Henrique Pereira,20.0,48.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,32901,João Schmidt,32.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,474261,Mateus Xavier,18.0,47.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,345756,M. Terceros,21.0,30.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,30568,C. Oliva,29.0,28.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,631334,Pedro Assis,18.0,37.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,632455,P. Fermino,18.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,2452,T. Rincón,37.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,197500,Nikita Solodchenko,24.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,10173,Willian Arão,33.0,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,9932,Zé Rafael,32.0,6.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,6052,Á. Barreal,25.0,22.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,64172,L. Díaz,27.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,570405,Fernando Tank,17.0,55.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,10174,Gabriel Barbosa,29.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,153454,Moisés,29.0,21.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,609501,Nadson,17.0,57.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,276,Neymar,33.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,128,Santos,119485,B. Rollheiser,25.0,32.0,Attacker
+71,Brasileirão,Brazil,sudamerica,128,Santos,10143,Rony,30.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,309634,Gabriel Grando,25.0,12.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,130,Gremio,635023,G. Menegon,17.0,31.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,130,Gremio,454135,Thiago Beltrame,22.0,24.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,130,Gremio,2410,Weverton,38.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,130,Gremio,10527,Caio Paulista,27.0,38.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,2500,F. Balbuena,34.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,304867,Gustavo Martins,23.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,374,João Pedro,29.0,18.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,510552,Luis Eduardo,17.0,43.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,9916,Marcos Rocha,37.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,10309,Marlon,28.0,23.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,647516,Pedro Gabriel,18.0,54.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,607376,V. Ramon,18.0,32.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,424277,Viery,20.0,44.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,9993,Wagner Leonardo,26.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,2466,W. Kannemann,34.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,130,Gremio,150,Arthur,29.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,510554,Bernardo Zortea,18.0,50.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,10314,Dodi,29.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,457508,Riquelme Freitas,19.0,65.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,634340,Jefinho,19.0,40.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,277771,M. Monsalve,21.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,129882,J. Nardoni,23.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,199141,E. Noriega,24.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,502998,Tiago,17.0,39.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,1431,F. Amuzu,26.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,237847,André Henrique,24.0,77.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,2737,M. Braithwaite,34.0,22.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,104,Carlos Vinícius,30.0,95.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,13616,J. Enamorado,26.0,99.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,507527,Gabriel Mec,17.0,37.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,5981,C. Pavón,29.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,408342,L. Pérez,21.0,33.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,576652,Roger,17.0,47.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,691,Tetê,25.0,21.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,2294,Willian,37.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,415084,Felipe Longo,20.0,40.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,123759,Hugo Souza,26.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,415083,Kauê Camargo,21.0,51.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,1085,André Ramalho,33.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,5987,F. Angileri,31.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,915,Gabriel Paulista,35.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,9992,Gustavo Henrique,32.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,54093,Hugo,28.0,46.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,415085,João Pedro,22.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,544700,Joao Vitor,18.0,59.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,570402,I. Machado,17.0,55.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,9742,Matheus Bidu,26.0,21.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,10161,Matheuzinho,25.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,182025,P. Milans,23.0,20.0,Defender
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,10067,Alex Santana,30.0,80.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,10319,Allan,28.0,29.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,609468,G. Amorim,17.0,48.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,544679,Andre,19.0,49.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,414353,Luiz Gustavo,19.0,54.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,363693,Breno,20.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,9577,Charles,29.0,35.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,5794,R. Garro,27.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,543,Z. Labyad,32.0,52.0,Attacker
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,900,J. Lingard,33.0,77.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,871,Matheus Pereira,27.0,23.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,160436,Raniele,29.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,2426,A. Carrillo,34.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,667,M. Depay,31.0,10.0,Attacker
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,463975,Dieguinho,18.0,61.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,463979,Guilherme Inácio,18.0,56.0,Attacker
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,380435,Kaio César,21.0,37.0,Attacker
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,415090,Kayke,21.0,31.0,Attacker
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,9329,Pedro Raul,29.0,18.0,Attacker
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,10177,Vitinho,32.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,131,Corinthians,10007,Yuri Alberto,24.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,80173,Anderson,27.0,98.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,402675,Kainã,20.0,12.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,119847,Matheus Aurélio,26.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9589,Rafael Santos,36.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632422,Wellington,18.0,12.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,207758,Bruno Leonardo,29.0,33.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10192,Bruno Pacheco,34.0,91.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631574,Carlos,21.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,633456,Silva Da,26.0,16.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106467,Doma,27.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,55185,Everton,30.0,26.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,650652,I. Gnoatto,18.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,544977,Gustavo Talles,22.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,197064,João Paulo,28.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,545022,Kauan,22.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,306254,Mancha,24.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9629,Marcos Vinícius,28.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9560,Rafael Thyere,32.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9666,Victor Caetano,28.0,25.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,638546,Eduardo Vinicius,20.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,655911,Yago,20.0,16.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632420,Kaue Arno,17.0,2.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,63998,Camilo,26.0,27.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,70793,W. Clar,31.0,37.0,Defender
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,544990,David Antunes,20.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10356,Giovanni Augusto,36.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,650653,K. Godoy,18.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,9212,Higor Meritão,31.0,22.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,77799,Jean Carlos,33.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,237669,João Vitor,27.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,658882,F. Maciel,,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632957,Miguel,19.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106495,Rafael Carvalheira,26.0,99.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,455091,Robert Santos,22.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631034,Rodrigo,18.0,23.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,408347,Rubens,22.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,26991,Thomás Bedinelli,32.0,30.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,278496,Vinicius Balieiro,24.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631529,Wermeson,24.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631260,Alberto,20.0,20.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,651842,Bernardo,19.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,1432,Y. Bolasie,36.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,197324,Ênio,24.0,97.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,651301,T. Ferreira,18.0,21.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,634404,Gleidson,18.0,22.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,410229,Italo,23.0,77.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,614597,Joao Henrique,20.0,21.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631962,Luizao,19.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10363,Marcinho,30.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,201201,Garcez,28.0,31.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632935,M. Milani,19.0,8.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,54102,Neto Pessoa,31.0,18.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,51589,K. Ramírez,31.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,763,Daniel Fuzato,28.0,13.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,41169,Léo Jardim,30.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,454136,Pablo,22.0,37.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505138,Alison,18.0,54.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,588652,Bruno Andre,18.0,80.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,516810,Breno Vereza,18.0,87.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,13283,C. Cuesta,26.0,46.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,353034,Cuiabano,22.0,66.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,286962,Lucas Freitas,24.0,43.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,10234,Lucas Piton,25.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,133910,Paulo Henrique,29.0,96.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505408,Avellar,19.0,82.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,359372,Robert Renan,22.0,30.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,51426,J. Rodríguez,28.0,2.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,310774,A. Saldivia,23.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505139,Walace,20.0,64.0,Defender
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,404753,Cauan Barros,21.0,88.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,615186,Guimaraes Gustavo,19.0,50.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,10170,Hugo Moura,27.0,25.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,454138,JP,20.0,98.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,454458,Lukas Zuccarello,19.0,86.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,280739,Mateus Cocão,23.0,85.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,311157,Matheus França,21.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,614200,Ramon Rique,18.0,83.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,351920,J. Rojas,23.0,10.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,606272,Samuel,19.0,67.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,9958,Tchê Tchê,33.0,3.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,22232,Thiago Mendes,33.0,23.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,306261,Adson,25.0,28.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,505407,Andrey,20.0,74.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,9975,Brenner,25.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,609598,V. Joao,17.0,60.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,10105,David,30.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,345748,A. Gómez,23.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,64134,M. Hinestroza,23.0,18.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,607352,Joao Vitor,20.0,60.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,544704,D. Minete,16.0,90.0,Attacker
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,163260,Nuno Moreira,26.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,6735,C. Spinelli,28.0,77.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545007,Carlos Eduardo,19.0,23.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545010,Mateus Soares,20.0,12.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,321646,Mycael,21.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10112,Santos,35.0,23.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,36258,J. Aguirre,29.0,33.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457420,Arthur Dias,18.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,58577,G. Benavídez,30.0,29.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630991,Claudinho,20.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,288704,L. Esquivel,24.0,37.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544703,Gilberto Junior,20.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630993,Veiga Gustavo,19.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,9951,Léo,29.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544957,Leo Derik,20.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545019,Marcos Maia,19.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13493,C. Terán,25.0,22.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630996,Murilo Almeida,18.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,635901,Benjamin Brito,20.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,570392,Bruninho,17.0,48.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630997,Chiqueti,20.0,47.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457593,Diogo Riquelme,20.0,63.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,414399,Dudu,19.0,53.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,140507,Felipinho,24.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13669,A. García,24.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630998,Back Guilherme,19.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10091,Jádson,32.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544942,Joao Cruz,19.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,1909,Luiz Gustavo,38.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631000,Lucas Marezi,19.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13151,J. Portilla,27.0,27.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631001,Kauan Stabelini,18.0,18.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,152931,B. Zapelli,23.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544932,Isaac,21.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,9661,Julimar,24.0,20.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,472802,Kayke Santos,17.0,16.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,408145,Leozinho,27.0,21.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631973,Amorim Lucas,19.0,25.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,21394,S. Mendoza,33.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544933,Renan Peixoto,25.0,70.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,311289,Renan Viana,22.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631004,Sorriso,19.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,545020,Vitinho,18.0,13.0,Attacker
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13198,K. Viveros,25.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10229,Cássio,38.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,631005,Eraclito Marcelo,19.0,24.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,306210,Matheus Cunha,24.0,31.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,360306,Otávio Eleodoro Rezende Costa,20.0,81.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,634329,Felipe Teixeira,16.0,41.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465175,Bruno Alves,20.0,44.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10089,Fabrício Bruno,29.0,15.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,2411,Fágner,36.0,23.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,409849,José,20.0,33.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,54866,João Marcelo,25.0,43.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,422150,Jonathan,21.0,34.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,309792,Kaiki,22.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,631009,Kaiquy,19.0,48.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,522246,Kauã Moraes,19.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,507692,Kauã Prates,17.0,36.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,6268,L. Villalba,31.0,25.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,631010,William,19.0,56.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,25398,William,30.0,12.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465171,Nicolas Pontes,19.0,42.0,Defender
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,67204,Christian,25.0,88.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,30408,Gerson,28.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,405353,Japa,21.0,77.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10102,Lucas Silva,32.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10494,Matheus Henrique,28.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,25618,Matheus Pereira,29.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465169,Murilo Rhikman,19.0,35.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,554485,Rhuan Gabriel,19.0,40.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10100,L. Romero,31.0,29.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,25387,Walace,30.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,414405,K. Arroyo,19.0,99.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,9445,Bruno Rodrigues,28.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,36312,Francisco da Costa,30.0,91.0,Attacker
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10008,Kaio Jorge,23.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465165,Kenji,19.0,70.0,Attacker
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,610497,R. Lelis,18.0,57.0,Attacker
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,37161,L. Sinisterra,26.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,439566,N. Villareal,20.0,22.0,Attacker
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,2083,Wanderson,31.0,94.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,634324,Bernardo Rocha,17.0,,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,197031,Fintelman,24.0,35.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,31384,Gabriel Vasconcelos,33.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9510,Lucas Arcanjo,27.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,635197,E. Oliveira Reis,19.0,57.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,197356,Yuri Sena,24.0,71.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,10085,Cacá,26.0,25.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,54692,Camutanga,32.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,136124,Edu,25.0,43.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,633432,Guilherme Inacio,17.0,67.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,634323,Ivan,19.0,48.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,41357,Jamerson,27.0,83.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,633124,Joao Marques,17.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,507322,Kauan,18.0,18.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,515580,Kauan Vitor,19.0,18.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,633125,Kevin,17.0,20.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9906,Luan Cândido,24.0,36.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,308148,Mateusinho,27.0,98.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,311518,Nathan,23.0,45.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,41299,Neris,33.0,77.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,67944,Ramon,24.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,127621,Riccieli,27.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,651675,Wanderson,17.0,69.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,515578,Gean,18.0,59.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,566354,A. Almaraz,18.0,46.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9460,Gabriel Baralhas,27.0,44.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,159653,Caíque,30.0,95.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,36848,Aitor Cantalapiedra,29.0,17.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,156942,Dudu,26.0,21.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,456004,Edenilson,20.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,16637,E. Martínez,31.0,6.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,633433,Italo Machado,17.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,153837,D. Capewell,29.0,52.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,464018,Luis Aucélio,19.0,18.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,114436,Matheuzinho,28.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,404404,Pablo,22.0,62.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,64363,Ronald,28.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,638335,N. Talero,18.0,65.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,457041,José Breno,21.0,55.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,288230,Zé Vitor,25.0,88.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,633443,Anderson,23.0,28.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,639902,Marcos Cabrobo,19.0,49.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9549,Erick,28.0,33.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9823,Fabrício,25.0,23.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,163436,K. Saverio,26.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,11490,R. López,31.0,31.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,41134,Lucas Silva,26.0,20.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,10506,Marinho,35.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,515579,Emanoel,18.0,22.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,10434,Osvaldo,38.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9726,Renato Kayzer,29.0,79.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,442404,Rene,22.0,91.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,455047,D. Tarzia,22.0,12.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,464022,Wendell Sacramento,20.0,41.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,296061,Benassi,22.0,67.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,77918,Gabriel Leite,38.0,87.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,10370,Keiller,29.0,13.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631769,L. Mello,19.0,12.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,425831,Pedro Luccas,21.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,293555,Pedro Rangel,25.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,10416,Bruno Melo,33.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,504965,Enzo Vágner,19.0,14.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,9989,Felipe Jonatan,27.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,9633,Jacy,28.0,55.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,505579,João Vitor,19.0,16.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,414394,JoÃ£o Pedro Chermont,19.0,44.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631770,Kauan Noveli,18.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631773,L. Leonardi Bortoluci Perez,18.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,44304,Maicon,37.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,10378,Rodrigo Moledo,38.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,505577,Lucas Taverna,18.0,86.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,9924,Thiago Santos,36.0,21.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,305026,Tiago Cóser,21.0,23.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,10413,Tinga,32.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,468958,A. Ararat,19.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631690,Dani Gruber,18.0,21.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,80187,Fernando Sobral,31.0,88.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,13310,S. Gómez,29.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,298041,Gustavo,23.0,39.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,2150,Josué,35.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631771,Khensane,16.0,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631772,Lucas Nunes,20.0,16.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631686,Matheus Dias,18.0,80.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,638007,Silva Miguel,18.0,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,632533,Renatinho,20.0,23.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631684,Tissi,18.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,309499,Vini Paulista,24.0,36.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,159493,Wallisson,28.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,9208,Willian Oliveira,32.0,29.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,653237,D. Alves,18.0,33.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,53966,Breno Lopes,29.0,77.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,143365,Fabinho,26.0,28.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,16847,Keno,36.0,20.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,315569,J. Lavega,20.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631680,L. Crepaldi,18.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,410449,Lucas Ronier,21.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631685,Paulo Roberto,20.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,10106,Pedro Rocha,31.0,32.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,544699,Renato Marques,21.0,78.0,Attacker
+71,Brasileirão,Brazil,sudamerica,147,Coritiba,631572,Thiago Azaf,18.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,9862,Cleiton,28.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,266856,Fabrício,25.0,37.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,631019,Gustavo,20.0,56.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,9944,Tiago Volpi,35.0,18.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,297893,Alix,26.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,525527,Cauê Nascimento Santos,18.0,51.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,41544,Eduardo Santos,28.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,304827,Gustavo Marques,24.0,16.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,68113,J. Hurtado,24.0,34.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10481,Juninho Capixaba,28.0,29.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,565735,W. Vivas,19.0,54.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,460491,Pedro Henrique,19.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,51571,A. Sant&apos;Anna,28.0,23.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,638355,Ryan Tavares,18.0,52.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279800,Vanderlan,23.0,12.0,Defender
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,468162,Davi Gomes,20.0,27.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10027,Eric Ramires,25.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279805,Fabinho,23.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10247,Gabriel,33.0,6.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,631032,Lopes Gabriel,19.0,58.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,403951,Gustavinho,21.0,22.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,129772,João Neto,22.0,80.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,544688,Marcelinho,21.0,57.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,9925,Matheus Fernandes,27.0,35.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,197533,Praxedes,23.0,25.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,363689,Rodriguinho,21.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,310307,I. Sosa,22.0,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,625329,Yuri Leles,18.0,28.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,10004,Eduardo Sasha,33.0,8.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,688,Fernando,26.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,354791,J. Herrera,22.0,32.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,279811,Lucas Barbosa,24.0,21.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,350927,Henry Mosquera,24.0,30.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,631038,Jhuan Nunes Coelho,18.0,67.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,70670,I. Pitta,26.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,794,RB Bragantino,431417,Vinicius,21.0,17.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9978,Everson,35.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,311275,Gabriel Delfim,23.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,619024,Kaio Assis,17.0,43.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,565711,Pedro Cobra,19.0,46.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,465184,Robert,20.0,31.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,2499,J. Alonso,32.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,615190,Luis Chaves,19.0,32.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10122,Renan Lodi,27.0,16.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,30476,Lyanco,28.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,197450,Natanael,23.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,609544,K. Pascini,17.0,36.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,2583,A. Preciado,27.0,23.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,404640,I. Román,19.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,152857,Ruan Tressoldi,26.0,4.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,633527,Samuel,19.0,34.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,615193,Lucas Souza,19.0,50.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,515668,Vitão,17.0,40.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,30398,Vitor Hugo,34.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,363323,Alexsander,22.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,615196,Mamady Cisse,19.0,39.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,615197,Soares Eric,19.0,58.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,16360,A. Franco,27.0,21.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9926,Gustavo Scarpa,31.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9967,Igor Gomes,26.0,17.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,629376,Toledo Igor,19.0,35.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,506034,Índio,17.0,38.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,544678,M. J. Iseppe,19.0,48.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,687,Maycon,28.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,607356,F. Murillo,19.0,41.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,415069,Patrick Silva,21.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,414544,T. Pérez,20.0,25.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10166,Reinier,23.0,19.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,352371,Victor Hugo,21.0,30.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,18761,Bernard,33.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,5923,M. Cassierra,28.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,609519,Caua,17.0,29.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,6031,T. Cuello,25.0,28.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9939,Dudu,33.0,92.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,12705,Hulk,39.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,280695,A. Minda,22.0,27.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,659457,Joao Santos,16.0,59.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,570429,G. Veneno,16.0,36.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,9692,Ivan,28.0,97.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1198,Remo,77812,Marcelo Rangel,37.0,88.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1198,Remo,9694,Ygor Vinhas,31.0,94.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,1198,Remo,6048,B. Cufré,29.0,24.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,70368,João Lucas,27.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,404539,Kayky Almeida,20.0,27.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,547339,Leo Andrade,27.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,268877,Marcelinho,27.0,79.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,10232,Marllon,33.0,13.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,9709,Matheus Alexandre,26.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,80484,Mayk,26.0,98.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,36833,C. Tassano,29.0,17.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,22251,D. Tchamba,27.0,18.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,308601,Thalisson,23.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,1198,Remo,291530,F. Catarozzi,25.0,23.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,355193,David Francisco,24.0,26.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,404537,Freitas,22.0,35.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,9883,Nathan,29.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,10388,Patrick,33.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,195109,Patrick de Paula,26.0,12.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,5211,L. Picco,27.0,14.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,31741,P. Tachtsidis,34.0,77.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,9962,Vitor Bueno,31.0,15.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,10310,Zé Ricardo,26.0,55.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,9882,José Welison,30.0,28.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,96343,Alef Manga,31.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,70297,Carlinhos,28.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,269374,D. Hernández,25.0,33.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,197073,Eduardo Melo,24.0,39.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,352930,N. Ferreira,23.0,25.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,10141,Gabriel Poveda,27.0,99.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,80273,Gabriel Taliari,28.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,159960,Giovanni Pavani,29.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,10146,Jáderson,25.0,10.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,54894,Jája Silva,27.0,37.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1198,Remo,96450,João Pedro,29.0,45.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,64175,R. Monti Azpiazu,26.0,71.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1198,Remo,10581,Yago Pikachu,33.0,22.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9337,Alex Muralha,36.0,23.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80649,Georgemy,30.0,1.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,77966,Thomazella,35.0,90.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10226,Walter,38.0,22.0,Goalkeeper
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640106,Victor Caua Soares,17.0,29.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9771,Daniel Borges,32.0,20.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9789,Igor Cariús,32.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,156191,Igor Formiga,26.0,32.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,115525,João Victor,28.0,34.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9308,Lucas Oliveira,29.0,2.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,631245,Luiz Silva,18.0,35.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,649589,Marcelinho,17.0,53.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9946,Reinaldo,36.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10488,Rodrigues,28.0,97.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9907,Victor Luís,32.0,12.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80654,Willian Machado,29.0,3.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80474,Chico,34.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,276452,Denilson,24.0,8.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,44348,Eduardo,36.0,33.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,568,Gabriel Pires,32.0,18.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,133183,José Aldo,27.0,21.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,65837,L. Mugni,34.0,26.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,504957,Neto,20.0,25.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10025,Shaylon,28.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,550705,Y. Lara,31.0,5.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9429,Alesson,26.0,77.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,41430,André Luís,31.0,99.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640108,Vinicius Bacchi,18.0,47.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,520668,Carlos Eduardo de Barros,19.0,96.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54238,Edson,28.0,95.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54235,Everton Galdino,28.0,17.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,95392,A. Galeano,25.0,27.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9371,Nathan Fogaça,26.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,153458,Negueba,26.0,11.0,Attacker
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,390,Tiquinho Soares,34.0,29.0,Attacker
