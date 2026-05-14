@@ -11,119 +11,128 @@ st.markdown("### Sistema de Scouting Inteligente y Prevención de Lesiones")
 st.markdown("---")
 
 # ============================================
-# Tabla de posiciones (generada desde API si no existe)
+# 1. CARGAR DATOS UNIFICADOS
+# ============================================
+try:
+    df_players = pd.read_csv("data/players_unificado.csv")
+except:
+    st.error("No se encuentra 'data/players_unificado.csv'. Ejecuta 'actualizar_datos.py' primero.")
+    st.stop()
+
+try:
+    scaler = joblib.load("models/scaler_unificado.pkl")
+    ref = joblib.load("models/referencia_unificado.pkl")
+except Exception as e:
+    st.error(f"Error cargando modelos: {e}")
+    st.stop()
+
+features = ['goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90']
+# Verificar que ref tiene las columnas necesarias (puede llamarse 'league_name' o 'league')
+if 'league_name' not in ref.columns and 'league' in ref.columns:
+    ref.rename(columns={'league': 'league_name'}, inplace=True)
+if 'country' not in ref.columns:
+    # Si no hay país, intentamos obtenerlo de df_players
+    country_map = df_players[['league_name', 'country']].drop_duplicates()
+    ref = ref.merge(country_map, on='league_name', how='left')
+
+# Unificar con la metadata de posición y equipo (si no están)
+if 'team_name' not in ref.columns:
+    team_map = df_players[['player_name', 'team_name']].drop_duplicates()
+    ref = ref.merge(team_map, on='player_name', how='left')
+if 'position' not in ref.columns:
+    pos_map = df_players[['player_name', 'position']].drop_duplicates()
+    ref = ref.merge(pos_map, on='player_name', how='left')
+
+ref = ref.fillna({'position': 'No especificada', 'team_name': 'Sin equipo', 'country': 'Sin país'})
+
+# ============================================
+# 2. TABLA DE POSICIONES (SOLO COLOMBIA)
 # ============================================
 try:
     df_tabla = pd.read_csv("data/tabla_posiciones.csv")
-    st.header("📊 Tabla de Posiciones 2026")
+    st.header("📊 Tabla de Posiciones 2026 - Colombia")
     st.dataframe(df_tabla, use_container_width=True)
 except:
-    import requests
-    API_KEY = "ebb8f00138af0df132bbda386d55981c"
-    headers = {"x-apisports-key": API_KEY}
-    url = "https://v3.football.api-sports.io/standings?league=239&season=2026"
-    r = requests.get(url, headers=headers)
-    if r.status_code == 200:
-        data = r.json()
-        if data['response']:
-            standings_arrays = data['response'][0]['league']['standings']
-            tabla_general = [arr for arr in standings_arrays if len(arr) == 20][0]
-            equipos_tabla = []
-            for t in tabla_general:
-                equipos_tabla.append({
-                    'Equipo': t['team']['name'],
-                    'PJ': t['all']['played'],
-                    'PG': t['all']['win'],
-                    'PE': t['all']['draw'],
-                    'PP': t['all']['lose'],
-                    'GF': t['all']['goals']['for'],
-                    'GC': t['all']['goals']['against'],
-                    'DIF': t['goalsDiff'],
-                    'PTS': t['points']
-                })
-            df_tabla = pd.DataFrame(equipos_tabla)
-            df_tabla.to_csv("data/tabla_posiciones.csv", index=False)
-            st.header("📊 Tabla de Posiciones 2026")
-            st.dataframe(df_tabla, use_container_width=True)
-        else:
-            st.warning("No se pudo obtener la tabla de posiciones")
-    else:
-        st.warning("No se pudo obtener la tabla de posiciones")
+    st.warning("Tabla de posiciones no disponible. Ejecuta 'actualizar_datos.py' primero.")
 
 # ============================================
-# Cargar datos unificados (todas las ligas)
+# 3. TOP GOLEADORES (SOLO COLOMBIA)
 # ============================================
-df_players = pd.read_csv("data/players_unificado.csv")
-scaler = joblib.load("models/scaler_unificado.pkl")
-ref = joblib.load("models/referencia_unificado.pkl")
-features = ['goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90']
-ref_full = ref.copy()
+try:
+    df_goles = pd.read_csv("data/top_goleadores.csv")
+    st.header("⚽ Top Goleadores 2026 - Colombia")
+    st.dataframe(df_goles.head(10), use_container_width=True)
+    fig = px.bar(df_goles.head(10), x='Jugador', y='Goles', title='Top 10 Goleadores Liga BetPlay')
+    st.plotly_chart(fig)
+except:
+    st.warning("Top goleadores no disponible.")
 
 # ============================================
-# Top goleadores de Colombia (Primera A)
+# 4. SCOUTING AVANZADO (MULTILIGA)
 # ============================================
-st.header("⚽ Top Goleadores - Colombia (Primera A)")
-df_colombia = df_players[df_players['league_name'] == 'Primera A']
-top_col = df_colombia.nlargest(10, 'goals')[['player_name', 'team_name', 'goals']]
-top_col.columns = ['Jugador', 'Equipo', 'Goles']
-st.dataframe(top_col, use_container_width=True)
-fig = px.bar(top_col, x='Jugador', y='Goles', title='Top 10 Goleadores Liga BetPlay 2026')
-st.plotly_chart(fig)
+st.header("🔍 Scouting Avanzado - Compara jugadores en todas las ligas latinoamericanas")
 
-# ============================================
-# Scouting avanzado (con filtro por liga)
-# ============================================
-st.header("🔍 Scouting Avanzado - Encuentra jugadores similares")
+# Obtener valores únicos para filtros
+all_leagues = sorted(ref['league_name'].dropna().unique())
+all_countries = sorted(ref['country'].dropna().unique())
+all_positions = sorted(ref['position'].dropna().unique())
+all_players = sorted(ref['player_name'].dropna().unique())
 
-# Obtener valores únicos (convertir a string para evitar TypeError)
-all_leagues = sorted(ref_full['league_name'].astype(str).unique())
-all_positions = sorted(ref_full['position'].astype(str).unique())
-all_teams = sorted(ref_full['team_name'].astype(str).unique())
-all_players = sorted(ref_full['player_name'].astype(str).unique())
-
-# Selección por defecto: Primera A (Colombia)
-default_league = ['Primera A'] if 'Primera A' in all_leagues else all_leagues[:1]
-
+# Filtros laterales
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    liga_sel = st.multiselect("Liga(s)", all_leagues, default=default_league)
+    ligas_seleccion = st.multiselect("Liga(s) a considerar", all_leagues, default=all_leagues)
 with col2:
-    pos_sel = st.multiselect("Posición(es)", all_positions)
+    paises_seleccion = st.multiselect("País(es) a considerar", all_countries, default=[])
 with col3:
-    eq_sel = st.multiselect("Equipo(s)", all_teams)
+    posiciones_seleccion = st.multiselect("Posición(es)", all_positions, default=[])
 with col4:
-    jug_ref = st.selectbox("Jugador de referencia", all_players)
+    jugador_ref = st.selectbox("Jugador de referencia", all_players)
 
 top_n = st.slider("Número de recomendaciones", 3, 15, 5)
 
-if st.button("🔍 Buscar similares", type="primary"):
-    mask = (ref_full['league_name'].astype(str).isin(liga_sel) if liga_sel else True) & \
-           (ref_full['position'].astype(str).isin(pos_sel) if pos_sel else True) & \
-           (ref_full['team_name'].astype(str).isin(eq_sel) if eq_sel else True)
-    df_cand = ref_full[mask].copy()
-    df_cand = df_cand[df_cand['player_name'] != jug_ref]
-    if df_cand.empty:
-        st.warning("No hay jugadores con esos filtros")
+if st.button("🔍 Buscar jugadores similares", type="primary"):
+    # Construir máscara de filtros
+    mask = (ref['league_name'].isin(ligas_seleccion) if ligas_seleccion else True)
+    if paises_seleccion:
+        mask &= (ref['country'].isin(paises_seleccion))
+    if posiciones_seleccion:
+        mask &= (ref['position'].isin(posiciones_seleccion))
+    
+    df_candidates = ref[mask].copy()
+    df_candidates = df_candidates[df_candidates['player_name'] != jugador_ref]
+    
+    if df_candidates.empty:
+        st.warning("No hay jugadores que cumplan con los filtros seleccionados.")
     else:
-        idx = ref_full[ref_full['player_name'] == jug_ref].index[0]
-        vec_ref = scaler.transform([ref_full.loc[idx, features].fillna(0).values])[0]
-        X = scaler.transform(df_cand[features].fillna(0).values)
-        sim = cosine_similarity([vec_ref], X)[0]
-        df_cand['similitud'] = sim
-        resultados = df_cand.sort_values('similitud', ascending=False).head(top_n)
-
-        ref_data = ref_full[ref_full['player_name'] == jug_ref].copy()
-        ref_data['similitud'] = 1.0
-        cols = ['player_name', 'team_name', 'league_name', 'country', 'position',
-                'goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90', 'similitud']
-        ref_data = ref_data[cols]
-        resultados = resultados[cols]
-        final = pd.concat([ref_data, resultados], ignore_index=True).round(2)
-        st.success(f"Jugadores similares a **{jug_ref}** (primera fila):")
-        st.dataframe(final, use_container_width=True)
+        # Obtener vector del jugador referencia
+        idx_ref = ref[ref['player_name'] == jugador_ref].index[0]
+        vec_ref = scaler.transform([ref.loc[idx_ref, features].fillna(0).values])[0]
+        X_candidates = scaler.transform(df_candidates[features].fillna(0).values)
+        sim = cosine_similarity([vec_ref], X_candidates)[0]
+        df_candidates['similitud'] = sim
+        results = df_candidates.sort_values('similitud', ascending=False).head(top_n)
+        
+        # Agregar fila del jugador referencia
+        ref_row = ref[ref['player_name'] == jugador_ref].copy()
+        ref_row['similitud'] = 1.0
+        # Asegurar las mismas columnas
+        final_cols = ['player_name', 'team_name', 'league_name', 'country', 'position',
+                      'goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90', 'similitud']
+        ref_row = ref_row[final_cols]
+        results = results[final_cols]
+        final_df = pd.concat([ref_row, results], ignore_index=True).round(2)
+        
+        st.success(f"Jugadores similares a **{jugador_ref}** (primera fila):")
+        st.dataframe(final_df, use_container_width=True)
+        
+        # Gráfico comparativo de similitudes (opcional)
+        fig_sim = px.bar(results, x='player_name', y='similitud', title=f'Similitud con {jugador_ref}',
+                         labels={'player_name': 'Jugador', 'similitud': 'Similitud (coseno)'})
+        st.plotly_chart(fig_sim)
 
 # ============================================
-# Riesgo de lesión (demo)
+# 5. RIESGO DE LESIÓN (DEMO)
 # ============================================
 st.header("⚠️ Riesgo de Lesión (Demo)")
 st.info("Modelo conceptual. Con datos GPS del club se puede personalizar.")

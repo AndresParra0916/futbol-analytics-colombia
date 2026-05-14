@@ -4,278 +4,226 @@ import time
 import numpy as np
 import joblib
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics.pairwise import cosine_similarity
 
+# ============================================
+# CONFIGURACIÓN
+# ============================================
 API_KEY = "ebb8f00138af0df132bbda386d55981c"
 HEADERS = {"x-apisports-key": API_KEY}
-SEASON = 2026
+SEASON = 2026        # Intenta primero con 2026, si falla usará 2025 automáticamente
 
 # ============================================
-# CONFIGURACIÓN DE LIGAS A SCOUTEAR
+# LISTA DE LIGAS LATINOAMERICANAS (CON IDs VERIFICADOS)
 # ============================================
-# Lista de ligas: id, nombre, país, nivel (para segmentación posterior)
-LEAGUES_TO_SCOUT = [
-    {'id': 239, 'name': 'Liga BetPlay', 'country': 'Colombia', 'level': 'local'},
-    {'id': 128, 'name': 'Liga Profesional Argentina', 'country': 'Argentina', 'level': 'sudamerica'},
-    {'id': 71, 'name': 'Brasileirão', 'country': 'Brazil', 'level': 'sudamerica'},
-    {'id': 262, 'name': 'Liga MX', 'country': 'Mexico', 'level': 'sudamerica'},
-    {'id': 39, 'name': 'Premier League', 'country': 'England', 'level': 'europa_elite'},
-    {'id': 140, 'name': 'La Liga', 'country': 'Spain', 'level': 'europa_elite'},
-    {'id': 135, 'name': 'Serie A', 'country': 'Italy', 'level': 'europa_elite'},
-    {'id': 78, 'name': 'Bundesliga', 'country': 'Germany', 'level': 'europa_elite'},
-    {'id': 61, 'name': 'Ligue 1', 'country': 'France', 'level': 'europa_elite'},
-    {'id': 2, 'name': 'UEFA Champions League', 'country': 'Europe', 'level': 'competicion'},
+LEAGUES = [
+    {"id": 239, "name": "Liga BetPlay", "country": "Colombia", "level": "primera"},
+    {"id": 128, "name": "Liga Profesional Argentina", "country": "Argentina", "level": "primera"},
+    {"id": 71, "name": "Brasileirão", "country": "Brazil", "level": "primera"},
+    {"id": 262, "name": "Liga MX", "country": "Mexico", "level": "primera"},
+    {"id": 263, "name": "Liga de Expansión MX", "country": "Mexico", "level": "segunda"},
+    {"id": 266, "name": "Primera B", "country": "Chile", "level": "segunda"},
+    {"id": 281, "name": "Primera División", "country": "Perú", "level": "primera"},
+    {"id": 282, "name": "Segunda División", "country": "Perú", "level": "segunda"},
+    {"id": 268, "name": "Primera División (Apertura)", "country": "Uruguay", "level": "primera"},
+    {"id": 270, "name": "Primera División (Clausura)", "country": "Uruguay", "level": "primera"},
+    {"id": 269, "name": "Segunda División", "country": "Uruguay", "level": "segunda"},
+    {"id": 242, "name": "Liga Pro", "country": "Ecuador", "level": "primera"},
+    {"id": 243, "name": "Serie B", "country": "Ecuador", "level": "segunda"},
+    {"id": 251, "name": "División Intermedia", "country": "Paraguay", "level": "primera"},  # Según indicación
+    {"id": 252, "name": "Segunda División", "country": "Paraguay", "level": "segunda"},
+    {"id": 344, "name": "División Profesional", "country": "Bolivia", "level": "primera"},
+    {"id": 299, "name": "Primera División", "country": "Venezuela", "level": "primera"},
+    {"id": 300, "name": "Segunda División", "country": "Venezuela", "level": "segunda"},
 ]
 
 # ============================================
 # FUNCIONES AUXILIARES
 # ============================================
 def fetch_teams(league_id, season):
+    """Obtiene la lista de equipos de una liga para una temporada."""
     url = f"https://v3.football.api-sports.io/teams?league={league_id}&season={season}"
     r = requests.get(url, headers=HEADERS)
     if r.status_code == 200:
-        data = r.json()
-        teams = [{'id': t['team']['id'], 'name': t['team']['name']} for t in data['response']]
-        return teams
-    else:
-        print(f"Error fetching teams for league {league_id}: {r.status_code}")
-        return []
+        return [{'id': t['team']['id'], 'name': t['team']['name']} for t in r.json()['response']]
+    return []
 
-def fetch_squad(team_id):
-    url = f"https://v3.football.api-sports.io/players/squads?team={team_id}"
-    r = requests.get(url, headers=HEADERS)
-    time.sleep(1)
-    if r.status_code == 200 and r.json()['response']:
-        squad = r.json()['response'][0]['players']
-        return squad
-    else:
-        return []
-
-def fetch_fixtures(league_id, season):
-    url = f"https://v3.football.api-sports.io/fixtures?league={league_id}&season={season}"
-    r = requests.get(url, headers=HEADERS)
-    if r.status_code == 200:
+def fetch_players_stats(league_id, season):
+    """Descarga estadísticas agregadas de jugadores usando el endpoint /players."""
+    all_players = []
+    page = 1
+    while True:
+        url = f"https://v3.football.api-sports.io/players?league={league_id}&season={season}&page={page}"
+        r = requests.get(url, headers=HEADERS)
+        if r.status_code != 200:
+            break
         data = r.json()
-        fixtures = []
-        for f in data['response']:
-            fixtures.append({
-                'fixture_id': f['fixture']['id'],
-                'date': f['fixture']['date'],
-                'round': f['league']['round'],
-                'home_team_id': f['teams']['home']['id'],
-                'away_team_id': f['teams']['away']['id'],
-                'home_goals': f['goals']['home'],
-                'away_goals': f['goals']['away']
+        players = data['response']
+        if not players:
+            break
+        for p in players:
+            player = p['player']
+            stats = p['statistics'][0]
+            minutes = stats['games']['minutes']
+            if minutes is None or minutes == 0:
+                continue
+            all_players.append({
+                'player_id': player['id'],
+                'player_name': player['name'],
+                'team_id': stats['team']['id'],
+                'team_name': stats['team']['name'],
+                'position': stats['games']['position'] or 'No especificada',
+                'minutes': minutes,
+                'goals': stats['goals']['total'] if stats['goals']['total'] is not None else 0,
+                'assists': stats['goals']['assists'] if stats['goals']['assists'] is not None else 0,
+                'shots': stats['shots']['total'] if stats['shots']['total'] is not None else 0,
+                'passes': stats['passes']['total'] if stats['passes']['total'] is not None else 0,
+                'tackles': stats['tackles']['total'] if stats['tackles']['total'] is not None else 0,
+                'duels_won': stats['duels']['won'] if stats['duels']['won'] is not None else 0
             })
-        return fixtures
-    else:
-        return []
-
-def fetch_player_stats(fixture_id):
-    url = f"https://v3.football.api-sports.io/fixtures/players?fixture={fixture_id}"
-    r = requests.get(url, headers=HEADERS)
-    time.sleep(1)
-    if r.status_code == 200:
-        data = r.json()
-        stats_list = []
-        for team_data in data['response']:
-            team_id = team_data['team']['id']
-            for player_data in team_data['players']:
-                player = player_data['player']
-                stats = player_data['statistics'][0]
-                stats_list.append({
-                    'fixture_id': fixture_id,
-                    'team_id': team_id,
-                    'player_id': player['id'],
-                    'player_name': player['name'],
-                    'minutes': stats.get('minutes', 0),
-                    'goals': stats.get('goals', {}).get('total', 0),
-                    'assists': stats.get('goals', {}).get('assists', 0),
-                    'shots': stats.get('shots', {}).get('total', 0),
-                    'passes': stats.get('passes', {}).get('total', 0),
-                    'tackles': stats.get('tackles', {}).get('total', 0),
-                    'duels_won': stats.get('duels', {}).get('won', 0)
-                })
-        return stats_list
-    else:
-        return []
+        print(f"  Página {page}: {len(players)} jugadores, acumulados {len(all_players)}")
+        page += 1
+        time.sleep(1)  # Respetar límite de la API
+    return all_players
 
 def get_standings(league_id, season):
     url = f"https://v3.football.api-sports.io/standings?league={league_id}&season={season}"
     r = requests.get(url, headers=HEADERS)
     if r.status_code == 200:
         data = r.json()
-        if data['response']:
-            standings_arrays = data['response'][0]['league']['standings']
-            # Buscar el array que tenga 20 equipos (generalmente el último o el de índice 1)
-            tabla_general = None
-            for arr in standings_arrays:
-                if len(arr) >= 10:  # algunas ligas tienen más de 20, pero al menos 10
-                    tabla_general = arr
-                    break
-            if tabla_general is None and standings_arrays:
-                tabla_general = standings_arrays[0]
-            if tabla_general:
-                standings_list = []
-                for t in tabla_general:
-                    standings_list.append({
-                        'Equipo': t['team']['name'],
-                        'PJ': t['all']['played'],
-                        'PG': t['all']['win'],
-                        'PE': t['all']['draw'],
-                        'PP': t['all']['lose'],
-                        'GF': t['all']['goals']['for'],
-                        'GC': t['all']['goals']['against'],
-                        'DIF': t['goalsDiff'],
-                        'PTS': t['points']
-                    })
-                return standings_list
+        if data.get('response'):
+            standings = data['response'][0]['league']['standings'][0]
+            table = []
+            for t in standings:
+                table.append({
+                    'Equipo': t['team']['name'],
+                    'PJ': t['all']['played'],
+                    'PG': t['all']['win'],
+                    'PE': t['all']['draw'],
+                    'PP': t['all']['lose'],
+                    'GF': t['all']['goals']['for'],
+                    'GC': t['all']['goals']['against'],
+                    'DIF': t['goalsDiff'],
+                    'PTS': t['points']
+                })
+            return table
+    return []
+
+def get_top_scorers(league_id, season):
+    url = f"https://v3.football.api-sports.io/players/topscorers?league={league_id}&season={season}"
+    r = requests.get(url, headers=HEADERS)
+    if r.status_code == 200:
+        data = r.json()
+        if data.get('response'):
+            scorers = []
+            for p in data['response']:
+                scorers.append({
+                    'Jugador': p['player']['name'],
+                    'Goles': p['statistics'][0]['goals']['total'],
+                    'Equipo': p['statistics'][0]['team']['name']
+                })
+            return scorers
     return []
 
 # ============================================
 # PROCESAMIENTO PRINCIPAL
 # ============================================
-print("=== INICIANDO ACTUALIZACIÓN MULTILIGA ===")
+print("=== ACTUALIZACIÓN DE LIGAS LATINOAMERICANAS ===")
+print("Este proceso puede tomar varios minutos. Por favor espera...\n")
 
-all_players = []        # Para consolidar jugadores de todas las ligas
-all_stats = []          # Para consolidar estadísticas
-league_data = {}        # Para guardar datos por liga
+all_players = []
 
-for league in LEAGUES_TO_SCOUT:
+for league in LEAGUES:
     league_id = league['id']
     league_name = league['name']
-    print(f"\n--- Procesando {league_name} (ID {league_id}) ---")
+    print(f"📌 Procesando {league_name} ({league['country']})...")
 
-    # 1. Equipos
-    teams = fetch_teams(league_id, SEASON)
-    if not teams:
-        print(f"  No se obtuvieron equipos para {league_name}. Saltando...")
-        continue
-    print(f"  {len(teams)} equipos encontrados.")
-
-    # Guardar equipos por liga
-    df_teams = pd.DataFrame(teams)
-    df_teams.to_csv(f'data/teams_{league_name.replace(" ", "_")}.csv', index=False)
-
-    # 2. Plantilla de jugadores
-    league_players = []
-    for team in teams:
-        squad = fetch_squad(team['id'])
-        for p in squad:
-            league_players.append({
-                'league_id': league_id,
-                'league_name': league_name,
-                'country': league['country'],
-                'level': league['level'],
-                'team_id': team['id'],
-                'team_name': team['name'],
-                'player_id': p['id'],
-                'player_name': p['name'],
-                'age': p.get('age'),
-                'number': p.get('number'),
-                'position': p.get('position')
-            })
-    df_players = pd.DataFrame(league_players)
-    df_players.to_csv(f'data/players_{league_name.replace(" ", "_")}.csv', index=False)
-    print(f"  {len(league_players)} jugadores guardados.")
-
-    # 3. Fixtures y estadísticas (solo los últimos 30 partidos por liga para no saturar)
-    fixtures = fetch_fixtures(league_id, SEASON)
-    if fixtures:
-        df_fixtures = pd.DataFrame(fixtures)
-        df_fixtures['date'] = pd.to_datetime(df_fixtures['date'])
-        df_fixtures = df_fixtures.sort_values('date', ascending=False)
-        last_fixtures = df_fixtures.head(30)['fixture_id'].tolist()
-        print(f"  Procesando estadísticas de {len(last_fixtures)} partidos recientes...")
-        league_stats = []
-        for fid in last_fixtures:
-            stats = fetch_player_stats(fid)
-            league_stats.extend(stats)
-        df_stats = pd.DataFrame(league_stats)
-        if not df_stats.empty:
-            df_stats.to_csv(f'data/stats_{league_name.replace(" ", "_")}.csv', index=False)
-            print(f"  {len(df_stats)} registros de estadísticas guardados.")
-            # Acumular para consolidado
-            df_stats['league_name'] = league_name
-            df_stats['level'] = league['level']
-            all_stats.append(df_stats)
+    # Intentar con temporada SEASON (2026); si falla, probar 2025
+    for season in [SEASON, SEASON - 1]:
+        print(f"  Intentando temporada {season}...")
+        teams = fetch_teams(league_id, season)
+        if teams:
+            print(f"    ✅ {len(teams)} equipos encontrados.")
+            players = fetch_players_stats(league_id, season)
+            if players:
+                for p in players:
+                    p['league_id'] = league_id
+                    p['league_name'] = league_name
+                    p['country'] = league['country']
+                all_players.extend(players)
+                print(f"    ✅ {len(players)} jugadores descargados para {league_name} ({season}).")
+                break  # Salir del bucle de temporada si se descargaron datos
+            else:
+                print(f"    ⚠️ No se encontraron estadísticas de jugadores para {league_name} en {season}.")
+                # Si no hay datos, continuar con la siguiente liga
+                break
         else:
-            print(f"  No se obtuvieron estadísticas para {league_name}.")
-    else:
-        print(f"  No se obtuvieron fixtures para {league_name}.")
-
-    # 4. Tabla de posiciones (solo para liga colombiana por ahora, pero puedes habilitar para todas)
-    if league_id == 239:
-        standings = get_standings(league_id, SEASON)
-        if standings:
-            df_standings = pd.DataFrame(standings)
-            df_standings.to_csv('data/tabla_posiciones.csv', index=False)
-            print(f"  Tabla de posiciones guardada para {league_name}.")
-    else:
-        # Opcional: guardar standings de otras ligas si quieres
-        pass
-
-    # Acumular jugadores para consolidado
-    all_players.append(df_players)
+            print(f"    ⚠️ No se encontraron equipos para {league_name} en {season}.")
+            # Si no hay equipos, probar con la siguiente temporada
+            continue
+    print("")  # Línea en blanco para separar ligas
 
 # ============================================
-# CONSOLIDAR DATOS MULTILIGA
+# GUARDAR DATOS CONSOLIDADOS
 # ============================================
 if all_players:
-    df_all_players = pd.concat(all_players, ignore_index=True)
-    df_all_players.to_csv('data/all_players_multileague.csv', index=False)
-    print(f"\n✅ Total jugadores de todas las ligas: {len(df_all_players)}")
-
-if all_stats:
-    df_all_stats = pd.concat(all_stats, ignore_index=True)
-    df_all_stats.to_csv('data/all_stats_multileague.csv', index=False)
-    print(f"✅ Total registros de estadísticas: {len(df_all_stats)}")
+    df_players = pd.DataFrame(all_players)
+    df_players.to_csv('data/players_unificado.csv', index=False)
+    print(f"✅ {len(df_players)} jugadores guardados en 'data/players_unificado.csv'.")
+else:
+    print("❌ No se descargaron jugadores. Verifica tu conexión o la disponibilidad de la API.")
 
 # ============================================
-# REENTRENAR MODELO DE SCOUTING MULTILIGA
+# ACTUALIZAR TABLA DE POSICIONES Y GOLEADORES (SOLO COLOMBIA)
 # ============================================
-print("\n=== REENTRENANDO MODELO DE SCOUTING MULTILIGA ===")
-try:
-    # Necesitamos combinar estadísticas y jugadores para generar las features por jugador
-    if 'df_all_stats' in locals() and not df_all_stats.empty:
-        # Agrupar estadísticas por jugador
-        stats_grouped = df_all_stats.groupby(['player_id', 'player_name', 'league_name', 'level']).agg({
-            'minutes': 'sum',
-            'goals': 'sum',
-            'assists': 'sum',
-            'shots': 'sum',
-            'passes': 'sum',
-            'tackles': 'sum',
-            'duels_won': 'sum'
-        }).reset_index()
+print("\n=== ACTUALIZANDO TABLA DE POSICIONES Y GOLEADORES DE COLOMBIA ===")
+standings = get_standings(239, SEASON)
+if standings:
+    pd.DataFrame(standings).to_csv('data/tabla_posiciones.csv', index=False)
+    print("  ✅ Tabla de posiciones guardada.")
+else:
+    print("  ⚠️ No se pudo obtener la tabla de posiciones (probablemente temporada 2026 no iniciada).")
 
-        # Evitar división por cero
-        stats_grouped['minutes'] = stats_grouped['minutes'].replace(0, 1)
+scorers = get_top_scorers(239, SEASON)
+if scorers:
+    pd.DataFrame(scorers).to_csv('data/top_goleadores.csv', index=False)
+    print("  ✅ Top goleadores guardado.")
+else:
+    print("  ⚠️ No se pudo obtener el top de goleadores.")
 
-        # Métricas por 90 minutos
-        stats_grouped['goles_p90'] = stats_grouped['goals'] / (stats_grouped['minutes'] / 90)
-        stats_grouped['asistencias_p90'] = stats_grouped['assists'] / (stats_grouped['minutes'] / 90)
-        stats_grouped['tiros_p90'] = stats_grouped['shots'] / (stats_grouped['minutes'] / 90)
-        stats_grouped['pases_p90'] = stats_grouped['passes'] / (stats_grouped['minutes'] / 90)
-        stats_grouped['entradas_p90'] = stats_grouped['tackles'] / (stats_grouped['minutes'] / 90)
-        stats_grouped['duelos_ganados_p90'] = stats_grouped['duels_won'] / (stats_grouped['minutes'] / 90)
-
-        stats_grouped = stats_grouped.fillna(0)
-
-        # Características para el modelo
-        features = ['goles_p90', 'asistencias_p90', 'tiros_p90', 'pases_p90', 'entradas_p90', 'duelos_ganados_p90']
-        X = stats_grouped[features].values
-
+# ============================================
+# REENTRENAR MODELO DE SCOUTING
+# ============================================
+print("\n=== REENTRENANDO MODELO DE SCOUTING ===")
+if all_players:
+    # Calcular métricas por 90 minutos
+    df = df_players.copy()
+    for col in ['goals', 'assists', 'shots', 'passes', 'tackles', 'duels_won']:
+        if col in df.columns:
+            df[f'{col}_p90'] = df[col] / (df['minutes'] / 90)
+        else:
+            print(f"Advertencia: La columna '{col}' no está presente en los datos.")
+    
+    df = df.fillna(0)
+    features = ['goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90']
+    
+    # Verificar que todas las columnas existan
+    existing_features = [f for f in features if f in df.columns]
+    if len(existing_features) < 6:
+        print(f"⚠️ Faltan columnas para el modelo: {set(features) - set(existing_features)}")
+    else:
+        X = df[existing_features].values
         scaler = StandardScaler()
         X_scaled = scaler.fit_transform(X)
+        
+        # Crear directorio models si no existe
+        import os
+        os.makedirs('models', exist_ok=True)
+        
+        joblib.dump(scaler, 'models/scaler_unificado.pkl')
+        joblib.dump(df[['player_name', 'league_name', 'country', 'team_name', 'position'] + existing_features], 
+                    'models/referencia_unificado.pkl')
+        print("✅ Modelo de scouting reentrenado correctamente.")
+else:
+    print("⚠️ No hay datos suficientes para reentrenar el modelo.")
 
-        # Guardar modelos
-        joblib.dump(scaler, 'models/scaler_multileague.pkl')
-        joblib.dump(stats_grouped[['player_name', 'league_name', 'level'] + features], 'models/referencia_multileague.pkl')
-        print("✅ Modelo multilega entrenado correctamente.")
-    else:
-        print("⚠️ No hay suficientes datos estadísticos para reentrenar el modelo multilega.")
-except Exception as e:
-    print(f"❌ Error durante el reentrenamiento: {e}")
-
-print("\n=== ACTUALIZACIÓN MULTILIGA COMPLETADA ===")
+print("\n=== ACTUALIZACIÓN COMPLETADA ===")
