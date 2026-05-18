@@ -245,7 +245,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,538301,J. Pena,26.0,98.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,555282,C. Perez,18.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,13261,J. Pestaña,28.0,24.0,Defender
-239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,642908,Daniel Socarras,,19.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59441,Y. Súarez,28.0,26.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59403,F. Ángel,24.0,80.0,Midfielder
@@ -257,12 +257,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,555128,A. Shmalbach,18.0,38.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,555289,D. Villarreal,17.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,1706,C. Bacca,39.0,70.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,13709,C. Barrios,27.0,77.0,Attacker
+239,Liga BetPlay,Colombia,local,1135,Junior,13709,C. Barrios,27.0,77.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,431436,J. Canchimbo,20.0,21.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,13524,B. Castrillón,26.0,88.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,2492,Y. Chará,34.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,13592,T. Gutiérrez,40.0,29.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,538320,C. Olmos,20.0,2.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,53128,G. Paiva,28.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,153065,K.  Pérez,28.0,18.0,Attacker
@@ -383,7 +383,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13290,Y. Velásquez,26.0,20.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13485,A. Zapata,30.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538174,M. Balanta,17.0,34.0,Attacker
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,35667,N. Bustos,27.0,19.0,Attacker
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,35667,N. Bustos,27.0,19.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,643030,Martin Palacios,18.0,40.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,281743,F. Fagúndez,25.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,35751,O. Fernández,32.0,8.0,Midfielder
@@ -705,12 +705,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,289466,M. Di Cesare,23.0,3.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,63937,A. García,33.0,2.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,515930,B. González,18.0,31.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,197520,G. Martirena,25.0,15.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,197520,G. Martirena,25.0,15.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6573,F. Pardo,28.0,18.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6608,G. Rojas,28.0,27.0,Defender
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6608,G. Rojas,28.0,27.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,890,M. Rojo,35.0,6.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,363340,T. Rubio,21.0,34.0,Defender
-128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6006,S. Sosa,26.0,13.0,Midfielder
+128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,6006,S. Sosa,26.0,13.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,465127,G. Volpe,21.0,42.0,Defender
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,341646,V. Carboni,20.0,21.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,436,Racing Club,169928,A. Fernández,24.0,24.0,Midfielder
@@ -1233,7 +1233,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,414518,L. Gómez,21.0,8.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,289447,G. Infantino,22.0,32.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,358383,A. Lescano,24.0,10.0,Midfielder
-128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,5999,H. López,25.0,23.0,Attacker
+128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,5999,H. López,25.0,23.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,11832,N. Oroz,31.0,11.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,6003,E. Pérez,39.0,33.0,Midfielder
 128,Liga Profesional Argentina,Argentina,sudamerica,458,Argentinos JRS,538350,G. Bouhier,16.0,36.0,Attacker
@@ -1675,7 +1675,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,119,Internacional,50077,S. Rochet,32.0,1.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,119,Internacional,288720,B. Aguirre,25.0,35.0,Defender
 71,Brasileirão,Brazil,sudamerica,119,Internacional,577746,Alisson,17.0,30.0,Defender
-71,Brasileirão,Brazil,sudamerica,119,Internacional,129902,A. Bernabéi,25.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,119,Internacional,129902,A. Bernabéi,25.0,26.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,119,Internacional,633308,Eduardo Carlos,19.0,39.0,Defender
 71,Brasileirão,Brazil,sudamerica,119,Internacional,279579,Clayton,25.0,20.0,Defender
 71,Brasileirão,Brazil,sudamerica,119,Internacional,9912,Juninho,30.0,18.0,Defender
@@ -1716,7 +1716,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,410134,C. Loor,19.0,40.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,912,Neto,36.0,22.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,80188,Raul,28.0,1.0,Goalkeeper
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,378,Alex Telles,33.0,13.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,378,Alex Telles,33.0,13.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,5933,A. Barboza,30.0,20.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,1845,Bartolomeu Jacinto Quissanga,34.0,15.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,283837,Caio Roque,23.0,27.0,Defender
@@ -1738,7 +1738,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,403670,Bernardo Valim,19.0,80.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,506276,Caio Valle,18.0,45.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,275170,Danilo,24.0,8.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,10387,Edenílson,36.0,88.0,Attacker
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,10387,Edenílson,36.0,88.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,635348,Pedro Henrique de Paula Martins,17.0,16.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,544707,G. Justino,19.0,34.0,Defender
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,414352,Lucas Camilo,19.0,78.0,Midfielder
@@ -1746,7 +1746,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,609481,Miguel Caldas,17.0,47.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,455130,Álvaro Montoro,18.0,10.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,661112,Davi Nery,17.0,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,120,Botafogo,277169,Newton,25.0,28.0,Defender
+71,Brasileirão,Brazil,sudamerica,120,Botafogo,277169,Newton,25.0,28.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,51581,S. Rodríguez,25.0,23.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,463987,Wallace II,18.0,55.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,120,Botafogo,9938,Arthur Cabral,27.0,19.0,Attacker
@@ -1914,7 +1914,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,586025,Douglas Telles,18.0,81.0,Attacker
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,2414,Everton,29.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,589368,Camargo Joao,18.0,18.0,Attacker
-71,Brasileirão,Brazil,sudamerica,127,Flamengo,22238,Luiz Araújo,29.0,7.0,Attacker
+71,Brasileirão,Brazil,sudamerica,127,Flamengo,22238,Luiz Araújo,29.0,7.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,10321,Pedro,28.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,16369,G. Plata,25.0,19.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,127,Flamengo,570400,Ryan Roberto,17.0,11.0,Attacker
@@ -1983,13 +1983,13 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,130,Gremio,129882,J. Nardoni,23.0,5.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,130,Gremio,199141,E. Noriega,24.0,19.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,130,Gremio,502998,Tiago,17.0,39.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,130,Gremio,1431,F. Amuzu,26.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,130,Gremio,1431,F. Amuzu,26.0,9.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,130,Gremio,237847,André Henrique,24.0,77.0,Attacker
 71,Brasileirão,Brazil,sudamerica,130,Gremio,2737,M. Braithwaite,34.0,22.0,Attacker
 71,Brasileirão,Brazil,sudamerica,130,Gremio,104,Carlos Vinícius,30.0,95.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,13616,J. Enamorado,26.0,99.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,507527,Gabriel Mec,17.0,37.0,Attacker
-71,Brasileirão,Brazil,sudamerica,130,Gremio,5981,C. Pavón,29.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,13616,J. Enamorado,26.0,99.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,507527,Gabriel Mec,17.0,37.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,130,Gremio,5981,C. Pavón,29.0,7.0,Defender
 71,Brasileirão,Brazil,sudamerica,130,Gremio,408342,L. Pérez,21.0,33.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,130,Gremio,576652,Roger,17.0,47.0,Attacker
 71,Brasileirão,Brazil,sudamerica,130,Gremio,691,Tetê,25.0,21.0,Attacker
@@ -2063,10 +2063,10 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,237669,João Vitor,27.0,5.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,658882,F. Maciel,,15.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632957,Miguel,19.0,19.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106495,Rafael Carvalheira,26.0,99.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,106495,Rafael Carvalheira,26.0,99.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,455091,Robert Santos,22.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631034,Rodrigo,18.0,23.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,408347,Rubens,22.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,408347,Rubens,22.0,70.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,26991,Thomás Bedinelli,32.0,30.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,278496,Vinicius Balieiro,24.0,17.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,631529,Wermeson,24.0,11.0,Midfielder
@@ -2083,7 +2083,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,10363,Marcinho,30.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,201201,Garcez,28.0,31.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,632935,M. Milani,19.0,8.0,Attacker
-71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,54102,Neto Pessoa,31.0,9.0,Attacker
+71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,54102,Neto Pessoa,31.0,18.0,Attacker
 71,Brasileirão,Brazil,sudamerica,132,Chapecoense-sc,51589,K. Ramírez,31.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,763,Daniel Fuzato,28.0,13.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,133,Vasco DA Gama,41169,Léo Jardim,30.0,1.0,Goalkeeper
@@ -2130,7 +2130,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10112,Santos,35.0,23.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,36258,J. Aguirre,29.0,33.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457420,Arthur Dias,18.0,4.0,Defender
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,58577,G. Benavídez,30.0,29.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,58577,G. Benavídez,30.0,29.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630991,Claudinho,20.0,26.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,288704,L. Esquivel,24.0,37.0,Defender
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544703,Gilberto Junior,20.0,2.0,Defender
@@ -2145,7 +2145,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630997,Chiqueti,20.0,47.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,457593,Diogo Riquelme,20.0,63.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,414399,Dudu,19.0,53.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,140507,Felipinho,24.0,5.0,Defender
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,140507,Felipinho,24.0,5.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,13669,A. García,24.0,20.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,630998,Back Guilherme,19.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,10091,Jádson,32.0,16.0,Midfielder
@@ -2160,7 +2160,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,472802,Kayke Santos,17.0,16.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,408145,Leozinho,27.0,21.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631973,Amorim Lucas,19.0,25.0,Attacker
-71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,21394,S. Mendoza,33.0,7.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,21394,S. Mendoza,33.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,544933,Renan Peixoto,25.0,70.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,311289,Renan Viana,22.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,134,Atletico Paranaense,631004,Sorriso,19.0,19.0,Attacker
@@ -2199,12 +2199,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,9445,Bruno Rodrigues,28.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,36312,Francisco da Costa,30.0,91.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,10008,Kaio Jorge,23.0,19.0,Attacker
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465165,Kenji,19.0,70.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,465165,Kenji,19.0,70.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,610497,R. Lelis,18.0,57.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,311520,Marquinhos,22.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,37161,L. Sinisterra,26.0,17.0,Attacker
 71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,439566,N. Villareal,20.0,22.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,2083,Wanderson,31.0,94.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,135,Cruzeiro,2083,Wanderson,31.0,94.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,634324,Bernardo Rocha,17.0,,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,197031,Fintelman,24.0,35.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,31384,Gabriel Vasconcelos,33.0,22.0,Goalkeeper
@@ -2231,15 +2231,15 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,515578,Gean,18.0,59.0,Defender
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,566354,A. Almaraz,18.0,46.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,9460,Gabriel Baralhas,27.0,44.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,159653,Caíque,30.0,95.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,159653,Caíque,30.0,95.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,36848,Aitor Cantalapiedra,29.0,17.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,156942,Dudu,26.0,21.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,456004,Edenilson,20.0,26.0,Defender
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,456004,Edenilson,20.0,26.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,16637,E. Martínez,31.0,6.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,633433,Italo Machado,17.0,17.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,153837,D. Capewell,29.0,52.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,464018,Luis Aucélio,19.0,18.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,114436,Matheuzinho,28.0,10.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,114436,Matheuzinho,28.0,150.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,404404,Pablo,22.0,62.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,64363,Ronald,28.0,8.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,638335,N. Talero,18.0,65.0,Midfielder
@@ -2247,7 +2247,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,288230,Zé Vitor,25.0,88.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,633443,Anderson,23.0,28.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,639902,Marcos Cabrobo,19.0,49.0,Attacker
-71,Brasileirão,Brazil,sudamerica,136,Vitoria,9549,Erick,28.0,33.0,Attacker
+71,Brasileirão,Brazil,sudamerica,136,Vitoria,9549,Erick,28.0,33.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,9823,Fabrício,25.0,23.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,163436,K. Saverio,26.0,19.0,Attacker
 71,Brasileirão,Brazil,sudamerica,136,Vitoria,11490,R. López,31.0,31.0,Attacker
@@ -2372,12 +2372,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,607356,F. Murillo,19.0,41.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,415069,Patrick Silva,21.0,20.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,414544,T. Pérez,20.0,25.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10166,Reinier,23.0,19.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,10166,Reinier,23.0,19.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,352371,Victor Hugo,21.0,30.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,18761,Bernard,33.0,11.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,18761,Bernard,33.0,11.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,5923,M. Cassierra,28.0,9.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,609519,Caua,17.0,29.0,Attacker
-71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,6031,T. Cuello,25.0,28.0,Attacker
+71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,6031,T. Cuello,25.0,28.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,9939,Dudu,33.0,92.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,12705,Hulk,39.0,7.0,Attacker
 71,Brasileirão,Brazil,sudamerica,1062,Atletico-MG,280695,A. Minda,22.0,27.0,Midfielder
@@ -2426,14 +2426,14 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,77966,Thomazella,35.0,90.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10226,Walter,38.0,22.0,Goalkeeper
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640106,Victor Caua Soares,17.0,29.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9771,Daniel Borges,32.0,20.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9789,Igor Cariús,32.0,14.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9771,Daniel Borges,32.0,20.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9789,Igor Cariús,32.0,16.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,156191,Igor Formiga,26.0,32.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,115525,João Victor,28.0,34.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9308,Lucas Oliveira,29.0,2.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,631245,Luiz Silva,18.0,35.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,649589,Marcelinho,17.0,53.0,Defender
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9946,Reinaldo,36.0,6.0,Defender
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9946,Reinaldo,36.0,6.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10488,Rodrigues,28.0,97.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9907,Victor Luís,32.0,12.0,Defender
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,80654,Willian Machado,29.0,3.0,Defender
@@ -2446,11 +2446,11 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,504957,Neto,20.0,25.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,10025,Shaylon,28.0,7.0,Midfielder
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,550705,Y. Lara,31.0,5.0,Midfielder
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9429,Alesson,26.0,77.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9429,Alesson,26.0,77.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,41430,André Luís,31.0,99.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,640108,Vinicius Bacchi,18.0,47.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,520668,Carlos Eduardo de Barros,19.0,96.0,Attacker
-71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54238,Edson,28.0,95.0,Midfielder
+71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54238,Edson,28.0,95.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,54235,Everton Galdino,28.0,17.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,95392,A. Galeano,25.0,27.0,Attacker
 71,Brasileirão,Brazil,sudamerica,7848,Mirassol,9371,Nathan Fogaça,26.0,9.0,Attacker

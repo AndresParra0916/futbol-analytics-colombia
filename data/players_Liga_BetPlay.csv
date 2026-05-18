@@ -245,7 +245,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,538301,J. Pena,26.0,98.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,555282,C. Perez,18.0,16.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,13261,J. Pestaña,28.0,24.0,Defender
-239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,59634,D. Rivera,26.0,5.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,642908,Daniel Socarras,,19.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59441,Y. Súarez,28.0,26.0,Defender
 239,Liga BetPlay,Colombia,local,1135,Junior,59403,F. Ángel,24.0,80.0,Midfielder
@@ -257,12 +257,12 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1135,Junior,555128,A. Shmalbach,18.0,38.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,555289,D. Villarreal,17.0,6.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,1706,C. Bacca,39.0,70.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,13709,C. Barrios,27.0,77.0,Attacker
+239,Liga BetPlay,Colombia,local,1135,Junior,13709,C. Barrios,27.0,77.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,431436,J. Canchimbo,20.0,21.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,13524,B. Castrillón,26.0,88.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,2492,Y. Chará,34.0,8.0,Midfielder
 239,Liga BetPlay,Colombia,local,1135,Junior,13592,T. Gutiérrez,40.0,29.0,Attacker
-239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Midfielder
+239,Liga BetPlay,Colombia,local,1135,Junior,2493,L. Muriel,34.0,10.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,538320,C. Olmos,20.0,2.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,53128,G. Paiva,28.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1135,Junior,153065,K.  Pérez,28.0,18.0,Attacker
@@ -383,7 +383,7 @@ league_id,league_name,country,level,team_id,team_name,player_id,player_name,age,
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13290,Y. Velásquez,26.0,20.0,Defender
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,13485,A. Zapata,30.0,10.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,538174,M. Balanta,17.0,34.0,Attacker
-239,Liga BetPlay,Colombia,local,1139,Santa Fe,35667,N. Bustos,27.0,19.0,Attacker
+239,Liga BetPlay,Colombia,local,1139,Santa Fe,35667,N. Bustos,27.0,19.0,Midfielder
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,643030,Martin Palacios,18.0,40.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,281743,F. Fagúndez,25.0,9.0,Attacker
 239,Liga BetPlay,Colombia,local,1139,Santa Fe,35751,O. Fernández,32.0,8.0,Midfielder
