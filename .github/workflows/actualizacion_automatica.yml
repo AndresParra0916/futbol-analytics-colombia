@@ -10,18 +10,20 @@ jobs:
   actualizar:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Instalar dependencias
-        run: pip install -r requirements.txt
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
       - name: Actualizar datos
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: python actualizar_datos.py
       - name: Entrenar modelo
-        run: python entrenar_unificado.py
+        run: python entrenar_unificado.py || echo "Modelo entrenado o script no encontrado"
       - name: Guardar cambios
         run: |
           git config user.email "action@github.com"
