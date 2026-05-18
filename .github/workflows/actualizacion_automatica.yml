@@ -24,10 +24,3 @@ jobs:
         run: python actualizar_datos.py
       - name: Entrenar modelo
         run: python entrenar_unificado.py || echo "Modelo entrenado o script no encontrado"
-      - name: Guardar cambios
-        run: |
-          git config user.email "action@github.com"
-          git config user.name "GitHub Action"
-          git add data/ models/
-          git commit -m "Actualización automática $(date +'%Y-%m-%d')" || echo "Sin cambios"
-          git push
