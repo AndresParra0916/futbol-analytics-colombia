@@ -1,4 +1,4 @@
-﻿import streamlit as st
+import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
@@ -27,27 +27,23 @@ except Exception as e:
     st.stop()
 
 features = ['goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90']
-# Verificar que ref tiene las columnas necesarias
+# Verificar que ref tiene las columnas necesarias (puede llamarse 'league_name' o 'league')
 if 'league_name' not in ref.columns and 'league' in ref.columns:
     ref.rename(columns={'league': 'league_name'}, inplace=True)
 if 'country' not in ref.columns:
+    # Si no hay país, intentamos obtenerlo de df_players
     country_map = df_players[['league_name', 'country']].drop_duplicates()
     ref = ref.merge(country_map, on='league_name', how='left')
+
+# Unificar con la metadata de posición y equipo (si no están)
 if 'team_name' not in ref.columns:
     team_map = df_players[['player_name', 'team_name']].drop_duplicates()
     ref = ref.merge(team_map, on='player_name', how='left')
 if 'position' not in ref.columns:
     pos_map = df_players[['player_name', 'position']].drop_duplicates()
     ref = ref.merge(pos_map, on='player_name', how='left')
-if 'player_id' not in ref.columns:
-    id_map = df_players[['player_name', 'team_name', 'player_id']].drop_duplicates()
-    ref = ref.merge(id_map, on=['player_name', 'team_name'], how='left')
 
 ref = ref.fillna({'position': 'No especificada', 'team_name': 'Sin equipo', 'country': 'Sin país'})
-
-# Eliminar duplicados
-ref = ref.drop_duplicates(subset=['player_id'], keep='first')
-ref['player_unique'] = ref['player_name'] + " (" + ref['team_name'] + " - " + ref['position'] + ")"
 
 # ============================================
 # 2. TABLA DE POSICIONES (SOLO COLOMBIA)
@@ -72,7 +68,7 @@ except:
     st.warning("Top goleadores no disponible.")
 
 # ============================================
-# 4. SCOUTING AVANZADO (MULTILIGA) CON SWITCH
+# 4. SCOUTING AVANZADO (MULTILIGA)
 # ============================================
 st.header("🔍 Scouting Avanzado - Compara jugadores en todas las ligas latinoamericanas")
 
@@ -80,7 +76,7 @@ st.header("🔍 Scouting Avanzado - Compara jugadores en todas las ligas latinoa
 all_leagues = sorted(ref['league_name'].dropna().unique())
 all_countries = sorted(ref['country'].dropna().unique())
 all_positions = sorted(ref['position'].dropna().unique())
-all_players = sorted(ref['player_unique'].dropna().unique())
+all_players = sorted(ref['player_name'].dropna().unique())
 
 # Filtros laterales
 col1, col2, col3, col4 = st.columns(4)
@@ -95,26 +91,7 @@ with col4:
 
 top_n = st.slider("Número de recomendaciones", 3, 15, 5)
 
-# ============================================
-# SWITCH para elegir entre métricas
-# ============================================
-col_switch, col_info = st.columns([1, 2])
-with col_switch:
-    modo_metricas = st.radio(
-        "📊 Ver métricas como:",
-        ["⚡ Eficiencia (por 90')", "📈 Totales (temporada)"],
-        help="Por 90': compara perfiles de juego. Totales: impacto real en la temporada"
-    )
-with col_info:
-    if modo_metricas == "⚡ Eficiencia (por 90')":
-        st.info("✅ **Modo Eficiencia**: Goles y asistencias por cada 90 minutos. Ideal para comparar estilos de juego.")
-    else:
-        st.info("✅ **Modo Totales**: Números reales acumulados en la temporada. Ideal para evaluar impacto.")
-
 if st.button("🔍 Buscar jugadores similares", type="primary"):
-    # Obtener nombre limpio del jugador
-    jugador_clean = jugador_ref.split(" (")[0]
-    
     # Construir máscara de filtros
     mask = (ref['league_name'].isin(ligas_seleccion) if ligas_seleccion else True)
     if paises_seleccion:
@@ -123,13 +100,13 @@ if st.button("🔍 Buscar jugadores similares", type="primary"):
         mask &= (ref['position'].isin(posiciones_seleccion))
     
     df_candidates = ref[mask].copy()
-    df_candidates = df_candidates[df_candidates['player_name'] != jugador_clean]
+    df_candidates = df_candidates[df_candidates['player_name'] != jugador_ref]
     
     if df_candidates.empty:
         st.warning("No hay jugadores que cumplan con los filtros seleccionados.")
     else:
         # Obtener vector del jugador referencia
-        idx_ref = ref[ref['player_name'] == jugador_clean].index[0]
+        idx_ref = ref[ref['player_name'] == jugador_ref].index[0]
         vec_ref = scaler.transform([ref.loc[idx_ref, features].fillna(0).values])[0]
         X_candidates = scaler.transform(df_candidates[features].fillna(0).values)
         sim = cosine_similarity([vec_ref], X_candidates)[0]
@@ -137,46 +114,22 @@ if st.button("🔍 Buscar jugadores similares", type="primary"):
         results = df_candidates.sort_values('similitud', ascending=False).head(top_n)
         
         # Agregar fila del jugador referencia
-        ref_row = ref[ref['player_name'] == jugador_clean].copy()
+        ref_row = ref[ref['player_name'] == jugador_ref].copy()
         ref_row['similitud'] = 1.0
+        # Asegurar las mismas columnas
+        final_cols = ['player_name', 'team_name', 'league_name', 'country', 'position',
+                      'goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90', 'similitud']
+        ref_row = ref_row[final_cols]
+        results = results[final_cols]
+        final_df = pd.concat([ref_row, results], ignore_index=True).round(2)
         
-        if modo_metricas == "⚡ Eficiencia (por 90')":
-            # Mostrar métricas por 90'
-            final_cols = ['player_name', 'team_name', 'league_name', 'country', 'position',
-                          'goals_p90', 'assists_p90', 'shots_p90', 'passes_p90', 'tackles_p90', 'duels_won_p90', 'similitud']
-            ref_row = ref_row[final_cols]
-            results = results[final_cols]
-            final_df = pd.concat([ref_row, results], ignore_index=True).round(2)
-            
-            st.success(f"Jugadores similares a **{jugador_clean}** (primera fila):")
-            st.dataframe(final_df, use_container_width=True)
-            
-            # Gráfico de similitud
-            fig_sim = px.bar(results, x='player_name', y='similitud', title=f'Similitud con {jugador_clean}')
-            st.plotly_chart(fig_sim)
-            
-        else:
-            # Modo TOTALES: usar columnas del CSV original
-            totales_cols = ['player_name', 'goals', 'assists', 'shots', 'passes', 'tackles', 'duels_won', 'minutes']
-            df_totales = df_players[totales_cols].drop_duplicates(subset=['player_name'])
-            
-            results_totales = results.merge(df_totales, on='player_name', how='left')
-            ref_row_totales = ref_row.merge(df_totales, on='player_name', how='left')
-            
-            final_cols_totales = ['player_name', 'team_name', 'league_name', 'country', 'position',
-                                   'goals', 'assists', 'shots', 'passes', 'tackles', 'duels_won', 'minutes', 'similitud']
-            final_cols_totales = [col for col in final_cols_totales if col in ref_row_totales.columns]
-            
-            ref_row_totales = ref_row_totales[final_cols_totales]
-            results_totales = results_totales[final_cols_totales]
-            final_df = pd.concat([ref_row_totales, results_totales], ignore_index=True).round(2)
-            
-            st.success(f"Jugadores similares a **{jugador_clean}** (primera fila) - MÉTRICAS TOTALES:")
-            st.dataframe(final_df, use_container_width=True)
-            
-            # Gráfico de similitud
-            fig_sim = px.bar(results_totales, x='player_name', y='similitud', title=f'Similitud con {jugador_clean}')
-            st.plotly_chart(fig_sim)
+        st.success(f"Jugadores similares a **{jugador_ref}** (primera fila):")
+        st.dataframe(final_df, use_container_width=True)
+        
+        # Gráfico comparativo de similitudes (opcional)
+        fig_sim = px.bar(results, x='player_name', y='similitud', title=f'Similitud con {jugador_ref}',
+                         labels={'player_name': 'Jugador', 'similitud': 'Similitud (coseno)'})
+        st.plotly_chart(fig_sim)
 
 # ============================================
 # 5. RIESGO DE LESIÓN (DEMO)

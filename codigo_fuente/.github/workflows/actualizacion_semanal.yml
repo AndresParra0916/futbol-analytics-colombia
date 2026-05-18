@@ -2,9 +2,9 @@ name: Actualizar datos del Dashboard
 
 on:
   schedule:
-    # Ejecución dos veces por semana: martes y jueves a las 5:30 AM UTC (12:30 AM hora Colombia)
-    - cron: '30 5 * * 2,4'
-  workflow_dispatch:  # Permite ejecutar manualmente desde GitHub
+    # Ejecuta los martes y jueves a las 10:00 UTC (5:00 AM hora Colombia)
+    - cron: '0 10 * * 2,4'
+  workflow_dispatch:  # Permite ejecución manual desde GitHub
 
 jobs:
   update:
